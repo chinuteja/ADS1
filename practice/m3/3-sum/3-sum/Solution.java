@@ -4,7 +4,12 @@ import java.util.Arrays;
  * Class for solution.
  */
 class Solution {
-    public static void main(String[] args) {
+    /**.
+     * { function_description }
+     *
+     * @param      args  The arguments
+     */
+    public static void main(final String[] args) {
         /**.
          * Constructs the object.
          */
