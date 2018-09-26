@@ -3,19 +3,19 @@ import java.util.Arrays;
 /**.
  * Class for solution.
  */
-public class Solution {
+class Solution {
     /**.
      * { function_description }
      *
      * @param      args  The arguments
      */
-    public static void main(final String[] args) {
-        /**.
+    /**
          * Constructs the object.
          */
-        // Solution() {
+        Solution() {
 
-        // }
+        }
+    public static void main(final String[] args) {
         Scanner scan = new Scanner(System.in);
         int k, n, count = 0;
         n = scan.nextInt();
