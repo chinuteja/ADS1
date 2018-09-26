@@ -1,15 +1,25 @@
-import java.util.*;
+import java.util.Scanner;
+import java.util.Arrays;
+/**.
+ * Class for solution.
+ */
 class Solution {
     public static void main(String[] args) {
+        /**.
+         * Constructs the object.
+         */
+        // Solution() {
+
+        // }
         Scanner scan = new Scanner(System.in);
         int k, n, count = 0;
         n = scan.nextInt();
         int[] arr = new int[n];
-        for (int i = 0; i < arr.length; i++ ) {
+        for (int i = 0; i < arr.length; i++) {
             arr[i] = scan.nextInt();
         }
         Arrays.sort(arr);
-        for (int i = 0; i < n - 2 ; i++) {
+        for (int i = 0; i < n - 2; i++) {
             int j = i + 1;
             int x = n - 1;
             while (j < x) {
