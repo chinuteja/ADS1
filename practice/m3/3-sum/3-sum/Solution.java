@@ -15,6 +15,9 @@ class Solution {
             while (j < x) {
                 if (arr[i] + arr[j] + arr[x] == 0) {
                     count++;
+                    j++;
+                    x--;
+
                 } else if (arr[i] + arr[j] + arr[x] < 0) {
                     j++;
 
