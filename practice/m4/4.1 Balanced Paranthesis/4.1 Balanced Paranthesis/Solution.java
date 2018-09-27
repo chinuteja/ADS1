@@ -1,68 +1,108 @@
 import java.util.Scanner;
+/**.
+ * List of linkeds.
+ */
 class LinkedList {
-	private class Node {
-		char data;
-		Node nextaddress;
-	}
-	Node head = null;
-	public void push(final char item) {
-		Node temp = new Node();
-		temp.data = item;
-		temp.nextaddress = head;
-		head = temp; 
-	} 
-	public char pop() {
+    /**.
+     * Class for node.
+     */
+    private class Node {
+       private char data;
+       private Node nextaddress;
+    }
+    private Node head = null;
+    /**.
+     * { PUSH FUNCTION }
+     *
+     * @param      item  The item
+     */
+    public void push(final char item) {
+        Node temp = new Node();
+        temp.data = item;
+        temp.nextaddress = head;
+        head = temp;
+    }
+    /**
+     * { pop }
+     *
+     * @return     { description_of_the_return_value }
+     */
+    public char pop() {
         char data = head.data;
         head = head.nextaddress;// to move pointer to next node.
         return  data;
-	} 
-	public boolean isEmpty() {
+    }
+    /**.
+     * Determines if empty.
+     *
+     * @return     True if empty, False otherwise.
+     */
+    public boolean isEmpty() {
         return  head == null;
-	}
-	public char top() {
-		return head.data;
-	}
- 
-}
-class Solution {
-	public static void main(String[] args) {
-		Scanner scan = new Scanner(System.in);
-		int k = Integer.parseInt(scan.nextLine());
-		for (int i=0;i<k ;i++) {
-			String s = scan.next();
-			if(Paranthesis(s)) {
-				System.out.println("YES");
-			}
-			else {
-				System.out.println("NO");
-			}
-		}
-	}
-	public static boolean Paranthesis(String s) {
-		LinkedList l = new LinkedList();
-		int length = s.length();
-		for (int i = 0;i<length ;i++ ) {
-			char ch = s.charAt(i);
-			if (ch == '{' || ch == '(' || ch == '[') {
-				l.push(ch);
-			} else{
-				if(l.isEmpty()){
-					return false;
-				}
-				if(ch == '}' && l.top() == '{') {
-					l.pop();
-				}
-			
-			else if (ch == ']' && l.top() == '[') {
-				l.pop();
-			}
-			else if (ch == ')' && l.top() == '(') {
-				l.pop();
-			} else {
-				return false;
-			}
+    }
+    /**.
+     * { function_description }
+     *
+     * @return     { description_of_the_return_value }
+     */
+    public char top() {
+        return head.data;
+    }
 
-		}}
-		return l.isEmpty();
-	}
+}
+/**.
+ * Class for solution.
+ */
+class Solution {
+    /**.
+     * { function_description }
+     *
+     * @param      args  The arguments
+     */
+    public static void main(final String[] args) {
+        Scanner scan = new Scanner(System.in);
+        int k = Integer.parseInt(scan.nextLine());
+        for (int i = 0; i < k ; i++) {
+            String s = scan.next();
+            if (Paranthesis(s)) {
+                System.out.println("YES");
+            } else {
+                System.out.println("NO");
+            }
+        }
+    }
+    /**.
+     * { function_description }
+     *
+     * @param      s     { parameter_description }
+     *
+     * @return     { description_of_the_return_value }
+     */
+    public static boolean Paranthesis(final String s) {
+        LinkedList l = new LinkedList();
+        int length = s.length();
+        for (int i = 0; i < length ; i++ ) {
+            char ch = s.charAt(i);
+            if (ch == '{' || ch == '(' || ch == '[') {
+                l.push(ch);
+            } else {
+                if (l.isEmpty()) {
+                    return false;
+                }
+                if (ch == '}' && l.top() == '{') {
+                    l.pop();
+                }
+
+                else if (ch == ']' && l.top() == '[') {
+                    l.pop();
+                } else if (ch == ')' && l.top() == '(') {
+                    l.pop();
+                } else {
+                    return false;
+                }
+
+            }
+        }
+        return l.isEmpty();
+    }
 }
