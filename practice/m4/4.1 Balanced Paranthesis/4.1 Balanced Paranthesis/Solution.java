@@ -66,7 +66,11 @@ class Solution {
     /**.
      * Constructs the object.
      */
-    Solution() { }
+    Solution() {
+    /**.
+     * { item_description }
+     */
+     }
     /**.
      * { function_description }
      *
