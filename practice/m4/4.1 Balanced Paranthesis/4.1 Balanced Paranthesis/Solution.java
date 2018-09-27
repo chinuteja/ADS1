@@ -31,10 +31,10 @@ class Solution {
 		for (int i=0;i<k ;i++) {
 			String s = scan.next();
 			if(Paranthesis(s)) {
-				System.out.println("Yes");
+				System.out.println("YES");
 			}
 			else {
-				System.out.println("No");
+				System.out.println("NO");
 			}
 		}
 	}
