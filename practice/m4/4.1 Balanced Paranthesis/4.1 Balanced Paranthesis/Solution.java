@@ -66,7 +66,7 @@ class Solution {
     /**.
      * Constructs the object.
      */
-    public Solution() {
+    Solution() {
 
     }
     /**.
@@ -79,7 +79,7 @@ class Solution {
         int k = Integer.parseInt(scan.nextLine());
         for (int i = 0; i < k; i++) {
             String s = scan.next();
-            if (Paran_Thesis(s)) {
+            if (theParanthesis(s)) {
                 System.out.println("YES");
             } else {
                 System.out.println("NO");
@@ -93,7 +93,7 @@ class Solution {
      *
      * @return     { description_of_the_return_value }
      */
-    public static boolean Paran_Thesis(final String s) {
+    public static boolean theParanthesis(final String s) {
         LinkedList l = new LinkedList();
         int length = s.length();
         for (int i = 0; i < length; i++) {
