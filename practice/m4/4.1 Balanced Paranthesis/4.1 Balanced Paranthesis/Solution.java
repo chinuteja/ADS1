@@ -31,14 +31,14 @@ class LinkedList {
         temp.nextaddress = head;
         head = temp;
     }
-    /**
+    /**.
      * { pop }
      *
      * @return     { description_of_the_return_value }
      */
     public char pop() {
         char data = head.data;
-        head = head.nextaddress;// to move pointer to next node.
+        head = head.nextaddress; // to move pointer to next node.
         return  data;
     }
     /**.
@@ -100,9 +100,7 @@ class Solution {
                 }
                 if (ch == '}' && l.top() == '{') {
                     l.pop();
-                }
-
-                else if (ch == ']' && l.top() == '[') {
+                }else if (ch == ']' && l.top() == '[') {
                     l.pop();
                 } else if (ch == ')' && l.top() == '(') {
                     l.pop();
