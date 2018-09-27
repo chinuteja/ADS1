@@ -7,11 +7,14 @@ class LinkedList {
      * Class for node.
      */
     private class Node {
-       /**.
-        * { var_description }
-        */
-       private char data;
-       private Node nextaddress;
+        /**.
+         * { var_description }
+         */
+        private char data;
+        /**.
+         * { var_description }
+         */
+        private Node nextaddress;
     }
     /**.
      * { var_description }
@@ -22,7 +25,7 @@ class LinkedList {
      *
      * @param      item  The item
      */
-     public void push(final char item) {
+    public void push(final char item) {
         Node temp = new Node();
         temp.data = item;
         temp.nextaddress = head;
@@ -68,7 +71,7 @@ class Solution {
     public static void main(final String[] args) {
         Scanner scan = new Scanner(System.in);
         int k = Integer.parseInt(scan.nextLine());
-        for (int i = 0; i < k ; i++) {
+        for (int i = 0; i < k; i++) {
             String s = scan.next();
             if (Paranthesis(s)) {
                 System.out.println("YES");
@@ -87,7 +90,7 @@ class Solution {
     public static boolean Paranthesis(final String s) {
         LinkedList l = new LinkedList();
         int length = s.length();
-        for (int i = 0; i < length ; i++ ) {
+        for (int i = 0; i < length; i++) {
             char ch = s.charAt(i);
             if (ch == '{' || ch == '(' || ch == '[') {
                 l.push(ch);
