@@ -63,7 +63,10 @@ class LinkedList {
  * Class for solution.
  */
 class Solution {
-    
+    /**.
+     * Constructs the object.
+     */
+    Solution() { }
     /**.
      * { function_description }
      *
