@@ -7,16 +7,22 @@ class LinkedList {
      * Class for node.
      */
     private class Node {
+       /**.
+        * { var_description }
+        */
        private char data;
        private Node nextaddress;
     }
+    /**.
+     * { var_description }
+     */
     private Node head = null;
     /**.
      * { PUSH FUNCTION }
      *
      * @param      item  The item
      */
-    public void push(final char item) {
+     public void push(final char item) {
         Node temp = new Node();
         temp.data = item;
         temp.nextaddress = head;
