@@ -50,6 +50,19 @@ class AddLargeNumbers {
 
     return  new LinkedList();
 	}
+	public LinkedList AddLargeNumbers(LinkedList l1 , LinkedList l2) {
+		LinkedList l3 = new LinkedList();
+		while(!l1.isEmpty()) {
+			String s = l1.pop();
+			l3.Push(s);
+		}
+		LinkedList l4 = new LinkedList();
+		while (!l2.isEmpty()) {
+			String str = l2.pop();
+			l4.Push(str);
+		}
+        return  new LinkedList();
+	}
 }
 
 public class Solution {
