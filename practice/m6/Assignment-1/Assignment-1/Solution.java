@@ -32,7 +32,7 @@ class AddLargeNumbers {
 		while (!list1.isEmpty()) {
 			String str1 = list1.pop();
 			stack1.push(Integer.parseInt(str1));
-			System.out.println("pushed itme "+stack1);
+			//System.out.println("pushed itme "+stack1);
 		}
 		while (!list2.isEmpty()) {
 			String str2 = list2.pop();
@@ -43,7 +43,7 @@ class AddLargeNumbers {
 		int s = 0;
 		while (!stack1.isEmpty()) {
 			s = s + stack1.pop() + stack2.pop() ;
-			System.out.println("sum " +s);
+			//System.out.println("sum " +s);
 			//carry = s/10;
 			
 		}
@@ -89,7 +89,7 @@ class LinkedList {
     		newnode.data = item;
     		newnode.next = null;
     		head = newnode;
-    		System.out.println("Push" +item);
+    		//System.out.println("Push" +item);
     	} else {
     		Node temp = new Node();
     		temp.data = item;
@@ -99,7 +99,7 @@ class LinkedList {
     		}
     		temp1.next = temp;
     		temp.next = null;
-    		System.out.println("Push...."+item);
+    		//System.out.println("Push...."+item);
     	
 
 	}}
@@ -109,7 +109,7 @@ class LinkedList {
 	public  String pop() {
 		String data = head.data;
 		head = head.next;
-		System.out.println("linked list pop" +data);
+		//System.out.println("linked list pop" +data);
 		return data;
 	}
 
@@ -128,7 +128,7 @@ class Stack {
             newnode.data = item;
             newnode.next = null;
             head = newnode;
-            System.out.println("Push Stack" +item);
+            //System.out.println("Push Stack" +item);
         } else {
             Node temp = new Node();
             temp.data = item;
@@ -138,7 +138,7 @@ class Stack {
             }
             temp1.next = temp;
             temp.next = null;
-            System.out.println("Pushstack...."+item);
+            //System.out.println("Pushstack...."+item);
         
 
     }
