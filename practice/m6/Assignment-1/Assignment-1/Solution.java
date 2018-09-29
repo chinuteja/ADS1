@@ -61,7 +61,7 @@ class AddLargeNumbers {
 			String str = l2.pop();
 			l4.Push(str);
 		}
-        return  new LinkedList();
+        return  l3;
 	}
 }
 
