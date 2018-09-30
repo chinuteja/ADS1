@@ -22,7 +22,7 @@ class Deque{
           } else {
                Node newnode = new Node();
                Node temp = head;
-               while (temp != null) {
+               while (temp.next != null) {
                     temp = temp.next;
                }
                temp.next = newnode;
@@ -61,7 +61,7 @@ class Deque{
           String str = "[";
           Node temp = head;
           while (temp != null) {
-               str = temp.data + ",";
+               str += temp.data + ",";
                temp = temp.next;
           }
           str = str + "]";
