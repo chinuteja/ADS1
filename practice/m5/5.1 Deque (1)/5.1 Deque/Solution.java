@@ -1,4 +1,3 @@
-
 import java.util.Scanner;
 /**
 linkedllist class.
@@ -26,16 +25,16 @@ final class Solution {
             String[] line = sc.nextLine().split(" ");
             switch (line[0]) {
             case "pushLeft":
-                link.pushLeft(Integer.parseInt(line[1]));
+                link.addAtStart(Integer.parseInt(line[1]));
                 System.out.println(link.display());
                 break;
             case "pushRight":
-                link.pushRight(Integer.parseInt(line[1]));
+                link.addAtEnd(Integer.parseInt(line[1]));
                 System.out.println(link.display());
                 break;
             case "popRight":
                 if (!link.isempty()) {
-                    link.popRight();
+                    link.removeAtEnd();
                     System.out.println(link.display());
                 } else {
                     System.out.println("Deck is empty");
@@ -43,7 +42,7 @@ final class Solution {
                 break;
             case "popLeft":
                 if (!link.isempty()) {
-                    link.popLeft();
+                    link.removeAtStart();
                     System.out.println(link.display());
                 } else {
                     System.out.println("Deck is empty");
