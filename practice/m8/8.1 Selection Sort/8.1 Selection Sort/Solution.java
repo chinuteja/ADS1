@@ -60,7 +60,13 @@ final class Selectionsort {
 /**.
  * Class for solution.
  */
-class Solution {
+public class Solution {
+    /**
+     * Constructs the object.
+     */
+    private Solution() {
+
+    }
     /**.
      * { main method }
      *
@@ -69,8 +75,8 @@ class Solution {
     public static void main(final String[] args) {
         //Selectionsort s = new Selectionsort();
         Scanner scan = new Scanner(System.in);
-        String number_input = scan.nextLine();
-        for (int i = 0; i < Integer.parseInt(number_input); i++) {
+        String input = scan.nextLine();
+        for (int i = 0; i < Integer.parseInt(input); i++) {
             String str = scan.nextLine();
             String[] string = str.split(" ");
             //System.out.println(string);
