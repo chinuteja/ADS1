@@ -40,9 +40,9 @@ class Selectionsort {
     }
     /**.
      * { function for swapping elements}
-     * @<param name="a" value="Array">
-     * @<param name="i" value="index">
-     * @<param name="j" value="index">
+     * @param      i     { index of array a }
+     * @param      j     { index of array a }
+     * @param      a     { array of comparable }
      */
     private static void exchange(final Comparable a[], final int i, final int j) {
         Comparable swap = a[i];
