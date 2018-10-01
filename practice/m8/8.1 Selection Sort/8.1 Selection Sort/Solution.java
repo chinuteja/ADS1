@@ -9,7 +9,7 @@ import java.util.Arrays;
 /**
  * Class for selectionsort.
  */
-class Selectionsort {
+final class Selectionsort {
     /**
      * Constructs the object.
      */
@@ -50,7 +50,8 @@ class Selectionsort {
      * @param      j     { index of array a }
      * @param      a     { array of comparable }
      */
-    private static void exchange(final Comparable a[], final int i, final int j) {
+    private static void exchange(final Comparable[] a, 
+        final int i, final int j) {
         Comparable swap = a[i];
         a[i] = a[j];
         a[j] = swap;
