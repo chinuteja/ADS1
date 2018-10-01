@@ -77,8 +77,8 @@ public final class Solution {
     public static void main(final String[] args) {
         //Selectionsort s = new Selectionsort();
         Scanner scan = new Scanner(System.in);
-        String input = scan.nextLine();
-        for (int i = 0; i < Integer.parseInt(input); i++) {
+        int input = scan.nextInt();
+        for (int i = 0; i < input; i++) {
             String str = scan.nextLine();
             String[] string = str.split(" ");
             //System.out.println(string);
