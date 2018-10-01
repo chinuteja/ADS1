@@ -1,0 +1,43 @@
+########## Testcase 0: Failed ##########
+Expected Output: 
+1,2,3,4,5,6,7,8,11,12,15
+
+Your Output: 
+String ..[Ljava.lang.String;@17f6480
+1,2,3,4,5,6,7,8,11,12,15
+
+----------------------------------------
+########## Testcase 1: Failed ##########
+Expected Output: 
+0,1,3
+
+Your Output: 
+String ..[Ljava.lang.String;@17f6480
+0,1,3
+
+----------------------------------------
+########## Testcase 2: Failed ##########
+Expected Output: 
+1,2,3,4,7,9
+
+Your Output: 
+String ..[Ljava.lang.String;@17f6480
+1,2,3,4,7,9
+
+----------------------------------------
+Result: 0/3 testcases passed.
+Starting audit...
+[ERROR] H:\ADS1\practice\m3\Sorted_Array\Sorted_Array\Solution.java:38:45: '+' is not followed by whitespace. [WhitespaceAround]
+Audit done.
+Checkstyle ends with 1 errors.
+
+
+[master 6beb466] "check_style_score -> 0 of 3 passed. style score: 0/1 "
+ 6 files changed, 42 insertions(+), 1 deletion(-)
+ rewrite practice/m3/Sorted_Array/Sorted_Array/Solution.class (94%)
+ create mode 100644 practice/m3/Sorted_Array/Sorted_Array/Solution1.class
+ create mode 100644 practice/m3/Sorted_Array/Sorted_Array/Solution1.java
+ create mode 100644 practice/m3/Sorted_Array/Sorted_Array/new1.txt
+
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+

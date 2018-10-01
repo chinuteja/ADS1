@@ -14,18 +14,18 @@ class Solution1 {
 		int x,y;
 		for (i=0;i<m;i++ ) {
 			arr1[i] = scan.nextInt();
-			System.out.println("arr1.." +arr1[i]);
+			//System.out.println("arr1.." +arr1[i]);
 			arr3[i] = arr1[i];
 			System.out.println("arr3.." +arr3[i]);
 
 		}
 		for(int p=0;p<m;p++) {
-			System.out.println("array3"+arr3[p]);
+			System.out.println("array3**"+arr3[p]);
 		}
 		for (j =0; j<n ;j++ ) {
 			arr2[j] = scan.nextInt();
-			arr3[i-1] = arr2[j];
-			System.out.println("arr3 elements" +arr3[i-1]);
+			arr3[i] = arr2[j];
+			System.out.println("arr3 elements" +arr3[i]);
 			i++;
 		}
 		for(int p=0;p<z;p++) {
