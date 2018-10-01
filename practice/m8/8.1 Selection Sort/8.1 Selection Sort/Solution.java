@@ -50,7 +50,7 @@ final class Selectionsort {
      * @param      j     { index of array a }
      * @param      a     { array of comparable }
      */
-    private static void exchange(final Comparable[] a, 
+    private static void exchange(final Comparable[] a,
         final int i, final int j) {
         Comparable swap = a[i];
         a[i] = a[j];
@@ -60,7 +60,7 @@ final class Selectionsort {
 /**.
  * Class for solution.
  */
-public class Solution {
+public final class Solution {
     /**
      * Constructs the object.
      */
