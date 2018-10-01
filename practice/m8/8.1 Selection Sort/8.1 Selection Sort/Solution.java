@@ -13,7 +13,7 @@ class Selectionsort {
     /**.
      * { method for sorting elements}
      *
-     * @param      a     { parameter_description }
+     * @param      a     {Comparable array }
      */
     public static void sort(final Comparable[] a) {
         for (int i = 0; i < a.length; i++) {
@@ -30,8 +30,8 @@ class Selectionsort {
     /**.
      * { less function }
      *
-     * @param      i     { parameter_description }
-     * @param      j     { parameter_description }
+     * @param      i     { index of array a }
+     * @param      j     { index of array a }
      *
      * @return     { boolean }
      */
@@ -40,6 +40,9 @@ class Selectionsort {
     }
     /**.
      * { function for swapping elements}
+     * @<param name="a" value="Array">
+     * @<param name="i" value="index">
+     * @<param name="j" value="index">
      */
     private static void exchange(final Comparable a[], final int i, final int j) {
         Comparable swap = a[i];
