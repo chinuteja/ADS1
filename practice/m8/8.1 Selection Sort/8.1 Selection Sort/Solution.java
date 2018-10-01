@@ -10,6 +10,12 @@ import java.util.Arrays;
  * Class for selectionsort.
  */
 class Selectionsort {
+    /**
+     * Constructs the object.
+     */
+    private Selectionsort() {
+
+    }
     /**.
      * { method for sorting elements}
      *
