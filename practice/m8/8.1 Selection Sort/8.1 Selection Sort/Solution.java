@@ -17,8 +17,8 @@ final class Selectionsort {
 
     }
     /**.
-     * { method for sorting elements}
-     *
+     * { method for sorting elements using Selection sort technique}
+     *  The time complexity for this method is : N^2.
      * @param      a     {Comparable array }
      */
     public static void sort(final Comparable[] a) {
@@ -34,21 +34,23 @@ final class Selectionsort {
         }
     }
     /**.
-     * { less function }
+     * { compares two objects if they are comparable }
      *
      * @param      i     { index of array a }
      * @param      j     { index of array a }
      *
-     * @return     { boolean }
+     * @return     { returns true if condition satisfies}
+     * The time complexity for this method is :1.
      */
     private static boolean less(final Comparable i, final Comparable j) {
         return i.compareTo(j) < 0;
     }
     /**.
-     * { function for swapping elements}
+     * { function for swapping elements.Swaps the two elements in an array}
      * @param      i     { index of array a }
      * @param      j     { index of array a }
-     * @param      a     { array of comparable }
+     * @param      a     { array of comparable type}
+     * The complexity for this method is : 1.
      */
     private static void exchange(final Comparable[] a,
         final int i, final int j) {
