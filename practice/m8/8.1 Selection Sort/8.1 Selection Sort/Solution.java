@@ -82,7 +82,7 @@ public final class Solution {
             String str = scan.nextLine();
             String[] string = str.split(" ");
             //System.out.println(string);
-            Selectionsort.sort(string);
+             Selectionsort.sort(string);
             System.out.println(Arrays.toString(string));
         }
 
