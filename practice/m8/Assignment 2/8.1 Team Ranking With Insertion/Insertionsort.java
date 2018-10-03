@@ -25,8 +25,8 @@ class Insertionsort {
 	/**
 	 * { checks if the j th index element is less than or not with jth element }
 	 *
-	 * @param      i     { index of a }
-	 * @param      j     { index of a }
+	 * @param      i     { ith index element of a }
+	 * @param      j     {jth  index element of a }
 	 *complexity is 1
 	 * @return     { returns true if condition statisfies}
 	 */
