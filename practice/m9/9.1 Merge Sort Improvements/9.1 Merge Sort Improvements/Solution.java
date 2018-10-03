@@ -9,22 +9,27 @@ import java.util.Arrays;
 /**.
  * Class for solution.
  */
-public class Solution {
-	/**.
-	 * Constructs the object for solution class.
-	 */
-	private Solution() {
+public final class Solution {
+    /**.
+     * Constructs the object for solution.
+     */
+    private Solution() {
 
-	}
-	public static void main(String[] args) {
-		Scanner scan = new Scanner(System.in);
-		while (scan.hasNext()) {
-			String[] str = scan.nextLine().split(",");
-			//for(int i = 0; i<=10; i++)
-			//System.out.println(" String Arrays" +str[i]);
-			MergeSort.sort(str);
-			System.out.println(Arrays.toString(str));
-			
-		}
-	}
+    }
+    /**.
+     * { main function }
+     *
+     * @param      args  The arguments
+     */
+    public static void main(final String[] args) {
+        Scanner scan = new Scanner(System.in);
+        while (scan.hasNext()) {
+            String[] str = scan.nextLine().split(",");
+            //for(int i = 0; i<=10; i++)
+            //System.out.println(" String Arrays" +str[i]);
+            MergeSort.sort(str);
+            System.out.println(Arrays.toString(str));
+            
+        }
+    }
 }
