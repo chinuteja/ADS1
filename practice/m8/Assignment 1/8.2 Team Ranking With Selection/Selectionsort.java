@@ -26,7 +26,7 @@ class Selectionsort {
 	 *
 	 * @param      i     { index of a }
 	 * @param      j     { index of a }
-	 * The time complexity for this funciton is 1 because the only one statement is executed
+	 * The time complexity for this method is 1 because the only one statement is executed
 	 * @return     { returns 1 if condition is true else -1 }
 	 */
 	private static boolean less(final Comparable i, final Comparable j) {
@@ -34,7 +34,7 @@ class Selectionsort {
     }
     /**
      * { exchanges the elements of ith index and jth index }
-     * The time complexity is 1. Because the statements in this function are executed only once.
+     * The time complexity is 1. Because the statements in this method are executed only once.
      * @param      a     { comparable array }
      * @param      i     { ith index }
      * @param      j     { jth index }
