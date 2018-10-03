@@ -4,7 +4,7 @@
 class Selectionsort {
 	/**
 	 * { method to sort all the elements in array. }
-	 * The time complexity is N**2. The complexity for less funciton
+	 * The time complexity is N**2. The complexity for less method
 	 * and exhcnge method is 1 and inner loop iterates for N times and
 	 * outer loop iterates for another N times so overall time complexity is N**2.
 	 * @param      a     { comparable array}
