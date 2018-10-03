@@ -1,0 +1,21 @@
+ E S A Y Q U E S T I O N
+
+  First we consider low , mid, high index elements as reference in merge sort. Then divide the given array into subarray; from n::2 to 0 way, as shown below steps.
+
+ 1.	E A S Y Q U # E S T I O N
+
+ 2. E A S # Y Q U # E S T # I O N
+
+ 3. E A # S # Y Q # U # E S # T # I O # N
+
+ 4. E :: A # S # Y :: Q # U # E :: S # T # I :: O # N
+
+ 5. A E # S # Q Y # U # E S # T # I O # N
+
+ 6. A E S # Q U Y # E S T # I N O
+
+ 7. A E Q S U Y # E I N O S T
+
+ 8. A E E I N O Q S S T U Y
+
+ Therefore sorted form of the given array is;  " A E E I N O Q S S T U Y ".
