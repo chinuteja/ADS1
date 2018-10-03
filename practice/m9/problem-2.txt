@@ -1,0 +1,16 @@
+ 	 E A S Y Q U E S T I O N 
+Given an array consider every element as an subarray and sort it first. Then go on Increasing the size of subarray before sort.
+
+
+1.	 E A
+	 	S Y
+	 		Q U
+	 			E S
+	 				T I
+	 					O N
+2.	A E S Y
+			E Q S U
+					I N O T
+3.	A E E Q S S U Y
+					I N O T
+4.	A E E I N O Q S S T U Y <= sorted array.
