@@ -19,15 +19,16 @@ class MergeSort {
 	private static void merge(Comparable[] a, Comparable[] aux, int low, int mid, int high) {
 		// assert isSorted(a, low, mid);
 		// assert isSorted(a, mid + 1, high);
-		for (int k = low; k <= high; k++) {
-			aux[k] = a[k];
-		}
+		// for (int k = low; k <= high; k++) {
+
+		// 	aux[k] = a[k];
+		// }
 		int i = low, j = mid + 1;
 		for (int k = low; k <= high ; k++) {
-			if (i > mid) a[k] = a[j++];
-			else if (j > high) a[k] = a[i++];
-			else if (less(aux[j], aux[i])) a[k] = aux[j++];
-			else a[k] = a[i++];
+			if (i > mid)				aux[k] = a[j++];
+			else if (j > high) 			aux[k] = a[i++];
+			else if (less(a[j], a[i])) 	aux[k] = a[j++];
+			else 						aux[k] = a[i++];
 		}
 		//assert isSorted(a,low,high);
 	}
@@ -44,22 +45,20 @@ class MergeSort {
 		if (high <= low+cutoffpoint){
 			//System.out.println("void sort");
 
-			Insertionsort.sort(a,low,high+1);
+			Insertionsort.sort(aux,low,high);
 			System.out.println("Insertion sort method invoked...");
 			return ;
 		} 
 		int mid = low + (high - low) / 2;
-		sort(a, aux, low, mid);
-		sort(a, aux, mid + 1, high);
-		if(!less(a[mid+1],a[mid])){
-			for (int i = low; i <= high; i++) {
-            aux[i] = a[i];
-            }
-            System.out.println("Array is already sorted. " +
-                "So, skipped the call to merge...");
-            return ;
-		}  
-		merge(a, aux, low, mid, high);
+		sort(aux, a, low, mid);
+		sort(aux, a, mid + 1, high);
+		if(less(a[mid+1],a[mid])){
+			merge(a, aux, low, mid, high);
+		}
+		else {
+			System.arraycopy(a,low,aux,low,high - low +1);
+			return;
+		}
 	}
 	/**
 	 * { sort method creates comparable array of name aux of length equal to comparable array a call sort function which is to be over ride }
@@ -67,8 +66,8 @@ class MergeSort {
 	 * @param      a     { comparable type}
 	 */
 	public static void sort(Comparable[] a) {
-		Comparable[] aux = new Comparable[a.length];
-		sort(a, aux, 0, a.length - 1);
+		Comparable[] aux = a.clone();
+		sort(aux, a, 0, a.length - 1);
 	}
 	/**
 	 * { compares two objects }

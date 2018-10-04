@@ -2,6 +2,11 @@
  * Class for insertionsort.
  */
 class Insertionsort {
+
+	public static void sort(final Comparable[] a) {
+
+	}
+
 	/**
 	 * { sort method for Insertion sort. It sorts all the elements in asscending order }
 	 * Complexity : N**2.The complexity for less method is 1
@@ -12,16 +17,14 @@ class Insertionsort {
 	public static void sort(final Comparable[] a,final int low, final int high) {
 		// 
 		//int N = a.length;
-		for (int i = low; i < high; i++) {
+		for (int i = low; i <= high; i++) {
 			for (int j = i; j > low; j--) {
 				if (less(a[j], a[j-1])) {
 					exchange(a, j, j-1);
 				} else {
 					break;
 				}
-
 			}
-			
 		}
 	}
 	/**
