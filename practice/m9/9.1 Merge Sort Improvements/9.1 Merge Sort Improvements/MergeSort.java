@@ -47,6 +47,7 @@ class MergeSort {
 
 			Insertionsort.sort(aux,low,high);
 			System.out.println("Insertion sort method invoked...");
+			System.out.println();
 			return ;
 		} 
 		int mid = low + (high - low) / 2;
