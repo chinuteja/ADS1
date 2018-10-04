@@ -47,17 +47,21 @@ class MergeSort {
 
 			Insertionsort.sort(aux,low,high);
 			System.out.println("Insertion sort method invoked...");
-			System.out.println();
 			return ;
 		} 
+		//System.out.println();
 		int mid = low + (high - low) / 2;
 		sort(aux, a, low, mid);
 		sort(aux, a, mid + 1, high);
 		if(less(a[mid+1],a[mid])){
+			//System.out.println("Array is already sorted. " +
+               // "So, skipped the call to merge...");
+
 			merge(a, aux, low, mid, high);
 		}
 		else {
-			System.arraycopy(a,low,aux,low,high - low +1);
+			System.out.println("Array is already sorted. " +"So, skipped the call to merge...");
+            System.arraycopy(a,low,aux,low,high - low +1);
 			return;
 		}
 	}
