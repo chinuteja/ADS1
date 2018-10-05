@@ -1,4 +1,4 @@
-########## Testcase 0: Failed ##########
+########## Testcase 0: Passed ##########
 Expected Output: 
 5
 7, 5
@@ -6,9 +6,9 @@ Expected Output:
 5, 6, 7
 Your Output: 
 5
-7,5
-7,6,5
-5,6,7
+7, 5
+7, 6, 5
+5, 6, 7
 ----------------------------------------
 ########## Testcase 1: Failed ##########
 Expected Output: 
@@ -27,9 +27,9 @@ Can't insert at this position.
 7, 17, 66, 32, 27, 9, 5, 71, 75
 Your Output: 
 5
-7,5
-7,9,5
-5,9,7
+7, 5
+7, 9, 5
+5, 9, 7
 Exception in thread "main" java.lang.NullPointerException
 	at Linkedlist.insertAt(Solution.java:21)
 	at Linkedlist.insertAt(Solution.java:21)

@@ -44,7 +44,7 @@ class Linkedlist {
 			return "Empty linked list";
 		}
 		while (temp.next != null) {
-			str = str + temp.data + ",";
+			str = str + temp.data + ", ";
 			temp = temp.next;
 		} str = str + temp.data + "";
 		return str;
