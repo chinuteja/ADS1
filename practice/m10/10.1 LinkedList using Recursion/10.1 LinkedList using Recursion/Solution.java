@@ -34,6 +34,10 @@ class Linkedlist {
 		reverse(null, start);
 	}
 	public void reverse(Node previous, Node current) {
+		if (size == 0) {
+			System.out.println("No elements to reverse.");
+			return ;
+		}
 		if (current != null ) {
 			reverse(current, current.next);
 			current.next = previous;
