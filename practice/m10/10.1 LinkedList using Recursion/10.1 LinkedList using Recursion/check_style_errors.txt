@@ -1,6 +1,2 @@
 Starting audit...
-[ERROR] H:\ADS1\practice\m10\10.1 LinkedList using Recursion\10.1 LinkedList using Recursion\Solution.java:27:16: 'try' is not followed by whitespace. [WhitespaceAround]
-[ERROR] H:\ADS1\practice\m10\10.1 LinkedList using Recursion\10.1 LinkedList using Recursion\Solution.java:27:16: '{' is not preceded with whitespace. [WhitespaceAround]
-[ERROR] H:\ADS1\practice\m10\10.1 LinkedList using Recursion\10.1 LinkedList using Recursion\Solution.java:30:51: '}' at column 51 should have line break before. [RightCurly]
 Audit done.
-Checkstyle ends with 3 errors.
