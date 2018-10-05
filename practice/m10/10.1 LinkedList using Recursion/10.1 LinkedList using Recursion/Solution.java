@@ -31,13 +31,13 @@ class Linkedlist {
 		if (start == null) {
 			throw new Exception();
 		}
-		reverse(null, start);
-	}
-	public void reverse(Node previous, Node current) {
-		if (size == 0) {
+		else if (size == 0) {
 			System.out.println("No elements to reverse.");
 			return ;
 		}
+		reverse(null, start);
+	}
+	public void reverse(Node previous, Node current) {
 		if (current != null ) {
 			reverse(current, current.next);
 			current.next = previous;
@@ -74,7 +74,7 @@ class Solution {
 					l.reverse();
 					System.out.println(l.toString());
 				} catch (Exception e) {
-					System.out.println(e.getMessage());
+					System.out.println("No elements to reverse.");
 				}
 				break;
 			}

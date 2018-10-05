@@ -38,9 +38,9 @@ Exception in thread "main" java.lang.NullPointerException
 	at Linkedlist.insertAt(Solution.java:14)
 	at Solution.main(Solution.java:69)
 ----------------------------------------
-########## Testcase 2: Failed ##########
+########## Testcase 2: Passed ##########
 Expected Output: 
 No elements to reverse.
 Your Output: 
-null
+No elements to reverse.
 ----------------------------------------
