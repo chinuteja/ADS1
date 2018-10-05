@@ -40,6 +40,7 @@ public final class Solution {
         Selectionsort.sort(teams);
 
         String output = Arrays.toString(teams);
+        System.out.println("String output" +output);
         output = output.replace("[", "").replace("]", "").
                         replace(", ", ",");
         System.out.println(output);
