@@ -26,7 +26,10 @@ class Linkedlist {
 	 * @param      index  The index
 	 * @param      val    The value
 	 */
-	public void insertAt(int index, int val) {
+	public void insertAt(int index, int val)throws Exception {
+		if (index < 0) {
+			throw new Exception();
+		}
 		start = insertAt(index, start, new Node(val), 0);
 	}
 	/**.

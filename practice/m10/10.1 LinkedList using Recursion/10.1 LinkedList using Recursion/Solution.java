@@ -24,9 +24,13 @@ public final class Solution {
             String[] str = scan.nextLine().split(" ");
             switch (str[0]) {
             case "insertAt":
+            try{
                 l.insertAt(Integer.parseInt(str[1]),
                     Integer.parseInt(str[2]));
-                System.out.println(l.toString());
+                System.out.println(l.toString()); }
+                catch (Exception e) {
+                    System.out.println("Can't insert at this position.");
+                }
                 break;
             case "reverse":
                 try {
