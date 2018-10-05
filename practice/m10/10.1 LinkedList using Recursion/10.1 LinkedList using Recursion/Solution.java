@@ -38,7 +38,7 @@ class Linkedlist {
 		}
 	}
 	public String toString() {
-		String str = "{";
+		String str = "";
 		Node temp = start;
 		if (temp == null) {
 			return "Empty linked list";
@@ -46,7 +46,7 @@ class Linkedlist {
 		while (temp.next != null) {
 			str = str + temp.data + ",";
 			temp = temp.next;
-		} str = str + temp.data + "}";
+		} str = str + temp.data + "";
 		return str;
 	}
 }
