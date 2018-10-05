@@ -14,6 +14,10 @@ class Linkedlist {
 		start = insertAt(index, start, new Node(val), 0);
 	}
 	public Node insertAt(int index, Node first, Node elemnent, int count) {
+		if(index < 0) {
+			System.out.println("Can't insert at this position.");
+			return first;
+		}
 		if (count == index) {
 			elemnent.next = first;
 			return elemnent;
