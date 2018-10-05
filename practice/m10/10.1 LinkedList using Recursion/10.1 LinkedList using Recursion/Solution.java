@@ -5,13 +5,19 @@ import java.util.Scanner;
 /**.
  * Class for solution.
  */
-class Solution {
+public class Solution {
+	/**.
+	 * Constructs the object for solution class.
+	 */
+	private Solution() {
+
+	}
 	/**.
 	 * { main function }
 	 *
 	 * @param      args  The arguments
 	 */
-	public static void main(String[] args) {
+	public static void main(final String[] args) {
 		Scanner scan = new Scanner(System.in);
 		Linkedlist l = new Linkedlist();
 		while (scan.hasNext()) {
