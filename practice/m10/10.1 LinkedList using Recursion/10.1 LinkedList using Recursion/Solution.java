@@ -5,7 +5,7 @@ import java.util.Scanner;
 /**.
  * Class for solution.
  */
-public class Solution {
+final public class Solution {
     /**.
      * Constructs the object for solution class.
      */
@@ -24,7 +24,7 @@ public class Solution {
             String[] str = scan.nextLine().split(" ");
             switch (str[0]) {
             case "insertAt":
-                l.insertAt(Integer.parseInt(str[1]), 
+                l.insertAt(Integer.parseInt(str[1]),
                     Integer.parseInt(str[2]));
                 System.out.println(l.toString());
                 break;
