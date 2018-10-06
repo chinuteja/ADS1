@@ -6,7 +6,7 @@ import java.util.Scanner;
  * { imports arrays package}
  */
 import java.util.Arrays;
-/**.
+/**
  * Class for solution.
  */
 public class Solution {
@@ -55,14 +55,10 @@ public class Solution {
         }
 
         Selectionsort.sort(students);
-
-        // String output = Arrays.toString(students);
-        // //System.out.println("String output" +output);
-        // output = output.replace("[", "").replace("]", "").
-        //                 replace(", ", ",");
-        // System.out.println(output);
         for (Student s : students)
            System.out.println(s.toString());
+       System.out.println();
+       Student.Seatsallocation(students);
 
 	}
 }

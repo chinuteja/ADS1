@@ -26,15 +26,35 @@ class Student implements Comparable<Student> {
 		this.total = total;
 		this.reservation = reservation;
 	}
+	/**.
+	 * {gets student name}
+	 *
+	 * @return     { return of String type }
+	 */
 	public String getstudentname() {
 		return this.studentname;
 	}
+	/**
+	 * { gets the date of birth of student}
+	 *
+	 * @return     { return of String type }
+	 */
 	public String getdob() {
 		return this.dob;
 	}
+	/**
+	 * { gets the total score}
+	 *
+	 * @return     { return is of int type }
+	 */
 	public int gettotal() {
 		return this.total;
 	}
+	/**
+	 * { gets the total marks in subject 1 }
+	 *
+	 * @return     { return is of int type }
+	 */
 	public int getsubject1() {
 		return this.subject1;
 	}
@@ -85,6 +105,13 @@ class Student implements Comparable<Student> {
 		if (this.subject1 > that.subject1)      return -1;
 		if (this.dob.equals(that.dob))          return -1;
 		if (this.dob.equals(that.dob))          return 1;
+		if(this.reservation.equals(that.reservation)) return -1;
+		if(this.reservation.equals(that.reservation)) return  1;
 		return 0;
+	}
+	public static void Seatsallocation(Comparable[] a) {
+		for (int j=0;j<6;j++) {
+			System.out.println(a[j]);
+		}
 	}
 }
