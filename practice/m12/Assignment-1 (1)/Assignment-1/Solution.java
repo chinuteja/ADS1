@@ -58,7 +58,11 @@ public class Solution {
         for (Student s : students)
            System.out.println(s.toString());
        System.out.println();
-       Student.Seatsallocation(students);
+       //Student.Seatsallocation(students,vaccany);
+       Results r = new Results();
+       r.addVac(vaccany, unreserved, bc, sc, st);
+       //r.add(students);
+       r.allotment();
 
 	}
 }
