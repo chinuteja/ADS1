@@ -1,6 +1,6 @@
 /**
  * Class for minimum pq.
- * 
+ *
  * @param      <Key>  The key
  */
 public class MinPQ <Key extends Comparable <Key>> {
@@ -27,8 +27,8 @@ public class MinPQ <Key extends Comparable <Key>> {
 		// 		return false;
 		// 	}
 		// }
-		for (int i=0;i<pq.length-1;i++) {
-			if (less(i+1,i)) {
+		for (int i = 0; i < pq.length - 1; i++) {
+			if (less(i + 1, i)) {
 				return false;
 			}
 		}

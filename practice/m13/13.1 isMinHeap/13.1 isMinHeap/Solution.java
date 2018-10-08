@@ -70,8 +70,8 @@ public class Solution  {
 				MinPQ<Double> data = new MinPQ<Double>(doublearray);
 				System.out.println(data.isMinPQ());
 				n--;
-				break;
 			}
+            break;
 			default:
 				break;
 		}
