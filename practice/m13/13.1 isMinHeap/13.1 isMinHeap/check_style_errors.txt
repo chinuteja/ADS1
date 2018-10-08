@@ -1,4 +1,2 @@
 Starting audit...
-[ERROR] H:\ADS1\practice\m13\13.1 isMinHeap\13.1 isMinHeap\Solution.java:9: Class Solution should be declared as final. [FinalClass]
 Audit done.
-Checkstyle ends with 1 errors.
