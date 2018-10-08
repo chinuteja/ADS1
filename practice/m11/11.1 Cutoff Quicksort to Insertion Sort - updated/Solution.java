@@ -1,4 +1,4 @@
-//author @ teja
+
 /**.
  * imports Scanner package
  */
@@ -9,10 +9,12 @@ import java.util.Scanner;
 import java.util.Arrays;
 /**
  * Class for solution.
+ * 
  */
 public final class Solution {
     /**.
      * Constructs the object for class solution
+     * @author teja
      */
     private Solution() {
 
