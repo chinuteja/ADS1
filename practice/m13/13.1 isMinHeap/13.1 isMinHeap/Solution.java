@@ -29,6 +29,10 @@ class Solution  {
 			break;
         case "Float" :
             while (n>0) {
+            	if(key.equals("")) {
+            		System.out.println("false");
+            		break;
+            	}
             	String[] token = scan.nextLine().split(",");
             	Float[] floatarray = new Float[token.length];
             	for (int i=0;i<token.length;i++) {
