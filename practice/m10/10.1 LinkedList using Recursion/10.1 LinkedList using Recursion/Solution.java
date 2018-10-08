@@ -8,6 +8,7 @@ import java.util.Scanner;
 public final class Solution {
     /**.
      * Constructs the object for solution class.
+     * @author Teja
      */
     private Solution() {
 
