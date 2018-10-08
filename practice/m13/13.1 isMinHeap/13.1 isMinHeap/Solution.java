@@ -32,7 +32,6 @@ public class Solution  {
 				n--;
 			}
 			break;
-
 		case "Integer" :
 			while (n > 0) {
 				String[] token = scan.nextLine().split(",");
@@ -43,7 +42,6 @@ public class Solution  {
 				MinPQ<Integer> data = new MinPQ<Integer>(integerarray);
 				System.out.println(data.isMinPQ());
 				n--;
-
 			}
 			break;
 		case "Float" :
@@ -72,8 +70,10 @@ public class Solution  {
 				MinPQ<Double> data = new MinPQ<Double>(doublearray);
 				System.out.println(data.isMinPQ());
 				n--;
-
+				break;
 			}
+			default:
+				break;
 		}
 	}
 }

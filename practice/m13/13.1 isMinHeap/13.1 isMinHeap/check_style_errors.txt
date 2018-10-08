@@ -1,13 +1,12 @@
 Starting audit...
 [ERROR] H:\ADS1\practice\m13\13.1 isMinHeap\13.1 isMinHeap\Solution.java:9: Class Solution should be declared as final. [FinalClass]
 [ERROR] H:\ADS1\practice\m13\13.1 isMinHeap\13.1 isMinHeap\Solution.java:10:1: File contains tab characters (this is the first instance). [FileTabCharacter]
-[ERROR] H:\ADS1\practice\m13\13.1 isMinHeap\13.1 isMinHeap\Solution.java:26: switch without "default" clause. [MissingSwitchDefault]
-[ERROR] H:\ADS1\practice\m13\13.1 isMinHeap\13.1 isMinHeap\Solution.java:39: Line is longer than 80 characters (found 83). [LineLength]
-[ERROR] H:\ADS1\practice\m13\13.1 isMinHeap\13.1 isMinHeap\Solution.java:41: Line is longer than 80 characters (found 85). [LineLength]
-[ERROR] H:\ADS1\practice\m13\13.1 isMinHeap\13.1 isMinHeap\Solution.java:43: Line is longer than 80 characters (found 87). [LineLength]
-[ERROR] H:\ADS1\practice\m13\13.1 isMinHeap\13.1 isMinHeap\Solution.java:58: Line is longer than 80 characters (found 83). [LineLength]
-[ERROR] H:\ADS1\practice\m13\13.1 isMinHeap\13.1 isMinHeap\Solution.java:60: Line is longer than 80 characters (found 81). [LineLength]
-[ERROR] H:\ADS1\practice\m13\13.1 isMinHeap\13.1 isMinHeap\Solution.java:70: Line is longer than 80 characters (found 86). [LineLength]
-[ERROR] H:\ADS1\practice\m13\13.1 isMinHeap\13.1 isMinHeap\Solution.java:72: Line is longer than 80 characters (found 84). [LineLength]
+[ERROR] H:\ADS1\practice\m13\13.1 isMinHeap\13.1 isMinHeap\Solution.java:38: Line is longer than 80 characters (found 83). [LineLength]
+[ERROR] H:\ADS1\practice\m13\13.1 isMinHeap\13.1 isMinHeap\Solution.java:40: Line is longer than 80 characters (found 85). [LineLength]
+[ERROR] H:\ADS1\practice\m13\13.1 isMinHeap\13.1 isMinHeap\Solution.java:42: Line is longer than 80 characters (found 87). [LineLength]
+[ERROR] H:\ADS1\practice\m13\13.1 isMinHeap\13.1 isMinHeap\Solution.java:56: Line is longer than 80 characters (found 83). [LineLength]
+[ERROR] H:\ADS1\practice\m13\13.1 isMinHeap\13.1 isMinHeap\Solution.java:58: Line is longer than 80 characters (found 81). [LineLength]
+[ERROR] H:\ADS1\practice\m13\13.1 isMinHeap\13.1 isMinHeap\Solution.java:68: Line is longer than 80 characters (found 86). [LineLength]
+[ERROR] H:\ADS1\practice\m13\13.1 isMinHeap\13.1 isMinHeap\Solution.java:70: Line is longer than 80 characters (found 84). [LineLength]
 Audit done.
-Checkstyle ends with 10 errors.
+Checkstyle ends with 9 errors.
