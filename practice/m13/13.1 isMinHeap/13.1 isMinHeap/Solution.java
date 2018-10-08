@@ -4,6 +4,11 @@ class Solution  {
 		Scanner scan = new Scanner(System.in);
 		String key = scan.nextLine();
 		int n = Integer.parseInt(scan.nextLine());
+		if(key.equals("")) {
+            		System.out.println("false");
+            		
+            	}
+            	
 		switch (key) {
 		case "String":
 			while (n > 0) {
@@ -28,10 +33,6 @@ class Solution  {
 			}
 			break;
         case "Float" :
-            if(key.equals("")) {
-            		System.out.println("false");
-            		break;
-            	}
             while (n>0) {
 
             	String[] token = scan.nextLine().split(",");
