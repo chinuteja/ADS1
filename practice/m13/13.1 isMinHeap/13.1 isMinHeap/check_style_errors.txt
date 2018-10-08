@@ -8,13 +8,9 @@ Starting audit...
 [ERROR] H:\ADS1\practice\m13\13.1 isMinHeap\13.1 isMinHeap\Solution.java:20: Line is longer than 80 characters (found 83). [LineLength]
 [ERROR] H:\ADS1\practice\m13\13.1 isMinHeap\13.1 isMinHeap\Solution.java:22: Line is longer than 80 characters (found 85). [LineLength]
 [ERROR] H:\ADS1\practice\m13\13.1 isMinHeap\13.1 isMinHeap\Solution.java:24: Line is longer than 80 characters (found 87). [LineLength]
-[ERROR] H:\ADS1\practice\m13\13.1 isMinHeap\13.1 isMinHeap\Solution.java:35:33: '}' at column 5 should be on the same line as the next part of a multi-block statement (one that directly contains multiple blocks: if/else-if/else, do/while or try/catch/finally). [RightCurly]
-[ERROR] H:\ADS1\practice\m13\13.1 isMinHeap\13.1 isMinHeap\Solution.java:40: Line is longer than 80 characters (found 83). [LineLength]
-[ERROR] H:\ADS1\practice\m13\13.1 isMinHeap\13.1 isMinHeap\Solution.java:42: Line is longer than 80 characters (found 81). [LineLength]
-[ERROR] H:\ADS1\practice\m13\13.1 isMinHeap\13.1 isMinHeap\Solution.java:45:25: '}' at column 4 should be alone on a line. [RightCurly]
-[ERROR] H:\ADS1\practice\m13\13.1 isMinHeap\13.1 isMinHeap\Solution.java:45:26: '}' is not followed by whitespace. [WhitespaceAround]
-[ERROR] H:\ADS1\practice\m13\13.1 isMinHeap\13.1 isMinHeap\Solution.java:45:26: '}' is not preceded with whitespace. [WhitespaceAround]
-[ERROR] H:\ADS1\practice\m13\13.1 isMinHeap\13.1 isMinHeap\Solution.java:52: Line is longer than 80 characters (found 86). [LineLength]
-[ERROR] H:\ADS1\practice\m13\13.1 isMinHeap\13.1 isMinHeap\Solution.java:54: Line is longer than 80 characters (found 84). [LineLength]
+[ERROR] H:\ADS1\practice\m13\13.1 isMinHeap\13.1 isMinHeap\Solution.java:39: Line is longer than 80 characters (found 83). [LineLength]
+[ERROR] H:\ADS1\practice\m13\13.1 isMinHeap\13.1 isMinHeap\Solution.java:41: Line is longer than 80 characters (found 81). [LineLength]
+[ERROR] H:\ADS1\practice\m13\13.1 isMinHeap\13.1 isMinHeap\Solution.java:51: Line is longer than 80 characters (found 86). [LineLength]
+[ERROR] H:\ADS1\practice\m13\13.1 isMinHeap\13.1 isMinHeap\Solution.java:53: Line is longer than 80 characters (found 84). [LineLength]
 Audit done.
-Checkstyle ends with 17 errors.
+Checkstyle ends with 13 errors.

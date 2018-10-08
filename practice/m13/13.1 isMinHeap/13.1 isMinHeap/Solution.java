@@ -31,9 +31,8 @@ class Solution  {
 			while (n > 0) {
 				if (key.equals("")) {
 					System.out.println("false");
-
+                    break;
 				}
-                else {
 				String[] token = scan.nextLine().split(",");
 				Float[] floatarray = new Float[token.length];
 				for (int i = 0; i < token.length; i++) {
@@ -42,7 +41,7 @@ class Solution  {
 				MinPQ<Float> data = new MinPQ<Float>(floatarray);
 				System.out.println(data.isMinPQ());
 				n--;
-			}}
+			}
 			break;
 		case "Double" :
 			while (n > 0) {
