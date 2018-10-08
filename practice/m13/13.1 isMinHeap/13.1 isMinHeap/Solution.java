@@ -1,6 +1,25 @@
+/**.
+ * impors scanner package
+ */
 import java.util.Scanner;
-class Solution  {
-	public static void main(String[] args) {
+/**.
+ * Class for solution.
+ *
+ */
+public class Solution  {
+	/**.
+	 * Constructs the object for Solution
+	 * @author Teja
+	 */
+	private Solution() {
+
+	}
+	/**.
+	 * main function
+	 *
+	 * @param      args  The arguments
+	 */
+	public static void main(final String[] args) {
 		Scanner scan = new Scanner(System.in);
 		String key = scan.nextLine();
 		int n = Integer.parseInt(scan.nextLine());
@@ -31,7 +50,7 @@ class Solution  {
 			while (n > 0) {
 				if (key.equals("")) {
 					System.out.println("false");
-                    break;
+					break;
 				}
 				String[] token = scan.nextLine().split(",");
 				Float[] floatarray = new Float[token.length];
@@ -56,11 +75,5 @@ class Solution  {
 
 			}
 		}
-
-
-
-
-
-
 	}
 }
