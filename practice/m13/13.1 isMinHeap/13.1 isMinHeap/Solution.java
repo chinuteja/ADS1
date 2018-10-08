@@ -4,11 +4,6 @@ class Solution  {
 		Scanner scan = new Scanner(System.in);
 		String key = scan.nextLine();
 		int n = Integer.parseInt(scan.nextLine());
-		if(key.equals("")) {
-            		System.out.println("false");
-            		
-            	}
-            	
 		switch (key) {
 		case "String":
 			while (n > 0) {
@@ -32,37 +27,41 @@ class Solution  {
 
 			}
 			break;
-        case "Float" :
-            while (n>0) {
+		case "Float" :
+			while (n > 0) {
+				if (key.equals("")) {
+					System.out.println("false");
 
-            	String[] token = scan.nextLine().split(",");
-            	Float[] floatarray = new Float[token.length];
-            	for (int i=0;i<token.length;i++) {
-            		floatarray[i] = Float.parseFloat(token[i]);
-            	}
-            	MinPQ<Float> data = new MinPQ<Float>(floatarray);
-            	System.out.println(data.isMinPQ());
-            	n--;
-            }
-            break;
-        case "Double" :
-            while (n>0) {
-            	String[] token = scan.nextLine().split(",");
-            	Double[] doublearray = new Double[token.length];
-            	for (int i=0;i<token.length;i++) {
-            		doublearray[i] = Double.parseDouble(token[i]);
-            	}
-            	MinPQ<Double> data = new MinPQ<Double>(doublearray);
-            	System.out.println(data.isMinPQ());
-            	n--;
-            	
-            }
-            }
+				}
+                else {
+				String[] token = scan.nextLine().split(",");
+				Float[] floatarray = new Float[token.length];
+				for (int i = 0; i < token.length; i++) {
+					floatarray[i] = Float.parseFloat(token[i]);
+				}
+				MinPQ<Float> data = new MinPQ<Float>(floatarray);
+				System.out.println(data.isMinPQ());
+				n--;
+			}}
+			break;
+		case "Double" :
+			while (n > 0) {
+				String[] token = scan.nextLine().split(",");
+				Double[] doublearray = new Double[token.length];
+				for (int i = 0; i < token.length; i++) {
+					doublearray[i] = Double.parseDouble(token[i]);
+				}
+				MinPQ<Double> data = new MinPQ<Double>(doublearray);
+				System.out.println(data.isMinPQ());
+				n--;
 
-
-
-
-
-
+			}
 		}
+
+
+
+
+
+
 	}
+}
