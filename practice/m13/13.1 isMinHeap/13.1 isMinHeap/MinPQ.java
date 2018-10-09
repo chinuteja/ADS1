@@ -29,6 +29,7 @@ public class MinPQ <Key extends Comparable <Key>> {
 		// }
 		for (int i = 1; i < pq.length / 2; i++) {
 			if (less(2*i, i) && less(2*i + 1, i)) {
+				//System.out.println("hello");
 				return false;
 			}
 			// if (less(i + 2, i)) {
