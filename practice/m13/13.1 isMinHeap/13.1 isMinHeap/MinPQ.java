@@ -16,7 +16,7 @@ public class MinPQ <Key extends Comparable <Key>> {
 	 */
 	MinPQ(final Key[] array) {
 		this.pq = array;
-		this.n = array.length;
+		this.n = array.length - 1;
 	}
 	/**
 	 * Checks if the array is min heap or not
