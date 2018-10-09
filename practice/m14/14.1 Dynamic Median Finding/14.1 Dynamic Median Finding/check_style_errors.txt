@@ -1,5 +1,5 @@
 Starting audit...
 [ERROR] H:\ADS1\practice\m14\14.1 Dynamic Median Finding\14.1 Dynamic Median Finding\Solution.java:8: Class Solution should be declared as final. [FinalClass]
-[ERROR] H:\ADS1\practice\m14\14.1 Dynamic Median Finding\14.1 Dynamic Median Finding\Solution.java:15:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] H:\ADS1\practice\m14\14.1 Dynamic Median Finding\14.1 Dynamic Median Finding\Solution.java:15: First sentence should end with a period. [JavadocStyle]
 Audit done.
 Checkstyle ends with 2 errors.

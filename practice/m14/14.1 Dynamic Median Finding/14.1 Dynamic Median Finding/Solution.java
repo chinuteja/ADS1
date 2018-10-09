@@ -12,6 +12,11 @@ public class Solution {
     private Solution() {
 
     }
+    /**
+     * main function
+     *@author Teja
+     * @param      args  The arguments
+     */
     public static void main(final String[] args) {
         Scanner scan = new Scanner(System.in);
         int n = scan.nextInt();
