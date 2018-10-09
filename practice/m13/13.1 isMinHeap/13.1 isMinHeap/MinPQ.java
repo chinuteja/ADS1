@@ -29,13 +29,13 @@ public class MinPQ <Key extends Comparable <Key>> {
 		// }
 		for (int i = 1; i < pq.length / 2; i++) {
 			if (less(2*i, i) && less(2*i + 1, i)) {
-				return false;
+				return true;
 			}
 			// if (less(i + 2, i)) {
 			// 	return false;// here we will check the left child.
 			// }
 		}
-		return true;
+		return false;
 	}
 	/**
 	 * { compares two elements of pq array }
