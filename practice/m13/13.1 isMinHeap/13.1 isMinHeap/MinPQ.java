@@ -30,10 +30,10 @@ public class MinPQ <Key extends Comparable <Key>> {
 		int left = 2 * k;
 		int rigth = 2 * k + 1;
 		if (left <= n && !less(k, left)) {
-			return true;
+			return false;
 		}
 		if (rigth <= n && !less(k, rigth)) {
-			return true;
+			return false;
 		}
 		return isMinPQ(left) && isMinPQ(rigth);
 	}
