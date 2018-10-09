@@ -46,11 +46,12 @@ public final class Solution  {
             break;
         case "Float" :
             while (n > 0) {
-                if (key.equals("")) {
+                String input = scan.nextLine();
+                if (input.equals("")) {
                     System.out.println("false");
                     break;
                 }
-                String[] token = scan.nextLine().split(",");
+                String[] token = input.split(",");
                 Float[] floatarray = new Float[token.length];
                 for (int i = 0; i < token.length; i++) {
                     floatarray[i] = Float.parseFloat(token[i]);
