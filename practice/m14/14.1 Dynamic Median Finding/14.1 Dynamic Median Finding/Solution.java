@@ -5,14 +5,14 @@ import java.util.Scanner;
 /**.
  * Class for solution.
  */
-public class Solution {
-    /**
+public final class Solution {
+    /**.
      * Constructs the object. for Solution class
      */
     private Solution() {
 
     }
-    /**
+    /**.
      * main function
      *@author Teja
      * @param      args  The arguments
