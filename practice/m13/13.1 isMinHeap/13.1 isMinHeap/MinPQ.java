@@ -27,12 +27,12 @@ public class MinPQ <Key extends Comparable <Key>> {
 		// 		return false;
 		// 	}
 		// }
-		for (int i = 1; i < pq.length - 1; i++) {
-			if (less(i + 1, i) && less(i + 2, i)) {
+		for (int i = 1; i < pq.length / 2; i++) {
+			if (!less(2*i, i) && !less(2*i + 1, i)) {
 				return false;
 			}
 			// if (less(i + 2, i)) {
-			// 	return false;
+			// 	return false;// here we will check the left child.
 			// }
 		}
 		return true;
