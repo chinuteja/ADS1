@@ -19,7 +19,7 @@ public final class Solution {
      */
     public static void main(final String[] args) {
         Scanner scan = new Scanner(System.in);
-        BinarySearchST<String, Integer> binarysearch 
+        BinarySearchST<String, Integer> binarysearch
                                       = new BinarySearchST<String, Integer>();
         String[] token = scan.nextLine().split(" ");
         for (int i = 0; i < token.length; i++) {
