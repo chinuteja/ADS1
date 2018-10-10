@@ -26,7 +26,7 @@ class Solution {
                     System.out.println(binarysearch.contains(input[1]));
                     break;
                 case "keys" :
-                   System.out.println(binarysearch);
+                   System.out.println(binarysearch.toString());
                    break;
                 case "get" :
                    System.out.println(binarysearch.get(input[1]));
