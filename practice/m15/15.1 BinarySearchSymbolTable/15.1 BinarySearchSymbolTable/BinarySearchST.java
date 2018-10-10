@@ -1,3 +1,6 @@
+/**
+ * imports exception no such element
+ */
 import java.util.NoSuchElementException;
 public class BinarySearchST<Key extends Comparable<Key>, Value> {
     private static final int INIT_CAPACITY = 2;
@@ -85,7 +88,7 @@ public class BinarySearchST<Key extends Comparable<Key>, Value> {
 
     /**
      * Returns the number of keys in this symbol table strictly less than {@code key}.
-     *
+     * TIme complexity is LogN because we are not checking half of the elements
      * @param  key the key
      * @return the number of keys in the symbol table strictly less than {@code key}
      * @throws IllegalArgumentException if {@code key} is {@code null}
@@ -111,7 +114,7 @@ public class BinarySearchST<Key extends Comparable<Key>, Value> {
      * value with the new value if the symbol table already contains the specified key.
      * Deletes the specified key (and its associated value) from this symbol table
      * if the specified value is {@code null}.
-     *
+     * Time complexity is N as the loop iterates for ntimes
      * @param  key the key
      * @param  val the value
      * @throws IllegalArgumentException if {@code key} is {@code null}
@@ -304,32 +307,10 @@ public class BinarySearchST<Key extends Comparable<Key>, Value> {
     // }
 
     /**
-     * Returns all keys in this symbol table in the given range,
-     * as an {@code Iterable}.
-     *
-     * @param lo minimum endpoint
-     * @param hi maximum endpoint
-     * @return all keys in this symbol table between {@code lo}
-     *         (inclusive) and {@code hi} (inclusive)
-     * @throws IllegalArgumentException if either {@code lo} or {@code hi}
-     *         is {@code null}
+     * Returns a string representation of the object.
+     * Time complexity is N because the loop itrerates for n times
+     * @return     String representation of the object.
      */
-    // public Iterable<Key> keys(Key lo, Key hi) {
-    //     if (lo == null) throw new IllegalArgumentException("first argument to keys() is null");
-    //     if (hi == null) throw new IllegalArgumentException("second argument to keys() is null");
-
-    //     Queue<Key> queue = new Queue<Key>();
-    //     if (lo.compareTo(hi) > 0) return queue;
-    //     for (int i = rank(lo); i < rank(hi); i++)
-    //         queue.enqueue(keys[i]);
-    //     if (contains(hi)) queue.enqueue(keys[rank(hi)]);
-    //     return queue;
-    // }
-
-
-    /***************************************************************************
-     *  Check internal invariants.
-     ***************************************************************************/
     public String toString() {
         String str = "";
         int i;
