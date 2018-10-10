@@ -332,10 +332,12 @@ public class BinarySearchST<Key extends Comparable<Key>, Value> {
      ***************************************************************************/
     public String toString() {
         String str = "";
-        for (int i = 0; i < size(); i++) {
+        int i;
+        for (i = 0; i < size() - 1; i++) {
             str = str + keys[i] + " " + vals[i] + "\n";
 
         }
+        str = str + keys[i] + " " +vals[i];
         return str;
 
     }
