@@ -1,0 +1,19 @@
+Starting audit...
+[ERROR] H:\ADS1\practice\m15\15.1 BinarySearchSymbolTable\15.1 BinarySearchSymbolTable\Solution.java:0: File does not end with a newline. [NewlineAtEndOfFile]
+[ERROR] H:\ADS1\practice\m15\15.1 BinarySearchSymbolTable\15.1 BinarySearchSymbolTable\Solution.java:2: Missing a Javadoc comment. [JavadocType]
+[ERROR] H:\ADS1\practice\m15\15.1 BinarySearchSymbolTable\15.1 BinarySearchSymbolTable\Solution.java:2:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
+[ERROR] H:\ADS1\practice\m15\15.1 BinarySearchSymbolTable\15.1 BinarySearchSymbolTable\Solution.java:3:1: File contains tab characters (this is the first instance). [FileTabCharacter]
+[ERROR] H:\ADS1\practice\m15\15.1 BinarySearchSymbolTable\15.1 BinarySearchSymbolTable\Solution.java:3:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] H:\ADS1\practice\m15\15.1 BinarySearchSymbolTable\15.1 BinarySearchSymbolTable\Solution.java:3:33: Parameter args should be final. [FinalParameters]
+[ERROR] H:\ADS1\practice\m15\15.1 BinarySearchSymbolTable\15.1 BinarySearchSymbolTable\Solution.java:5: Line is longer than 80 characters (found 99). [LineLength]
+[ERROR] H:\ADS1\practice\m15\15.1 BinarySearchSymbolTable\15.1 BinarySearchSymbolTable\Solution.java:5:39: ',' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] H:\ADS1\practice\m15\15.1 BinarySearchSymbolTable\15.1 BinarySearchSymbolTable\Solution.java:5:89: ',' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] H:\ADS1\practice\m15\15.1 BinarySearchSymbolTable\15.1 BinarySearchSymbolTable\Solution.java:7:27: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] H:\ADS1\practice\m15\15.1 BinarySearchSymbolTable\15.1 BinarySearchSymbolTable\Solution.java:7:28: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] H:\ADS1\practice\m15\15.1 BinarySearchSymbolTable\15.1 BinarySearchSymbolTable\Solution.java:7:30: ';' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] H:\ADS1\practice\m15\15.1 BinarySearchSymbolTable\15.1 BinarySearchSymbolTable\Solution.java:7:31: '<' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] H:\ADS1\practice\m15\15.1 BinarySearchSymbolTable\15.1 BinarySearchSymbolTable\Solution.java:7:32: '<' is not followed by whitespace. [WhitespaceAround]
+[ERROR] H:\ADS1\practice\m15\15.1 BinarySearchSymbolTable\15.1 BinarySearchSymbolTable\Solution.java:7:45: ';' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] H:\ADS1\practice\m15\15.1 BinarySearchSymbolTable\15.1 BinarySearchSymbolTable\Solution.java:8:51: ',' is not followed by whitespace. [WhitespaceAfter]
+Audit done.
+Checkstyle ends with 16 errors.
