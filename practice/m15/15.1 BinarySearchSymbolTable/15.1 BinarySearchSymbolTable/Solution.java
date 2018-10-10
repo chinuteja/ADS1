@@ -12,14 +12,15 @@ public final class Solution {
     private Solution() {
 
     }
-    /**
+    /**.
      * main function
      *
      * @param      args  The arguments
      */
     public static void main(final String[] args) {
         Scanner scan = new Scanner(System.in);
-        BinarySearchST<String, Integer> binarysearch = new BinarySearchST<String, Integer>();
+        BinarySearchST<String, Integer> binarysearch = 
+        new BinarySearchST<String, Integer>();
         String[] token = scan.nextLine().split(" ");
         for (int i = 0; i < token.length; i++) {
             binarysearch.put(token[i], i);
