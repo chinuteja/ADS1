@@ -31,7 +31,7 @@ public class BST <Key extends Comparable <Key>, Value> {
 	public String get(Book key) {
 		Node x = root;
 		while (x != null) {
-			int cmp = key.getBookname().compareTo(x.key.getBookname());
+			int cmp = key.compareTo(x.key);
 			if(cmp < 0)  x =x.left;
 			else if(cmp>0)    x=x.right;
 			else return x.value;
