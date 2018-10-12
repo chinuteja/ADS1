@@ -65,7 +65,7 @@ public class Taxicab implements Comparable<Taxicab> {
      *
      * @return     { returns the taxicab number }
      */
-    public static long findTaxicab(final int N1, final int M1) {
+    public static long findTaxicab(final int n1, final int m1) {
         MinPQ<Taxicab> minPQ = new MinPQ<Taxicab>();
         final int n = 600;
         int count = 0;
@@ -81,9 +81,9 @@ public class Taxicab implements Comparable<Taxicab> {
             Taxicab curr = minPQ.delMin();
             if (prev.sum == curr.sum) {
                 run = run + 1;
-                if (run == M1) {
+                if (run == m1) {
                     count++;
-                    if (count == N1) {
+                    if (count == n1) {
                         res = curr.sum;
                         break;
                     }
