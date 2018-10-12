@@ -60,8 +60,8 @@ public class Taxicab implements Comparable<Taxicab> {
     /**.
      * finds the taxi cab number
      * Time complexity is N as for loop is executed for N times
-     * @param      N1     { number of occurance of the taxi cab number}
-     * @param      M1     { number of pairs that we needed}
+     * @param      n1     { number of occurance of the taxi cab number}
+     * @param      m1     { number of pairs that we needed}
      *
      * @return     { returns the taxicab number }
      */

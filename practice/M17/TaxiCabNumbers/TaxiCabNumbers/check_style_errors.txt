@@ -1,7 +1,2 @@
 Starting audit...
-[ERROR] H:\ADS1\practice\M17\TaxiCabNumbers\TaxiCabNumbers\Taxicab.java:63:8: Unused @param tag for 'N1'. [JavadocMethod]
-[ERROR] H:\ADS1\practice\M17\TaxiCabNumbers\TaxiCabNumbers\Taxicab.java:64:8: Unused @param tag for 'M1'. [JavadocMethod]
-[ERROR] H:\ADS1\practice\M17\TaxiCabNumbers\TaxiCabNumbers\Taxicab.java:68:46: Expected @param tag for 'n1'. [JavadocMethod]
-[ERROR] H:\ADS1\practice\M17\TaxiCabNumbers\TaxiCabNumbers\Taxicab.java:68:60: Expected @param tag for 'm1'. [JavadocMethod]
 Audit done.
-Checkstyle ends with 4 errors.
