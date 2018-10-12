@@ -60,12 +60,12 @@ public class Taxicab implements Comparable<Taxicab> {
     /**.
      * finds the taxi cab number
      * Time complexity is N as for loop is executed for N times
-     * @param      N     { number of occurance of the taxi cab number}
-     * @param      M     { number of pairs that we needed}
+     * @param      N1     { number of occurance of the taxi cab number}
+     * @param      M1     { number of pairs that we needed}
      *
      * @return     { returns the taxicab number }
      */
-    public static long findTaxicab(final int N, final int M) {
+    public static long findTaxicab(final int N1, final int M1) {
         MinPQ<Taxicab> minPQ = new MinPQ<Taxicab>();
         final int n = 600;
         int count = 0;
@@ -81,9 +81,9 @@ public class Taxicab implements Comparable<Taxicab> {
             Taxicab curr = minPQ.delMin();
             if (prev.sum == curr.sum) {
                 run = run + 1;
-                if (run == M) {
+                if (run == M1) {
                     count++;
-                    if (count == N) {
+                    if (count == N1) {
                         res = curr.sum;
                         break;
                     }

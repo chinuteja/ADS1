@@ -1,5 +1,5 @@
 Starting audit...
-[ERROR] H:\ADS1\practice\M17\TaxiCabNumbers\TaxiCabNumbers\Taxicab.java:68:46: Name 'N' must match pattern '^[a-z][a-zA-Z0-9]*$'. [ParameterName]
-[ERROR] H:\ADS1\practice\M17\TaxiCabNumbers\TaxiCabNumbers\Taxicab.java:68:59: Name 'M' must match pattern '^[a-z][a-zA-Z0-9]*$'. [ParameterName]
+[ERROR] H:\ADS1\practice\M17\TaxiCabNumbers\TaxiCabNumbers\Taxicab.java:68:46: Name 'N1' must match pattern '^[a-z][a-zA-Z0-9]*$'. [ParameterName]
+[ERROR] H:\ADS1\practice\M17\TaxiCabNumbers\TaxiCabNumbers\Taxicab.java:68:60: Name 'M1' must match pattern '^[a-z][a-zA-Z0-9]*$'. [ParameterName]
 Audit done.
 Checkstyle ends with 2 errors.
