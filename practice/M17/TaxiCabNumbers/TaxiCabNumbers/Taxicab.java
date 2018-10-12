@@ -2,10 +2,19 @@
  * Class for taxicab.
  */
 public class Taxicab implements Comparable<Taxicab> {
-    int i;
-    int j;
-    long sum;
-    /**
+    /**.
+     * integer i
+     */
+    private int i;
+    /**.
+     * integer type j
+     */
+    private int j;
+    /**.
+     * sum of long type
+     */
+    private long sum;
+    /**.
      * Constructs the object for taxi cab
      *
      * @param      i     { integer parameter }
@@ -16,7 +25,7 @@ public class Taxicab implements Comparable<Taxicab> {
         this.i = i;
         this.j = j;
     }
-    /**
+    /**.
      * compares two objects
      * Time complexity is 1 because each statement is executed only once.
      * @param      that  The that
@@ -73,8 +82,9 @@ public class Taxicab implements Comparable<Taxicab> {
             } else {
                 run = 1;
             }
-            if (curr.j < n)
+            if (curr.j < n){
                 minPQ.insert(new Taxicab(curr.i, curr.j+1));
+            }
             prev = curr;
         }
         return res;
