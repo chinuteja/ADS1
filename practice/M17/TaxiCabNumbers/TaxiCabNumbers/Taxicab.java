@@ -20,8 +20,8 @@ public class Taxicab implements Comparable<Taxicab> {
      * @param      i     { integer parameter }
      * @param      j     { integer parameter }
      */
-    public Taxicab(int i, int j) {
-        this.sum = (long)(i*i*i) + (j*j*j);
+    public Taxicab(final int i, final int j) {
+        this.sum = (long) (i * i * i) + (j * j * j);
         this.i = i;
         this.j = j;
     }
@@ -30,13 +30,14 @@ public class Taxicab implements Comparable<Taxicab> {
      * Time complexity is 1 because each statement is executed only once.
      * @param      that  The that
      *
-     * @return     { returns 1 if this.sum > that.sum and this.i > that.i else returns -1}
+     * @return     { returns 1 if this.sum > that.sum
+     * and this.i > that.i else returns -1}
      */
     public int compareTo(Taxicab that) {
-        if (this.sum > that.sum) return +1;
-        if (this.sum < that.sum) return -1;
-        if (this.i > that.i) return +1;
-        if (this.i < that.i) return -1;
+        if (this.sum > that.sum) {return +1;}
+        if (this.sum < that.sum) {return -1;}
+        if (this.i > that.i) {return +1;}
+        if (this.i < that.i) {return -1;}
         return 0;
     }
     /**
@@ -82,8 +83,8 @@ public class Taxicab implements Comparable<Taxicab> {
             } else {
                 run = 1;
             }
-            if (curr.j < n){
-                minPQ.insert(new Taxicab(curr.i, curr.j+1));
+            if (curr.j < n) {
+                minPQ.insert(new Taxicab(curr.i, curr.j + 1));
             }
             prev = curr;
         }
