@@ -17,13 +17,13 @@ public class Taxicab implements Comparable<Taxicab> {
     /**.
      * Constructs the object for taxi cab
      *
-     * @param      i     { integer parameter }
-     * @param      j     { integer parameter }
+     * @param      i1     { integer parameter }
+     * @param      j1     { integer parameter }
      */
-    public Taxicab(final int i, final int j) {
-        this.sum = (long) (i * i * i) + (j * j * j);
-        this.i = i;
-        this.j = j;
+    public Taxicab(final int i1, final int j1) {
+        this.sum = (long) (i1 * i1 * i1) + (j1 * j1 * j1);
+        this.i = i1;
+        this.j = j1;
     }
     /**.
      * compares two objects
