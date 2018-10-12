@@ -57,7 +57,7 @@ public class Taxicab implements Comparable<Taxicab> {
         return sum + " = " + i + "^3 + " + j + "^3";
     }
 
-    /**
+    /**.
      * finds the taxi cab number
      * Time complexity is N as for loop is executed for N times
      * @param      N     { number of occurance of the taxi cab number}
@@ -67,7 +67,7 @@ public class Taxicab implements Comparable<Taxicab> {
      */
     public static long findTaxicab(final int N, final int M) {
         MinPQ<Taxicab> minPQ = new MinPQ<Taxicab>();
-        int n = 600;
+        final int n = 600;
         int count = 0;
         long res = 0;
         for (int i = 1; i <= n; i++) {
