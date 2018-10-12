@@ -30,7 +30,7 @@ Starting audit...
 [ERROR] H:\ADS1\practice\M17\TaxiCabNumbers\TaxiCabNumbers\Taxicab.java:50:40: Name 'N' must match pattern '^[a-z][a-zA-Z0-9]*$'. [ParameterName]
 [ERROR] H:\ADS1\practice\M17\TaxiCabNumbers\TaxiCabNumbers\Taxicab.java:50:43: Parameter M should be final. [FinalParameters]
 [ERROR] H:\ADS1\practice\M17\TaxiCabNumbers\TaxiCabNumbers\Taxicab.java:50:47: Name 'M' must match pattern '^[a-z][a-zA-Z0-9]*$'. [ParameterName]
-[ERROR] H:\ADS1\practice\M17\TaxiCabNumbers\TaxiCabNumbers\Taxicab.java:52:17: '10000' is a magic number. [MagicNumber]
+[ERROR] H:\ADS1\practice\M17\TaxiCabNumbers\TaxiCabNumbers\Taxicab.java:52:17: '600' is a magic number. [MagicNumber]
 [ERROR] H:\ADS1\practice\M17\TaxiCabNumbers\TaxiCabNumbers\Taxicab.java:76: 'if' construct must use '{}'s. [NeedBraces]
 [ERROR] H:\ADS1\practice\M17\TaxiCabNumbers\TaxiCabNumbers\Taxicab.java:77:56: '+' is not preceded with whitespace. [WhitespaceAround]
 [ERROR] H:\ADS1\practice\M17\TaxiCabNumbers\TaxiCabNumbers\Taxicab.java:77:57: '+' is not followed by whitespace. [WhitespaceAround]
