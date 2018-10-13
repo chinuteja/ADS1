@@ -11,6 +11,12 @@ class Stock {
      */
     private Double change;
     /**
+     * default constructor
+     */
+    Stock() {
+
+    }
+    /**
      * Constructs the object.
      *
      * @param      name1    of String type

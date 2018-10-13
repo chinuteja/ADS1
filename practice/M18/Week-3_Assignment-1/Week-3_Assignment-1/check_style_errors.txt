@@ -1,2 +1,4 @@
 Starting audit...
+[ERROR] H:\ADS1\practice\M18\Week-3_Assignment-1\Week-3_Assignment-1\Stock.java:13: First sentence should end with a period. [JavadocStyle]
 Audit done.
+Checkstyle ends with 1 errors.

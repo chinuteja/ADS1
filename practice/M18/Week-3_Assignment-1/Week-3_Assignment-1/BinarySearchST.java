@@ -5,7 +5,7 @@ import java.util.NoSuchElementException;
 public class BinarySearchST<Key extends Comparable<Key>, Value> {
     private static final int INIT_CAPACITY = 2;
     private Stock [] keys;
-    private Value[] vals;
+    private Double[] vals;
     private int n = 0;
 
     /**
@@ -21,14 +21,14 @@ public class BinarySearchST<Key extends Comparable<Key>, Value> {
      */
     public BinarySearchST(int capacity) {
         keys = (Stock[]) new Comparable[capacity];
-        vals = (Value[]) new Object[capacity];
+        vals = (Double[]) new Object[capacity];
     }
 
     // resize the underlying arrays
     private void resize(int capacity) {
         assert capacity >= n;
         Stock[]   tempk = (Stock[])   new Comparable[capacity];
-        Value[] tempv = (Value[]) new Object[capacity];
+        Double[] tempv = (Double[]) new Object[capacity];
         for (int i = 0; i < n; i++) {
             tempk[i] = keys[i];
             tempv[i] = vals[i];
@@ -78,7 +78,7 @@ public class BinarySearchST<Key extends Comparable<Key>, Value> {
      *         and {@code null} if the key is not in the symbol table
      * @throws IllegalArgumentException if {@code key} is {@code null}
      */
-    public Value get(Stock key) {
+    public Double get(Stock key) {
         if (key == null) throw new IllegalArgumentException("argument to get() is null");
         if (isEmpty()) return null;
         int i = rank(key);
@@ -119,7 +119,7 @@ public class BinarySearchST<Key extends Comparable<Key>, Value> {
      * @param  val the value
      * @throws IllegalArgumentException if {@code key} is {@code null}
      */
-    public void put(Stock key, Value val)  {
+    public void put(Stock key, Double val)  {
         if (key == null) throw new IllegalArgumentException("first argument to put() is null");
 
         if (val == null) {
