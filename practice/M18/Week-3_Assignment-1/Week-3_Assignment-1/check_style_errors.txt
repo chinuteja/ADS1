@@ -1,0 +1,19 @@
+Starting audit...
+[ERROR] H:\ADS1\practice\M18\Week-3_Assignment-1\Week-3_Assignment-1\Stock.java:5:1: File contains tab characters (this is the first instance). [FileTabCharacter]
+[ERROR] H:\ADS1\practice\M18\Week-3_Assignment-1\Week-3_Assignment-1\Stock.java:5:9: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] H:\ADS1\practice\M18\Week-3_Assignment-1\Week-3_Assignment-1\Stock.java:5:16: Variable 'name' must be private and have accessor methods. [VisibilityModifier]
+[ERROR] H:\ADS1\practice\M18\Week-3_Assignment-1\Week-3_Assignment-1\Stock.java:6:9: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] H:\ADS1\practice\M18\Week-3_Assignment-1\Week-3_Assignment-1\Stock.java:6:16: Variable 'change' must be private and have accessor methods. [VisibilityModifier]
+[ERROR] H:\ADS1\practice\M18\Week-3_Assignment-1\Week-3_Assignment-1\Stock.java:13:15: Parameter name should be final. [FinalParameters]
+[ERROR] H:\ADS1\practice\M18\Week-3_Assignment-1\Week-3_Assignment-1\Stock.java:13:22: 'name' hides a field. [HiddenField]
+[ERROR] H:\ADS1\practice\M18\Week-3_Assignment-1\Week-3_Assignment-1\Stock.java:13:26: ',' is preceded with whitespace. [NoWhitespaceBefore]
+[ERROR] H:\ADS1\practice\M18\Week-3_Assignment-1\Week-3_Assignment-1\Stock.java:13:29: Parameter change should be final. [FinalParameters]
+[ERROR] H:\ADS1\practice\M18\Week-3_Assignment-1\Week-3_Assignment-1\Stock.java:13:36: 'change' hides a field. [HiddenField]
+[ERROR] H:\ADS1\practice\M18\Week-3_Assignment-1\Week-3_Assignment-1\Stock.java:38:29: Parameter name should be final. [FinalParameters]
+[ERROR] H:\ADS1\practice\M18\Week-3_Assignment-1\Week-3_Assignment-1\Stock.java:38:36: 'name' hides a field. [HiddenField]
+[ERROR] H:\ADS1\practice\M18\Week-3_Assignment-1\Week-3_Assignment-1\Stock.java:46:31: Parameter change should be final. [FinalParameters]
+[ERROR] H:\ADS1\practice\M18\Week-3_Assignment-1\Week-3_Assignment-1\Stock.java:46:38: 'change' hides a field. [HiddenField]
+[ERROR] H:\ADS1\practice\M18\Week-3_Assignment-1\Week-3_Assignment-1\Stock.java:54: Line is longer than 80 characters (found 83). [LineLength]
+[ERROR] H:\ADS1\practice\M18\Week-3_Assignment-1\Week-3_Assignment-1\Stock.java:56:30: Parameter that should be final. [FinalParameters]
+Audit done.
+Checkstyle ends with 16 errors.
