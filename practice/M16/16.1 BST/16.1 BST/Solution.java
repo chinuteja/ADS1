@@ -3,7 +3,7 @@
  */
 import java.util.Scanner;
 /**.
- * class for Solution
+ * class for Solution 
  */
 public final class Solution {
     /**.
@@ -14,7 +14,7 @@ public final class Solution {
 
     }
     /**.
-     * main
+     * main method to demonstrate the Binary Search Tree 
      *
      * @param      args  The arguments
      */
