@@ -22,20 +22,18 @@ public final class  Solution {
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
 		int n = Integer.parseInt(scan.nextLine());
-		//System.out.println("number .." +n);
-		//BinarySearchST<String, Double>  binarysearchst =
-		   // new BinarySearchST<String, Double>(n);
+		BinarySearchST<String, Double>  binarysearchst =
+		   new BinarySearchST<String, Double>(n);
 		MinPQ<Double> minpq = new MinPQ<Double>(n);
 		MaxPQ<Double> maxpq = new MaxPQ<Double>(n);
 		while (scan.hasNext()) {
 			String[] tokens = scan.nextLine().split(",");
 			Stock stock = new Stock(tokens[0], Double.parseDouble(tokens[1]));
-			//System.out.println("hello");
 			minpq.insert(Double.parseDouble(tokens[1]));
 			maxpq.insert(Double.parseDouble(tokens[1]));
-			//binarysearchst.put(stock, maxpq.delMax());
-			//binarysearchst.put(stock, minpq.delMin());
-			//System.out.println(binarysearchst.toString());
+			binarysearchst.put(stock, maxpq.delMax());
+			binarysearchst.put(stock, minpq.delMin());
+			System.out.println(binarysearchst.toString());
 		}
 	}
 }
