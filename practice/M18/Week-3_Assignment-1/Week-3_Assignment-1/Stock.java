@@ -9,14 +9,14 @@ class Stock {
     /**.
      * stock change of the company
      */
-    Double change;
+    private Double change;
     /**
      * Constructs the object.
      *
-     * @param      name    of String type
-     * @param      change  of Double type
+     * @param      name1    of String type
+     * @param      change1  of Double type
      */
-    Stock(final String name1 , final Double change1) {
+    Stock(final String name1, final Double change1) {
         this.name = name1;
         this.change = change1;
     }

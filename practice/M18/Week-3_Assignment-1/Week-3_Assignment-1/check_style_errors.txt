@@ -1,14 +1,8 @@
 Starting audit...
-[ERROR] H:\ADS1\practice\M18\Week-3_Assignment-1\Week-3_Assignment-1\Stock.java:12:12: Variable 'change' must be private and have accessor methods. [VisibilityModifier]
-[ERROR] H:\ADS1\practice\M18\Week-3_Assignment-1\Week-3_Assignment-1\Stock.java:16:8: Unused @param tag for 'name'. [JavadocMethod]
-[ERROR] H:\ADS1\practice\M18\Week-3_Assignment-1\Week-3_Assignment-1\Stock.java:17:8: Unused @param tag for 'change'. [JavadocMethod]
-[ERROR] H:\ADS1\practice\M18\Week-3_Assignment-1\Week-3_Assignment-1\Stock.java:19:24: Expected @param tag for 'name1'. [JavadocMethod]
-[ERROR] H:\ADS1\practice\M18\Week-3_Assignment-1\Week-3_Assignment-1\Stock.java:19:29: ',' is preceded with whitespace. [NoWhitespaceBefore]
-[ERROR] H:\ADS1\practice\M18\Week-3_Assignment-1\Week-3_Assignment-1\Stock.java:19:45: Expected @param tag for 'change1'. [JavadocMethod]
 [ERROR] H:\ADS1\practice\M18\Week-3_Assignment-1\Week-3_Assignment-1\Stock.java:44:25: Parameter name should be final. [FinalParameters]
 [ERROR] H:\ADS1\practice\M18\Week-3_Assignment-1\Week-3_Assignment-1\Stock.java:44:32: 'name' hides a field. [HiddenField]
 [ERROR] H:\ADS1\practice\M18\Week-3_Assignment-1\Week-3_Assignment-1\Stock.java:52:27: Parameter change should be final. [FinalParameters]
 [ERROR] H:\ADS1\practice\M18\Week-3_Assignment-1\Week-3_Assignment-1\Stock.java:52:34: 'change' hides a field. [HiddenField]
 [ERROR] H:\ADS1\practice\M18\Week-3_Assignment-1\Week-3_Assignment-1\Stock.java:62:26: Parameter that should be final. [FinalParameters]
 Audit done.
-Checkstyle ends with 11 errors.
+Checkstyle ends with 5 errors.
