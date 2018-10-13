@@ -59,7 +59,7 @@ class Stock {
      *
      * @return     { returns 1 if this.name is greater than that.name else -1 }
      */
-    public int compareTo(Stock that) {
+    public int compareTo(final Stock that) {
         return this.name.compareTo(that.name);
     }
 }
