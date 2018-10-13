@@ -39,18 +39,18 @@ class Stock {
     /**.
      * Sets the name.
      *
-     * @param      name  The name
+     * @param      item  The item of string
      */
-    public void setName(String name) {
-        this.name = name;
+    public void setName(final String item) {
+        this.name = item;
     }
     /**.
      * Sets the change.
      *
-     * @param      change  The change
+     * @param      val  The val of double type
      */
-    public void setChange(Double change) {
-        this.change = change;
+    public void setChange(final Double val) {
+        this.change = val;
     }
     /**.
      * { Compares names of two objects }
