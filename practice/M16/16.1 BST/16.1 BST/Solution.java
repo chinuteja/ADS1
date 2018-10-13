@@ -3,18 +3,18 @@
  */
 import java.util.Scanner;
 /**.
- * class for Solution 
+ * class for Solution
  */
 public final class Solution {
     /**.
-     * Constructs the object.for solution class
+     * Constructs the object for solution class
      * @author Teja
      */
     private Solution() {
 
     }
     /**.
-     * main method to demonstrate the Binary Search Tree 
+     * main method to demonstrate the Binary Search Tree
      *
      * @param      args  The arguments
      */
