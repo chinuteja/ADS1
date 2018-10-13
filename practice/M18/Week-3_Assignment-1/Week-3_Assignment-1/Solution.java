@@ -22,7 +22,7 @@ public final class  Solution {
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
 		int n = Integer.parseInt(scan.nextLine());
-		System.out.println("number .." +n);
+		//System.out.println("number .." +n);
 		//BinarySearchST<String, Double>  binarysearchst =
 		   // new BinarySearchST<String, Double>(n);
 		MinPQ<Double> minpq = new MinPQ<Double>(n);
@@ -30,7 +30,7 @@ public final class  Solution {
 		while (scan.hasNext()) {
 			String[] tokens = scan.nextLine().split(",");
 			Stock stock = new Stock(tokens[0], Double.parseDouble(tokens[1]));
-			System.out.println("hello");
+			//System.out.println("hello");
 			minpq.insert(Double.parseDouble(tokens[1]));
 			maxpq.insert(Double.parseDouble(tokens[1]));
 			//binarysearchst.put(stock, maxpq.delMax());
