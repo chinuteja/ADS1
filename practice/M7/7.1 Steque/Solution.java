@@ -31,17 +31,20 @@ public final class Solution {
                     ss.pop();
                     System.out.println(ss);
                     //ss.toString();
+                    System.out.println();
                     break;
                 case "enqueue":
                     ss.enqueue(tokens[1]);
                     System.out.println(ss);
                     //ss.toString();
+                    System.out.println();
                     break;
                 // //System.out.println();
                 case "push" :
                     ss.push(tokens[1]);
                     System.out.println(ss);
                     //ss.toString();
+                    System.out.println();
                     break;
                 default:
                     break;
