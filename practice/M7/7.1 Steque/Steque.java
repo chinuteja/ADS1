@@ -14,7 +14,7 @@ class Steque {
          * next of node type
          */
         private Node next;
-        /**
+        /**.
          * data of String type
          */
         private String data;
@@ -48,8 +48,7 @@ class Steque {
             Node newnode = new Node(item);
             head.next = newnode;
             head = newnode;
-        }
-        else {
+        } else {
             Node newnode1 = new Node(item);
             Node temp = head;
             while (temp.next != null) {
@@ -80,13 +79,12 @@ class Steque {
         Node temp = head;
         if (temp == null) {
             return "Steque is empty.";
-            
         }
-        while(temp.next != null) {
+        while (temp.next != null) {
             str += temp.data + "," + " ";
             temp = temp.next;
         }
         str += temp.data;
-        return str; 
+        return str;
     }
 }
