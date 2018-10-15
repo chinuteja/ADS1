@@ -85,6 +85,6 @@ Steque is empty.
 1
 Steque is empty.
 Exception in thread "main" java.lang.NullPointerException
-	at Steque.enqueue(Steque.java:20)
+	at Steque.enqueue(Steque.java:43)
 	at Solution.main(Solution.java:35)
 ----------------------------------------
