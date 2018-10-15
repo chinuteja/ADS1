@@ -1,5 +1,5 @@
 /**.
- * imports Scanner package 
+ * imports Scanner package
  */
 import java.util.Scanner;
 /**.
@@ -23,27 +23,29 @@ public final class Solution {
         int testcases = scan.nextInt();
         Steque ss = new Steque();
         scan.nextLine();
-        while (scan.hasNext()) {
-            String[] tokens = scan.nextLine().split(" ");
-            switch (tokens[0]) {
-            case "pop":
-                ss.pop();
-                System.out.println(ss);
-                //ss.toString();
-                break;
-            case "enqueue":
-                ss.enqueue(tokens[1]);
-                System.out.println(ss);
-                //ss.toString();
-                break;
-            // //System.out.println();
-            case "push" :
-                ss.push(tokens[1]);
-                System.out.println(ss);
-                //ss.toString();
-                break;
-            default:
-                break;
+        for (int i = 0; i < testcases; i++) {
+            while (scan.hasNext()) {
+                String[] tokens = scan.nextLine().split(" ");
+                switch (tokens[0]) {
+                case "pop":
+                    ss.pop();
+                    System.out.println(ss);
+                    //ss.toString();
+                    break;
+                case "enqueue":
+                    ss.enqueue(tokens[1]);
+                    System.out.println(ss);
+                    //ss.toString();
+                    break;
+                // //System.out.println();
+                case "push" :
+                    ss.push(tokens[1]);
+                    System.out.println(ss);
+                    //ss.toString();
+                    break;
+                default:
+                    break;
+                }
             }
         }
     }
