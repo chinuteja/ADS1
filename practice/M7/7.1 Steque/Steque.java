@@ -10,14 +10,20 @@ class Steque {
      * Class for node.
      */
     class Node {
-        Node next;
-        String data;
+        /**.
+         * next of node type
+         */
+        private Node next;
+        /**
+         * data of String type
+         */
+        private String data;
         /**.
          * Constructs the object for Node
          *
          * @param      data1  String
          */
-        Node(String data1) {
+        Node(final String data1) {
             this.data = data1;
             this.next = null;
         }
@@ -27,7 +33,7 @@ class Steque {
      * TIme complexity is constant as each statement is exuceted only once.
      * @param      item  String type
      */
-    public void push(String item) {
+    public void push(final String item) {
         Node newnode = new Node(item);
         newnode.next = head;
         head = newnode;
@@ -37,7 +43,7 @@ class Steque {
      * Time complexity is N as the while loop iterates till end
      * @param      item  String
      */
-    public void enqueue(String item) {
+    public void enqueue(final String item) {
         if (head == null) {
             Node newnode = new Node(item);
             head.next = newnode;
