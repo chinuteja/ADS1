@@ -1,0 +1,23 @@
+Starting audit...
+[ERROR] H:\ADS1\practice\M7\7.1 Steque\Steque.java:1: Missing a Javadoc comment. [JavadocType]
+[ERROR] H:\ADS1\practice\M7\7.1 Steque\Steque.java:2:5: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] H:\ADS1\practice\M7\7.1 Steque\Steque.java:2:10: Variable 'head' must be private and have accessor methods. [VisibilityModifier]
+[ERROR] H:\ADS1\practice\M7\7.1 Steque\Steque.java:3: Missing a Javadoc comment. [JavadocType]
+[ERROR] H:\ADS1\practice\M7\7.1 Steque\Steque.java:4:9: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] H:\ADS1\practice\M7\7.1 Steque\Steque.java:4:14: Variable 'next' must be private and have accessor methods. [VisibilityModifier]
+[ERROR] H:\ADS1\practice\M7\7.1 Steque\Steque.java:5:9: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] H:\ADS1\practice\M7\7.1 Steque\Steque.java:5:16: Variable 'data' must be private and have accessor methods. [VisibilityModifier]
+[ERROR] H:\ADS1\practice\M7\7.1 Steque\Steque.java:7:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] H:\ADS1\practice\M7\7.1 Steque\Steque.java:7:14: Parameter data1 should be final. [FinalParameters]
+[ERROR] H:\ADS1\practice\M7\7.1 Steque\Steque.java:12:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] H:\ADS1\practice\M7\7.1 Steque\Steque.java:12:22: Parameter item should be final. [FinalParameters]
+[ERROR] H:\ADS1\practice\M7\7.1 Steque\Steque.java:17:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] H:\ADS1\practice\M7\7.1 Steque\Steque.java:17:25: Parameter item should be final. [FinalParameters]
+[ERROR] H:\ADS1\practice\M7\7.1 Steque\Steque.java:22:9: '}' at column 9 should be on the same line as the next part of a multi-block statement (one that directly contains multiple blocks: if/else-if/else, do/while or try/catch/finally). [RightCurly]
+[ERROR] H:\ADS1\practice\M7\7.1 Steque\Steque.java:32:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] H:\ADS1\practice\M7\7.1 Steque\Steque.java:40:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] H:\ADS1\practice\M7\7.1 Steque\Steque.java:45: Line has trailing spaces. [RegexpSingleline]
+[ERROR] H:\ADS1\practice\M7\7.1 Steque\Steque.java:47:14: 'while' is not followed by whitespace. [WhitespaceAround]
+[ERROR] H:\ADS1\practice\M7\7.1 Steque\Steque.java:52: Line has trailing spaces. [RegexpSingleline]
+Audit done.
+Checkstyle ends with 20 errors.
