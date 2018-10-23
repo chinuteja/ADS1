@@ -46,7 +46,6 @@ class Steque {
     public void enqueue(final String item) {
         if (head == null) {
             Node newnode = new Node(item);
-            head.next = newnode;
             head = newnode;
         } else {
             Node newnode1 = new Node(item);
