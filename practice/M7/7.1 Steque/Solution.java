@@ -25,7 +25,10 @@ public final class Solution {
         scan.nextLine();
         for (int i = 0; i < testcases; i++) {
             while (scan.hasNext()) {
-                String[] tokens = scan.nextLine().split(" ");
+                String line = scan.nextLine();
+                if (line.length() == 0) 
+                    continue;
+                String[] tokens = line.split(" ");
                 switch (tokens[0]) {
                 case "pop":
                     ss.pop();
