@@ -73,7 +73,7 @@ public class Book implements Comparable<Book> {
      * @return     {returns positive if this.author is greater than that.author else returns negative }
      */
     public  int compareTo(final Book that) {
-        return this.author.compareTo(that.author);
+        return this.bookname.compareTo(that.bookname);
     }
     /**.
      * Returns a string representation of the object.
