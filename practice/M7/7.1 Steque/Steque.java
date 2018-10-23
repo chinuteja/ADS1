@@ -7,6 +7,10 @@ class Steque {
      */
     private Node head = null;
     /**.
+     * Node tail
+     */
+    private Node tail = null;
+    /**.
      * Class for node.
      */
     class Node {
@@ -40,7 +44,7 @@ class Steque {
     }
     /**.
      * pushes the item to the right of steque
-     * Time complexity is N as the while loop iterates till end
+     * Time complexity is 1 as the node is directly added at the tail.
      * @param      item  String
      */
     public void enqueue(final String item) {
@@ -49,11 +53,8 @@ class Steque {
             head = newnode;
         } else {
             Node newnode1 = new Node(item);
-            Node temp = head;
-            while (temp.next != null) {
-                temp = temp.next;
-            }
-            temp.next = newnode1;
+            tail.next = newnode1;
+            tail = newnode1;
         }
     }
     /**.
@@ -67,10 +68,13 @@ class Steque {
         if (head != null) {
             head = head.next;
         }
+        if (tail != null) {
+            tail = tail.next;
+        }
     }
     /**.
      * Returns a string representation of the object.
-     *
+     * Time complexity is N as while loop iteraters till end.
      * @return     String representation of the object.
      */
     public String toString() {
