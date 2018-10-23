@@ -49,8 +49,8 @@ class BinarySearchT<Key extends Comparable<Key>, Values> {
     }
     /**.
      * This method is to add a key and value to BST.
-     * Time Complexity is O(N).
-     * because it calls another put method to add elements.
+     * Time Complexity is N because it calls another put method to add elements.
+     * 
      *
      * @param      key    The key
      * @param      value  The value
@@ -63,9 +63,7 @@ class BinarySearchT<Key extends Comparable<Key>, Values> {
     }
     /**.
      * This method is to add element to BST
-     * Time Complexity is O(N) for worst case.
-     * element is added until it reaches to the
-     * position it should added at.
+     * Time Complexity is N element is added until it reaches to the position it should added at. 
      *
      * @param      node   The node
      * @param      key    The key
@@ -91,7 +89,7 @@ class BinarySearchT<Key extends Comparable<Key>, Values> {
     }
     /**.
      * This method is to return the value of that key
-     * Time Complexity is O(N)
+     * Time complexity is N because it is a recursive funciton
      *
      * @param      key   The key
      *
@@ -102,7 +100,7 @@ class BinarySearchT<Key extends Comparable<Key>, Values> {
     }
     /**.
      * This method is to return the value of that key
-     * Time Complexity is O(N)
+     * Time Complexity is N because function is called N times
      *
      * @param      node  the node where the book details and
      *                   values.
@@ -125,7 +123,7 @@ class BinarySearchT<Key extends Comparable<Key>, Values> {
     }
     /**.
      * this method returns minimum element in the tree
-     * Time complexity is O(logN)
+     * Time complexity logN because it uses binary search
      *
      * @return     returns minimum book details in the tree
      */
@@ -151,7 +149,7 @@ class BinarySearchT<Key extends Comparable<Key>, Values> {
     }
     /**.
      * this method returns maximum element in the tree
-     * Time complexity is O(logN)
+     * Time complexity is logN because it uses binary search
      *
      * @return     returns maximum element in the tree
      */
@@ -160,8 +158,7 @@ class BinarySearchT<Key extends Comparable<Key>, Values> {
     }
     /**.
      * this method returns maximum element in the tree
-     * Time complexity is O(logN)
-     * it checks only right side of tree to find max element
+     * Time complexity is logN it checks only right side of tree to find max element
      *
      * @param      node  The node
      *
@@ -177,7 +174,7 @@ class BinarySearchT<Key extends Comparable<Key>, Values> {
     /**.
      * this method returns the value of the given
      * book data else returns null.
-     * Time complexity is O(logN)
+     * Time complexity is logN
      *
      * @param      key   The key
      *
@@ -195,8 +192,7 @@ class BinarySearchT<Key extends Comparable<Key>, Values> {
     /**
      * this method returns the value of the given
      * book data else returns null.
-     * Time complexity is O(logN)
-     * it checks the element from root node to desired node
+     * Time complexity is logN because it checks the element from root node to desired node
      *
      * @param      node     node with bookdetails
      * @param      key   The key
@@ -225,7 +221,7 @@ class BinarySearchT<Key extends Comparable<Key>, Values> {
     /**.
      * this method returns the value of the given
      * book data else returns null.
-     * Time complexity is O(logN)
+     * Time complexity is logN it searches the next high key for given key
      *
      * @param      key   The key
      *
@@ -243,8 +239,7 @@ class BinarySearchT<Key extends Comparable<Key>, Values> {
     /**.
      * this method returns the value of the given
      * book data else returns null.
-     * Time complexity is O(logN)
-     * it checks the element from root node to desired node
+     * Time complexity is logN it checks the element from root node to desired node
      *
      * @param      node  The node
      * @param      key   The key
@@ -272,7 +267,7 @@ class BinarySearchT<Key extends Comparable<Key>, Values> {
     }
     /**.
      * this method returns the element in that position
-     * Time complexity is O(logN)
+     * Time complexity is logN
      *
      * @param      k     position given as input
      *
@@ -284,7 +279,7 @@ class BinarySearchT<Key extends Comparable<Key>, Values> {
     }
     /**.
      * size of tree
-     *
+     * Time complexity is constant as the statement is executed only once
      * @return     returns size of tree
      */
     public int size() {
@@ -292,8 +287,7 @@ class BinarySearchT<Key extends Comparable<Key>, Values> {
     }
     /**
      * returns size of tree
-     * Time Complexity is O(1).
-     * it returns the size of that node.
+     * Time Complexity is constant it returns the size of that node.
      *
      * @param      node  The node
      *
@@ -308,8 +302,7 @@ class BinarySearchT<Key extends Comparable<Key>, Values> {
     }
     /**.
      * this method returns the element in that position
-     * Time complexity is O(logN)
-     * it checks from root node to desired position
+     * Time complexity is logN it checks from root node to desired position
      *
      * @param      node  The node
      * @param      k     position of node
@@ -331,8 +324,7 @@ class BinarySearchT<Key extends Comparable<Key>, Values> {
     }
     /**.
      * this method deletes maximum element from the tree.
-     * Time complexity is O(h)
-     * h is the height of the tree.
+     * Time complexity is h where h is the height of the tree.
      *
      */
     public void deleteMax() {
@@ -340,8 +332,7 @@ class BinarySearchT<Key extends Comparable<Key>, Values> {
     }
     /**.
      * this method deletes maximum element from the tree.
-     * Time complexity is O(h)
-     * h is the height of the tree.
+     * Time complexity is h as h  is the height of the tree.
      *
      * @param      node     the node
      *
@@ -365,7 +356,7 @@ class BinarySearchT<Key extends Comparable<Key>, Values> {
     }
     /**.
      * this method deletes minimum element from the tree.
-     * Time complexity is O(h)
+     * Time complexity is h
      * h is the height of the tree
      *
      * @param      node  The node
@@ -382,7 +373,7 @@ class BinarySearchT<Key extends Comparable<Key>, Values> {
     }
     /**.
      * this method deletes desired element from the tree.
-     * Time complexity is O(h)
+     * Time complexity is h
      * h is the height of the tree
      *
      * @param      key   The key
@@ -392,7 +383,7 @@ class BinarySearchT<Key extends Comparable<Key>, Values> {
     }
     /**.
      * this method deletes desired element from the tree.
-     * Time complexity is O(h)
+     * Time complexity is h
      * h is the height of the tree
      *
      * @param      node  The node

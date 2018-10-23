@@ -70,7 +70,7 @@ public class Book implements Comparable<Book> {
      *
      * @param      that  The that
      *
-     * @return     {returns positive if this.author is greater than that.author else returns negative }
+     * @return     {returns positive if this.bookname is greater than that.bookname else returns negative }
      */
     public  int compareTo(final Book that) {
         return this.bookname.compareTo(that.bookname);
