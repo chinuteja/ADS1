@@ -9,7 +9,7 @@ class Steque {
     /**.
      * Node tail
      */
-    private Node tail = null;
+    private Node tail;
     /**.
      * Class for node.
      */
