@@ -9,7 +9,7 @@ class Steque {
     /**.
      * Node tail
      */
-    private Node tail;
+    private Node tail = null;
     /**.
      * Class for node.
      */
@@ -51,6 +51,7 @@ class Steque {
         if (head == null) {
             Node newnode = new Node(item);
             head = newnode;
+            tail = newnode;
         } else {
             Node newnode1 = new Node(item);
             tail.next = newnode1;
