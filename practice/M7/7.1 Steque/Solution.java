@@ -21,13 +21,13 @@ public final class Solution {
     public static void main(final String[] args) {
         Scanner scan = new Scanner(System.in);
         int testcases = scan.nextInt();
-        Steque ss = new Steque();
         scan.nextLine();
         for (int i = 0; i < testcases; i++) {
+            Steque ss = new Steque();
             while (scan.hasNext()) {
                 String line = scan.nextLine();
                 if (line.length() == 0) 
-                    continue;
+                    break;
                 String[] tokens = line.split(" ");
                 switch (tokens[0]) {
                 case "pop":
