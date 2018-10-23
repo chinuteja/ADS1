@@ -25,8 +25,8 @@ final class Solution {
             String[] tokens = scan.nextLine().split(",");
             switch (tokens[0]) {
             case "put":
-                binarysearcht.put(new Book(tokens[1], tokens[2], Double.parseDouble(
-                                               tokens[2 + 1])),
+                binarysearcht.put(new Book(tokens[1], tokens[2],
+                                           Double.parseDouble(tokens[2 + 1])),
                                   Integer.parseInt(tokens[2 + 2]));
                 break;
             case "get":
@@ -54,11 +54,12 @@ final class Solution {
                                                     tokens[2 + 1]))));
                 break;
             case "select":
-                System.out.println(binarysearcht.select(Integer.parseInt(tokens[1])));
+                System.out.println(binarysearcht.select(
+                                       Integer.parseInt(tokens[1])));
                 break;
             case "delete":
-                binarysearcht.delete(new Book(tokens[1], tokens[2], Double.parseDouble(
-                                                  tokens[2 + 1])));
+                binarysearcht.delete(new Book(tokens[1], tokens[2],
+                                    Double.parseDouble(tokens[2 + 1])));
                 break;
             case "deleteMax":
                 binarysearcht.deleteMax();
