@@ -1,3 +1,6 @@
+/**.
+ * { imports Scanner package }
+ */
 import java.util.Scanner;
 /**
  * Class for solution.
@@ -5,6 +8,7 @@ import java.util.Scanner;
 final class Solution {
     /**.
      * Constructs the object.
+     * @author Teja
      */
     private Solution() {
 
@@ -22,14 +26,14 @@ final class Solution {
             switch (tokens[0]) {
             case "put":
                 binarysearcht.put(new Book(tokens[1], tokens[2], Double.parseDouble(
-                                     tokens[2 + 1])),
-                        Integer.parseInt(tokens[2 + 2]));
+                                               tokens[2 + 1])),
+                                  Integer.parseInt(tokens[2 + 2]));
                 break;
             case "get":
                 System.out.println(binarysearcht.get(new Book(
-                                               tokens[1], tokens[2],
-                                               Double.parseDouble(
-                                                   tokens[2 + 1]))));
+                        tokens[1], tokens[2],
+                        Double.parseDouble(
+                            tokens[2 + 1]))));
                 break;
             case "max":
                 System.out.println(binarysearcht.max());
@@ -54,7 +58,7 @@ final class Solution {
                 break;
             case "delete":
                 binarysearcht.delete(new Book(tokens[1], tokens[2], Double.parseDouble(
-                                        tokens[2 + 1])));
+                                                  tokens[2 + 1])));
                 break;
             case "deleteMax":
                 binarysearcht.deleteMax();
@@ -67,4 +71,4 @@ final class Solution {
             }
         }
     }
-   } 
+}

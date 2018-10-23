@@ -81,7 +81,7 @@ public class Book implements Comparable<Book> {
      * @return     String representation of the object.
      */
     public String toString() {
-        String str =  this.bookname + "," +this.author + "," +this.price;
+        String str =  this.bookname + ","+" "+this.author + ","+" "+this.price;
         return str;
     }
 }
