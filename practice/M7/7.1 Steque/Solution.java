@@ -26,8 +26,10 @@ public final class Solution {
             Steque ss = new Steque();
             while (scan.hasNext()) {
                 String line = scan.nextLine();
-                if (line.length() == 0) 
+                if (line.length() == 0) {
+                    System.out.println();
                     break;
+                }
                 String[] tokens = line.split(" ");
                 switch (tokens[0]) {
                 case "pop":
