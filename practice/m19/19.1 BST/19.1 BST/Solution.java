@@ -48,7 +48,7 @@ public final class Solution {
 				System.out.println(binarysearcht.ceiling(book5));
 				break;
 				case "select" :
-				Book book6 = new Book(tokens[1],tokens[2],Double.parseDouble(tokens[3]));
+				//Book book6 = new Book(tokens[1],tokens[2],Double.parseDouble(tokens[3]));
 				System.out.println(binarysearcht.select(Integer.parseInt(tokens[4])));
 				break;
 
