@@ -21,6 +21,11 @@ public final class Solution {
     public static void main(final String[] args) {
         Scanner scan = new Scanner(System.in);
         BinarySearchT<Book, Integer> binarysearcht = new BinarySearchT<>();
+        final int ZERO = 0;
+        final int ONE = 1;
+        final int TWO = 2;
+        final int THREE = 3;
+        final int FOUR = 4;
         while (scan.hasNext()) {
             String[] tokens = scan.nextLine().split(",");
             switch (tokens[0]) {
@@ -53,9 +58,11 @@ public final class Solution {
                 System.out.println(binarysearcht.ceiling(book5));
                 break;
             case "select" :
-                //Book book6 = new Book(tokens[1],tokens[2],Double.parseDouble(tokens[3]));
-                System.out.println(binarysearcht.select(Integer.parseInt
-                                                        (tokens[1])));
+                //Book book6 = new Book(tokens[1],tokens[2],
+            //Double.parseDouble(tokens[3])); 
+            //not need to create object once check select function
+                System.out.println(
+                    binarysearcht.select(Integer.parseInt(tokens[1])));
                 break;
             default:
                 break;
@@ -67,3 +74,4 @@ public final class Solution {
     }
 
 }
+    
