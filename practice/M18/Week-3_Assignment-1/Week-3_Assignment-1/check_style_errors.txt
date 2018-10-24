@@ -18,5 +18,6 @@ Starting audit...
 [ERROR] H:\ADS1\practice\M18\Week-3_Assignment-1\Week-3_Assignment-1\Stock.java:23:11: 'if' is not followed by whitespace. [WhitespaceAround]
 [ERROR] H:\ADS1\practice\M18\Week-3_Assignment-1\Week-3_Assignment-1\Stock.java:26:11: 'if' is not followed by whitespace. [WhitespaceAround]
 [ERROR] H:\ADS1\practice\M18\Week-3_Assignment-1\Week-3_Assignment-1\Stock.java:26:12: '(' is followed by whitespace. [ParenPad]
+[ERROR] H:\ADS1\practice\M18\Week-3_Assignment-1\Week-3_Assignment-1\Stock.java:29:46: ';' is preceded with whitespace. [NoWhitespaceBefore]
 Audit done.
-Checkstyle ends with 19 errors.
+Checkstyle ends with 20 errors.

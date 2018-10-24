@@ -26,7 +26,6 @@ class Stock implements Comparable<Stock> {
         if( this.change > that.change) {
         	return 1;
         }
-        //return this.getName().compareTo(this.getName());
-        return 0;
+        return this.name.compareTo(that.name) ;
 	}
 }
