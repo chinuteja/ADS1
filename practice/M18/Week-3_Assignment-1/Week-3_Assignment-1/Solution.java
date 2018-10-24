@@ -21,6 +21,10 @@ public final class Solution {
 	public static void main(final String[] args) {
 		Scanner scan = new Scanner(System.in);
 		int n = Integer.parseInt(scan.nextLine());
+		 BinarySearchST<String,  Integer> maxObj =
+            new BinarySearchST<String, Integer>();
+        BinarySearchST<String, Integer> minObj =
+            new BinarySearchST<String, Integer>();
 		for (int i = 0; i < 6; i++) {
 			MaxPQ<Stock> best = new MaxPQ<Stock>(n);
 			MinPQ<Stock> least = new MinPQ<Stock>(n);
@@ -32,6 +36,7 @@ public final class Solution {
 			}
 			for (int k = 0; k < 5; k++) {
 				System.out.println(best.delMax());
+				//maxObj.put(best.delMax().getName(),);
 			}
 			System.out.println();
 			//binarysearchst.put(stock1, maxpq.delMax());
