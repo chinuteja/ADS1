@@ -8,8 +8,9 @@ Hello, Ajay, 200.0
 Algorithms, Bob Sedgewick, 6000.0
 Python, eric, 5000.0
 Your Output: 
-Error: Could not find or load main class Solution
-Caused by: java.lang.ClassNotFoundException: Solution
+1
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 1
+	at Solution.main(Solution.java:39)
 ----------------------------------------
 ########## Testcase 1: Failed ##########
 Expected Output: 
@@ -24,8 +25,8 @@ Street, Kiran, 800.0
 IT, Viswas, 400.0
 2
 Your Output: 
-Error: Could not find or load main class Solution
-Caused by: java.lang.ClassNotFoundException: Solution
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 1
+	at Solution.main(Solution.java:35)
 ----------------------------------------
 ########## Testcase 2: Failed ##########
 Expected Output: 
@@ -39,6 +40,6 @@ Harry, JK, 600.0
 Street, Kiran, 800.0
 7
 Your Output: 
-Error: Could not find or load main class Solution
-Caused by: java.lang.ClassNotFoundException: Solution
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 1
+	at Solution.main(Solution.java:39)
 ----------------------------------------
