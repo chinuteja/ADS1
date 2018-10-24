@@ -28,8 +28,7 @@ Starting audit...
 [ERROR] H:\ADS1\practice\m19\19.1 BST\19.1 BST\Solution.java:48: Line is longer than 80 characters (found 81). [LineLength]
 [ERROR] H:\ADS1\practice\m19\19.1 BST\19.1 BST\Solution.java:51: Line is longer than 80 characters (found 107). [LineLength]
 [ERROR] H:\ADS1\practice\m19\19.1 BST\19.1 BST\Solution.java:52: Line is longer than 80 characters (found 102). [LineLength]
-[ERROR] H:\ADS1\practice\m19\19.1 BST\19.1 BST\Solution.java:52:97: '4' is a magic number. [MagicNumber]
 [ERROR] H:\ADS1\practice\m19\19.1 BST\19.1 BST\Solution.java:56: Line has trailing spaces. [RegexpSingleline]
 [ERROR] H:\ADS1\practice\m19\19.1 BST\19.1 BST\Solution.java:58: Line has trailing spaces. [RegexpSingleline]
 Audit done.
-Checkstyle ends with 32 errors.
+Checkstyle ends with 31 errors.

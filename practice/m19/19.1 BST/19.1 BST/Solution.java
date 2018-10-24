@@ -49,7 +49,7 @@ public final class Solution {
 				break;
 				case "select" :
 				//Book book6 = new Book(tokens[1],tokens[2],Double.parseDouble(tokens[3]));
-				System.out.println(binarysearcht.select(Integer.parseInt(tokens[4])));
+				System.out.println(binarysearcht.select(Integer.parseInt(tokens[1])));
 				break;
 
 			}
