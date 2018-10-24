@@ -30,12 +30,12 @@ public final class Solution {
             best.insert(stock);
             least.insert(stock);
             }
-            for (int k = 0; k < 5; k++) {
+            for (int k = 0; k < 6; k++) {
             System.out.println(best.delMax());
             //binarysearchst.put(stock1, maxpq.delMax());
         }
         System.out.println();
-        for (int l = 0; l < 5; l++) {
+        for (int l = 0; l < 6; l++) {
             //System.out.println("min val" + minpq.delMin());
             //binarysearchst.put(stock1,minpq.delMin());
             System.out.println(least.delMin());
