@@ -35,11 +35,13 @@ public final class Solution {
                 System.out.println(binarysearcht.get(book1));
                 break;
             case "min":
-                //Book book1+1 = new Book(tokens[1],tokens[1+1],Double.parseDouble(tokens[2+1]));
+                //Book book1+1 = new Book(tokens[1],tokens[1+1],
+                //Double.parseDouble(tokens[2+1]));
                 System.out.println(binarysearcht.min());
                 break;
             case "max":
-                //Book book2+1 = new Book(tokens[1],tokens[1+1],Double.parseDouble(tokens[2+1]));
+                //Book book2+1 = new Book(tokens[1],tokens[1+1],
+                //Double.parseDouble(tokens[2+1]));
                 System.out.println(binarysearcht.max());
                 break;
             case "floor":
