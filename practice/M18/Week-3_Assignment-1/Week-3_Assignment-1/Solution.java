@@ -31,14 +31,14 @@ public final class Solution {
             least.insert(stock);
             }
             for (int k = 0; k < 5; k++) {
-            System.out.println("top five" +best.delMax());
+            System.out.println("top five" +" " +best.delMax());
             //binarysearchst.put(stock1, maxpq.delMax());
         }
         System.out.println();
         for (int l = 0; l < 5; l++) {
             //System.out.println("min val" + minpq.delMin());
             //binarysearchst.put(stock1,minpq.delMin());
-            System.out.println("bottom five" +least.delMin());
+            System.out.println("bottom five" +" "+least.delMin());
         }
             
 

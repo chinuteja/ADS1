@@ -72,11 +72,226 @@ Sanofi India 0.21
 Tasty Bite Eat 0.23
 WABCO India 0.33
 Your Output: 
-Exception in thread "main" java.lang.ClassCastException: Stock cannot be cast to java.base/java.lang.Comparable
-	at MaxPQ.less(MaxPQ.java:198)
-	at MaxPQ.swim(MaxPQ.java:165)
-	at MaxPQ.insert(MaxPQ.java:134)
-	at Solution.main(Solution.java:30)
+top five Bosch 0.3
+top five MRF 0.48
+top five Honeywell Auto 1.08
+top five 3M India 1.56
+top five Nestle India 1.57
+
+bottom five Eicher Motors 1.6
+bottom five Nestle India 1.57
+bottom five 3M India 1.56
+bottom five Honeywell Auto 1.08
+bottom five MRF 0.48
+top five Abbott India 0.46
+top five GSK Cons Health 0.84
+top five Sanofi India 1.21
+top five Tasty Bite Eat 1.23
+top five WABCO India 1.33
+
+bottom five TTK Prestige 2.15
+bottom five WABCO India 1.33
+bottom five Tasty Bite Eat 1.23
+bottom five Sanofi India 1.21
+bottom five GSK Cons Health 0.84
+top five Oracle Fin 0.52
+top five Bajaj Finserv 0.64
+top five Lakshmi Machine 0.7
+top five HEG Ltd 1.61
+top five Bharat Rasayan 2.0
+
+bottom five Schaeffler India 2.57
+bottom five Bharat Rasayan 2.0
+bottom five HEG Ltd 1.61
+bottom five Lakshmi Machine 0.7
+bottom five Bajaj Finserv 0.64
+top five Honeywell Auto -1.08
+top five Eicher Motors 0.6
+top five 3M India 2.56
+top five ICRA 2.84
+top five MRF 3.48
+
+bottom five Merck Ltd 4.83
+bottom five MRF 3.48
+bottom five ICRA 2.84
+bottom five 3M India 2.56
+bottom five Eicher Motors 0.6
+top five WABCO India 0.33
+top five GSK Cons Health 0.84
+top five Bosch 1.3
+top five Abbott India 1.46
+top five Tasty Bite Eat 2.23
+
+bottom five Nestle India 4.57
+bottom five Tasty Bite Eat 2.23
+bottom five Abbott India 1.46
+bottom five Bosch 1.3
+bottom five GSK Cons Health 0.84
+top five TTK Prestige 0.15
+top five Lakshmi Machine 1.7
+top five Bharat Rasayan 2.0
+top five Sanofi India 2.21
+top five Schaeffler India 4.59
+
+bottom five Bajaj Finserv 5.64
+bottom five Schaeffler India 4.59
+bottom five Sanofi India 2.21
+bottom five Bharat Rasayan 2.0
+bottom five Lakshmi Machine 1.7
+top five MRF 1.48
+top five Oracle Fin 1.52
+top five 3M India 1.56
+top five HEG Ltd 2.61
+top five ICRA 4.84
+
+bottom five Merck Ltd 5.83
+bottom five ICRA 4.84
+bottom five HEG Ltd 2.61
+bottom five 3M India 1.56
+bottom five Oracle Fin 1.52
+top five Abbott India 0.46
+top five Honeywell Auto 1.08
+top five Eicher Motors 1.6
+top five Bosch 2.3
+top five Nestle India 4.57
+
+bottom five Tasty Bite Eat 5.23
+bottom five Nestle India 4.57
+bottom five Bosch 2.3
+bottom five Eicher Motors 1.6
+bottom five Honeywell Auto 1.08
+top five WABCO India -1.33
+top five Sanofi India -1.21
+top five GSK Cons Health -0.84
+top five TTK Prestige 2.15
+top five Lakshmi Machine 3.7
+
+bottom five Bajaj Finserv 4.64
+bottom five Lakshmi Machine 3.7
+bottom five TTK Prestige 2.15
+bottom five GSK Cons Health -0.84
+bottom five Sanofi India -1.21
+top five Oracle Fin 0.52
+top five HEG Ltd 1.61
+top five Merck Ltd 1.83
+top five Bharat Rasayan 2.0
+top five Schaeffler India 2.57
+
+bottom five ICRA 3.84
+bottom five Schaeffler India 2.57
+bottom five Bharat Rasayan 2.0
+bottom five Merck Ltd 1.83
+bottom five HEG Ltd 1.61
+top five Eicher Motors -1.6
+top five Nestle India -1.57
+top five Honeywell Auto -1.08
+top five Bosch -0.3
+top five 3M India 2.56
+
+bottom five MRF 3.48
+bottom five 3M India 2.56
+bottom five Bosch -0.3
+bottom five Honeywell Auto -1.08
+bottom five Nestle India -1.57
+top five TTK Prestige -2.15
+top five WABCO India -1.33
+top five Tasty Bite Eat -1.23
+top five Sanofi India -1.21
+top five GSK Cons Health -0.84
+
+bottom five Abbott India -0.46
+bottom five GSK Cons Health -0.84
+bottom five Sanofi India -1.21
+bottom five Tasty Bite Eat -1.23
+bottom five WABCO India -1.33
+top five Schaeffler India -2.57
+top five Bharat Rasayan -2.0
+top five HEG Ltd -1.61
+top five Lakshmi Machine -0.7
+top five Bajaj Finserv -0.64
+
+bottom five Oracle Fin -0.52
+bottom five Bajaj Finserv -0.64
+bottom five Lakshmi Machine -0.7
+bottom five HEG Ltd -1.61
+bottom five Bharat Rasayan -2.0
+top five ICRA -2.84
+top five MRF 0.48
+top five Honeywell Auto 1.08
+top five 3M India 1.56
+top five Eicher Motors 1.6
+
+bottom five Merck Ltd 4.83
+bottom five Eicher Motors 1.6
+bottom five 3M India 1.56
+bottom five Honeywell Auto 1.08
+bottom five MRF 0.48
+top five Bosch 0.3
+top five Abbott India 0.46
+top five GSK Cons Health 0.84
+top five Tasty Bite Eat 1.23
+top five WABCO India 1.33
+
+bottom five Nestle India 1.57
+bottom five WABCO India 1.33
+bottom five Tasty Bite Eat 1.23
+bottom five GSK Cons Health 0.84
+bottom five Abbott India 0.46
+top five Bajaj Finserv 0.64
+top five Lakshmi Machine 0.7
+top five Sanofi India 1.21
+top five Bharat Rasayan 2.0
+top five TTK Prestige 2.15
+
+bottom five Schaeffler India 2.57
+bottom five TTK Prestige 2.15
+bottom five Bharat Rasayan 2.0
+bottom five Sanofi India 1.21
+bottom five Lakshmi Machine 0.7
+top five Oracle Fin 0.52
+top five MRF 1.48
+top five 3M India 1.56
+top five HEG Ltd 1.61
+top five ICRA 2.84
+
+bottom five Merck Ltd 4.83
+bottom five ICRA 2.84
+bottom five HEG Ltd 1.61
+bottom five 3M India 1.56
+bottom five MRF 1.48
+top five Eicher Motors -1.6
+top five Honeywell Auto -1.08
+top five Tasty Bite Eat 0.23
+top five Bosch 0.34
+top five Abbott India 1.46
+
+bottom five Nestle India 1.57
+bottom five Abbott India 1.46
+bottom five Bosch 0.34
+bottom five Tasty Bite Eat 0.23
+bottom five Honeywell Auto -1.08
+top five Sanofi India 0.21
+top five WABCO India 0.33
+top five GSK Cons Health 1.84
+top five TTK Prestige 3.15
+top five Bajaj Finserv 3.64
+
+bottom five Lakshmi Machine 4.7
+bottom five Bajaj Finserv 3.64
+bottom five TTK Prestige 3.15
+bottom five GSK Cons Health 1.84
+bottom five WABCO India 0.33
+top five Oracle Fin 1.52
+top five Schaeffler India 1.57
+top five HEG Ltd 1.61
+top five Bharat Rasayan 2.0
+top five Merck Ltd 3.83
+
+bottom five ICRA 5.84
+bottom five Merck Ltd 3.83
+bottom five Bharat Rasayan 2.0
+bottom five HEG Ltd 1.61
+bottom five Schaeffler India 1.57
 ----------------------------------------
 ########## Testcase 1: Failed ##########
 Expected Output: 
@@ -152,11 +367,116 @@ Fine Organic Industries Ltd. 0.29
 Vinati Organics 1.03
 Chola Inv Fin 1.47
 Your Output: 
-Exception in thread "main" java.lang.ClassCastException: Stock cannot be cast to java.base/java.lang.Comparable
-	at MaxPQ.less(MaxPQ.java:198)
-	at MaxPQ.swim(MaxPQ.java:165)
-	at MaxPQ.insert(MaxPQ.java:134)
-	at Solution.main(Solution.java:30)
+top five Nalwa Sons Invst -0.06
+top five Jubilant Food 0.08
+top five Endurance Technologies Ltd. 0.1
+top five APL Apollo Tube 3.18
+top five Vinati Organics 4.03
+
+bottom five Larsen & Toubro 4.11
+bottom five Vinati Organics 4.03
+bottom five APL Apollo Tube 3.18
+bottom five Endurance Technologies Ltd. 0.1
+bottom five Jubilant Food 0.08
+top five NIIT Tech 0.21
+top five Ceat 0.23
+top five Chola Inv Fin 1.47
+top five APL Apollo Tube 2.18
+top five Fine Organic Industries Ltd. 2.29
+
+bottom five Larsen & Toubro 4.08
+bottom five Fine Organic Industries Ltd. 2.29
+bottom five APL Apollo Tube 2.18
+bottom five Chola Inv Fin 1.47
+bottom five Ceat 0.23
+top five Nalwa Sons Invst -0.06
+top five Endurance Technologies Ltd. 1.1
+top five Chola Inv Fin 2.47
+top five Vinati Organics 3.03
+top five NIIT Tech 3.21
+
+bottom five Jubilant Food 4.08
+bottom five NIIT Tech 3.21
+bottom five Vinati Organics 3.03
+bottom five Chola Inv Fin 2.47
+bottom five Endurance Technologies Ltd. 1.1
+top five Ceat -0.06
+top five APL Apollo Tube 0.18
+top five Larsen & Toubro 1.11
+top five Fine Organic Industries Ltd. 1.29
+top five Vinati Organics 4.03
+
+bottom five Jubilant Food 4.08
+bottom five Vinati Organics 4.03
+bottom five Fine Organic Industries Ltd. 1.29
+bottom five Larsen & Toubro 1.11
+bottom five APL Apollo Tube 0.18
+top five Nalwa Sons Invst -0.06
+top five NIIT Tech 0.21
+top five Ceat 0.23
+top five Endurance Technologies Ltd. 1.1
+top five Fine Organic Industries Ltd. 3.29
+
+bottom five Chola Inv Fin 4.47
+bottom five Fine Organic Industries Ltd. 3.29
+bottom five Endurance Technologies Ltd. 1.1
+bottom five Ceat 0.23
+bottom five NIIT Tech 0.21
+top five Larsen & Toubro -4.11
+top five Endurance Technologies Ltd. -0.1
+top five Nalwa Sons Invst -0.1
+top five Jubilant Food 0.08
+top five Vinati Organics 1.03
+
+bottom five APL Apollo Tube 2.18
+bottom five Vinati Organics 1.03
+bottom five Jubilant Food 0.08
+bottom five Endurance Technologies Ltd. -0.1
+bottom five Nalwa Sons Invst -0.1
+top five NIIT Tech 0.34
+top five Ceat 1.23
+top five APL Apollo Tube 2.18
+top five Larsen & Toubro 3.11
+top five Fine Organic Industries Ltd. 3.29
+
+bottom five Chola Inv Fin 3.47
+bottom five Fine Organic Industries Ltd. 3.29
+bottom five Larsen & Toubro 3.11
+bottom five APL Apollo Tube 2.18
+bottom five Ceat 1.23
+top five Nalwa Sons Invst -2.06
+top five Chola Inv Fin 0.47
+top five Vinati Organics 1.03
+top five Endurance Technologies Ltd. 1.1
+top five NIIT Tech 1.21
+
+bottom five Jubilant Food 2.08
+bottom five NIIT Tech 1.21
+bottom five Endurance Technologies Ltd. 1.1
+bottom five Vinati Organics 1.03
+bottom five Chola Inv Fin 0.47
+top five Fine Organic Industries Ltd. 0.29
+top five Vinati Organics 1.03
+top five Ceat 1.23
+top five APL Apollo Tube 2.18
+top five Jubilant Food 5.08
+
+bottom five Larsen & Toubro 5.11
+bottom five Jubilant Food 5.08
+bottom five APL Apollo Tube 2.18
+bottom five Ceat 1.23
+bottom five Vinati Organics 1.03
+top five Ceat -1.23
+top five NIIT Tech 0.21
+top five Fine Organic Industries Ltd. 0.29
+top five Chola Inv Fin 1.47
+top five Nalwa Sons Invst 4.06
+
+bottom five Endurance Technologies Ltd. 4.1
+bottom five Nalwa Sons Invst 4.06
+bottom five Chola Inv Fin 1.47
+bottom five Fine Organic Industries Ltd. 0.29
+bottom five NIIT Tech 0.21
 ----------------------------------------
 ########## Testcase 2: Failed ##########
 Expected Output: 
@@ -237,11 +557,226 @@ WABCO India 0.33
 1
 3
 Your Output: 
-Exception in thread "main" java.lang.ClassCastException: Stock cannot be cast to java.base/java.lang.Comparable
-	at MaxPQ.less(MaxPQ.java:198)
-	at MaxPQ.swim(MaxPQ.java:165)
-	at MaxPQ.insert(MaxPQ.java:134)
-	at Solution.main(Solution.java:30)
+top five Bosch 0.3
+top five MRF 0.48
+top five Honeywell Auto 1.08
+top five 3M India 1.56
+top five Nestle India 1.57
+
+bottom five Eicher Motors 1.6
+bottom five Nestle India 1.57
+bottom five 3M India 1.56
+bottom five Honeywell Auto 1.08
+bottom five MRF 0.48
+top five Abbott India 0.46
+top five GSK Cons Health 0.84
+top five Sanofi India 1.21
+top five Tasty Bite Eat 1.23
+top five WABCO India 1.33
+
+bottom five TTK Prestige 2.15
+bottom five WABCO India 1.33
+bottom five Tasty Bite Eat 1.23
+bottom five Sanofi India 1.21
+bottom five GSK Cons Health 0.84
+top five Oracle Fin 0.52
+top five Bajaj Finserv 0.64
+top five Lakshmi Machine 0.7
+top five HEG Ltd 1.61
+top five Bharat Rasayan 2.0
+
+bottom five Schaeffler India 2.57
+bottom five Bharat Rasayan 2.0
+bottom five HEG Ltd 1.61
+bottom five Lakshmi Machine 0.7
+bottom five Bajaj Finserv 0.64
+top five Honeywell Auto -1.08
+top five Eicher Motors 0.6
+top five 3M India 2.56
+top five ICRA 2.84
+top five MRF 3.48
+
+bottom five Merck Ltd 4.83
+bottom five MRF 3.48
+bottom five ICRA 2.84
+bottom five 3M India 2.56
+bottom five Eicher Motors 0.6
+top five WABCO India 0.33
+top five GSK Cons Health 0.84
+top five Bosch 1.3
+top five Abbott India 1.46
+top five Tasty Bite Eat 2.23
+
+bottom five Nestle India 4.57
+bottom five Tasty Bite Eat 2.23
+bottom five Abbott India 1.46
+bottom five Bosch 1.3
+bottom five GSK Cons Health 0.84
+top five TTK Prestige 0.15
+top five Lakshmi Machine 1.7
+top five Bharat Rasayan 2.0
+top five Sanofi India 2.21
+top five Schaeffler India 4.59
+
+bottom five Bajaj Finserv 5.64
+bottom five Schaeffler India 4.59
+bottom five Sanofi India 2.21
+bottom five Bharat Rasayan 2.0
+bottom five Lakshmi Machine 1.7
+top five MRF 1.48
+top five Oracle Fin 1.52
+top five 3M India 1.56
+top five HEG Ltd 2.61
+top five ICRA 4.84
+
+bottom five Merck Ltd 5.83
+bottom five ICRA 4.84
+bottom five HEG Ltd 2.61
+bottom five 3M India 1.56
+bottom five Oracle Fin 1.52
+top five Abbott India 0.46
+top five Honeywell Auto 1.08
+top five Eicher Motors 1.6
+top five Bosch 2.3
+top five Nestle India 4.57
+
+bottom five Tasty Bite Eat 5.23
+bottom five Nestle India 4.57
+bottom five Bosch 2.3
+bottom five Eicher Motors 1.6
+bottom five Honeywell Auto 1.08
+top five WABCO India -1.33
+top five Sanofi India -1.21
+top five GSK Cons Health -0.84
+top five TTK Prestige 2.15
+top five Lakshmi Machine 3.7
+
+bottom five Bajaj Finserv 4.64
+bottom five Lakshmi Machine 3.7
+bottom five TTK Prestige 2.15
+bottom five GSK Cons Health -0.84
+bottom five Sanofi India -1.21
+top five Oracle Fin 0.52
+top five HEG Ltd 1.61
+top five Merck Ltd 1.83
+top five Bharat Rasayan 2.0
+top five Schaeffler India 2.57
+
+bottom five ICRA 3.84
+bottom five Schaeffler India 2.57
+bottom five Bharat Rasayan 2.0
+bottom five Merck Ltd 1.83
+bottom five HEG Ltd 1.61
+top five Eicher Motors -1.6
+top five Nestle India -1.57
+top five Honeywell Auto -1.08
+top five Bosch -0.3
+top five 3M India 2.56
+
+bottom five MRF 3.48
+bottom five 3M India 2.56
+bottom five Bosch -0.3
+bottom five Honeywell Auto -1.08
+bottom five Nestle India -1.57
+top five TTK Prestige -2.15
+top five WABCO India -1.33
+top five Tasty Bite Eat -1.23
+top five Sanofi India -1.21
+top five GSK Cons Health -0.84
+
+bottom five Abbott India -0.46
+bottom five GSK Cons Health -0.84
+bottom five Sanofi India -1.21
+bottom five Tasty Bite Eat -1.23
+bottom five WABCO India -1.33
+top five Schaeffler India -2.57
+top five Bharat Rasayan -2.0
+top five HEG Ltd -1.61
+top five Lakshmi Machine -0.7
+top five Bajaj Finserv -0.64
+
+bottom five Oracle Fin -0.52
+bottom five Bajaj Finserv -0.64
+bottom five Lakshmi Machine -0.7
+bottom five HEG Ltd -1.61
+bottom five Bharat Rasayan -2.0
+top five ICRA -2.84
+top five MRF 0.48
+top five Honeywell Auto 1.08
+top five 3M India 1.56
+top five Eicher Motors 1.6
+
+bottom five Merck Ltd 4.83
+bottom five Eicher Motors 1.6
+bottom five 3M India 1.56
+bottom five Honeywell Auto 1.08
+bottom five MRF 0.48
+top five Bosch 0.3
+top five Abbott India 0.46
+top five GSK Cons Health 0.84
+top five Tasty Bite Eat 1.23
+top five WABCO India 1.33
+
+bottom five Nestle India 1.57
+bottom five WABCO India 1.33
+bottom five Tasty Bite Eat 1.23
+bottom five GSK Cons Health 0.84
+bottom five Abbott India 0.46
+top five Bajaj Finserv 0.64
+top five Lakshmi Machine 0.7
+top five Sanofi India 1.21
+top five Bharat Rasayan 2.0
+top five TTK Prestige 2.15
+
+bottom five Schaeffler India 2.57
+bottom five TTK Prestige 2.15
+bottom five Bharat Rasayan 2.0
+bottom five Sanofi India 1.21
+bottom five Lakshmi Machine 0.7
+top five Oracle Fin 0.52
+top five MRF 1.48
+top five 3M India 1.56
+top five HEG Ltd 1.61
+top five ICRA 2.84
+
+bottom five Merck Ltd 4.83
+bottom five ICRA 2.84
+bottom five HEG Ltd 1.61
+bottom five 3M India 1.56
+bottom five MRF 1.48
+top five Eicher Motors -1.6
+top five Honeywell Auto -1.08
+top five Tasty Bite Eat 0.23
+top five Bosch 0.34
+top five Abbott India 1.46
+
+bottom five Nestle India 1.57
+bottom five Abbott India 1.46
+bottom five Bosch 0.34
+bottom five Tasty Bite Eat 0.23
+bottom five Honeywell Auto -1.08
+top five Sanofi India 0.21
+top five WABCO India 0.33
+top five GSK Cons Health 1.84
+top five TTK Prestige 3.15
+top five Bajaj Finserv 3.64
+
+bottom five Lakshmi Machine 4.7
+bottom five Bajaj Finserv 3.64
+bottom five TTK Prestige 3.15
+bottom five GSK Cons Health 1.84
+bottom five WABCO India 0.33
+top five Oracle Fin 1.52
+top five Schaeffler India 1.57
+top five HEG Ltd 1.61
+top five Bharat Rasayan 2.0
+top five Merck Ltd 3.83
+
+bottom five ICRA 5.84
+bottom five Merck Ltd 3.83
+bottom five Bharat Rasayan 2.0
+bottom five HEG Ltd 1.61
+bottom five Schaeffler India 1.57
 ----------------------------------------
 ########## Testcase 3: Failed ##########
 Expected Output: 
@@ -322,11 +857,116 @@ Chola Inv Fin 1.47
 4
 0
 Your Output: 
-Exception in thread "main" java.lang.ClassCastException: Stock cannot be cast to java.base/java.lang.Comparable
-	at MaxPQ.less(MaxPQ.java:198)
-	at MaxPQ.swim(MaxPQ.java:165)
-	at MaxPQ.insert(MaxPQ.java:134)
-	at Solution.main(Solution.java:30)
+top five Nalwa Sons Invst -0.06
+top five Jubilant Food 0.08
+top five Endurance Technologies Ltd. 0.1
+top five APL Apollo Tube 3.18
+top five Vinati Organics 4.03
+
+bottom five Larsen & Toubro 4.11
+bottom five Vinati Organics 4.03
+bottom five APL Apollo Tube 3.18
+bottom five Endurance Technologies Ltd. 0.1
+bottom five Jubilant Food 0.08
+top five NIIT Tech 0.21
+top five Ceat 0.23
+top five Chola Inv Fin 1.47
+top five APL Apollo Tube 2.18
+top five Fine Organic Industries Ltd. 2.29
+
+bottom five Larsen & Toubro 4.08
+bottom five Fine Organic Industries Ltd. 2.29
+bottom five APL Apollo Tube 2.18
+bottom five Chola Inv Fin 1.47
+bottom five Ceat 0.23
+top five Nalwa Sons Invst -0.06
+top five Endurance Technologies Ltd. 1.1
+top five Chola Inv Fin 2.47
+top five Vinati Organics 3.03
+top five NIIT Tech 3.21
+
+bottom five Jubilant Food 4.08
+bottom five NIIT Tech 3.21
+bottom five Vinati Organics 3.03
+bottom five Chola Inv Fin 2.47
+bottom five Endurance Technologies Ltd. 1.1
+top five Ceat -0.06
+top five APL Apollo Tube 0.18
+top five Larsen & Toubro 1.11
+top five Fine Organic Industries Ltd. 1.29
+top five Vinati Organics 4.03
+
+bottom five Jubilant Food 4.08
+bottom five Vinati Organics 4.03
+bottom five Fine Organic Industries Ltd. 1.29
+bottom five Larsen & Toubro 1.11
+bottom five APL Apollo Tube 0.18
+top five Nalwa Sons Invst -0.06
+top five NIIT Tech 0.21
+top five Ceat 0.23
+top five Endurance Technologies Ltd. 1.1
+top five Fine Organic Industries Ltd. 3.29
+
+bottom five Chola Inv Fin 4.47
+bottom five Fine Organic Industries Ltd. 3.29
+bottom five Endurance Technologies Ltd. 1.1
+bottom five Ceat 0.23
+bottom five NIIT Tech 0.21
+top five Larsen & Toubro -4.11
+top five Endurance Technologies Ltd. -0.1
+top five Nalwa Sons Invst -0.1
+top five Jubilant Food 0.08
+top five Vinati Organics 1.03
+
+bottom five APL Apollo Tube 2.18
+bottom five Vinati Organics 1.03
+bottom five Jubilant Food 0.08
+bottom five Endurance Technologies Ltd. -0.1
+bottom five Nalwa Sons Invst -0.1
+top five NIIT Tech 0.34
+top five Ceat 1.23
+top five APL Apollo Tube 2.18
+top five Larsen & Toubro 3.11
+top five Fine Organic Industries Ltd. 3.29
+
+bottom five Chola Inv Fin 3.47
+bottom five Fine Organic Industries Ltd. 3.29
+bottom five Larsen & Toubro 3.11
+bottom five APL Apollo Tube 2.18
+bottom five Ceat 1.23
+top five Nalwa Sons Invst -2.06
+top five Chola Inv Fin 0.47
+top five Vinati Organics 1.03
+top five Endurance Technologies Ltd. 1.1
+top five NIIT Tech 1.21
+
+bottom five Jubilant Food 2.08
+bottom five NIIT Tech 1.21
+bottom five Endurance Technologies Ltd. 1.1
+bottom five Vinati Organics 1.03
+bottom five Chola Inv Fin 0.47
+top five Fine Organic Industries Ltd. 0.29
+top five Vinati Organics 1.03
+top five Ceat 1.23
+top five APL Apollo Tube 2.18
+top five Jubilant Food 5.08
+
+bottom five Larsen & Toubro 5.11
+bottom five Jubilant Food 5.08
+bottom five APL Apollo Tube 2.18
+bottom five Ceat 1.23
+bottom five Vinati Organics 1.03
+top five Ceat -1.23
+top five NIIT Tech 0.21
+top five Fine Organic Industries Ltd. 0.29
+top five Chola Inv Fin 1.47
+top five Nalwa Sons Invst 4.06
+
+bottom five Endurance Technologies Ltd. 4.1
+bottom five Nalwa Sons Invst 4.06
+bottom five Chola Inv Fin 1.47
+bottom five Fine Organic Industries Ltd. 0.29
+bottom five NIIT Tech 0.21
 ----------------------------------------
 ########## Testcase 4: Failed ##########
 Expected Output: 
@@ -422,9 +1062,224 @@ Schaeffler India
 TTK Prestige
 Tasty Bite Eat
 Your Output: 
-Exception in thread "main" java.lang.ClassCastException: Stock cannot be cast to java.base/java.lang.Comparable
-	at MaxPQ.less(MaxPQ.java:198)
-	at MaxPQ.swim(MaxPQ.java:165)
-	at MaxPQ.insert(MaxPQ.java:134)
-	at Solution.main(Solution.java:30)
+top five Bosch 0.3
+top five MRF 0.48
+top five Honeywell Auto 1.08
+top five 3M India 1.56
+top five Nestle India 1.57
+
+bottom five Eicher Motors 1.6
+bottom five Nestle India 1.57
+bottom five 3M India 1.56
+bottom five Honeywell Auto 1.08
+bottom five MRF 0.48
+top five Abbott India 0.48
+top five GSK Cons Health 0.84
+top five Sanofi India 1.21
+top five Tasty Bite Eat 1.23
+top five WABCO India 1.33
+
+bottom five TTK Prestige 2.15
+bottom five WABCO India 1.33
+bottom five Tasty Bite Eat 1.23
+bottom five Sanofi India 1.21
+bottom five GSK Cons Health 0.84
+top five Oracle Fin 0.52
+top five Bajaj Finserv 0.64
+top five Lakshmi Machine 0.7
+top five HEG Ltd 1.61
+top five Bharat Rasayan 2.0
+
+bottom five Schaeffler India 2.57
+bottom five Bharat Rasayan 2.0
+bottom five HEG Ltd 1.61
+bottom five Lakshmi Machine 0.7
+bottom five Bajaj Finserv 0.64
+top five Honeywell Auto -1.08
+top five Eicher Motors 0.0
+top five ICRA 2.15
+top five 3M India 2.56
+top five MRF 3.48
+
+bottom five Merck Ltd 4.83
+bottom five MRF 3.48
+bottom five 3M India 2.56
+bottom five ICRA 2.15
+bottom five Eicher Motors 0.0
+top five Abbott India 0.0
+top five WABCO India 0.33
+top five GSK Cons Health 0.84
+top five Bosch 2.15
+top five Tasty Bite Eat 2.23
+
+bottom five Nestle India 4.0
+bottom five Tasty Bite Eat 2.23
+bottom five Bosch 2.15
+bottom five GSK Cons Health 0.84
+bottom five WABCO India 0.33
+top five TTK Prestige 0.0
+top five Lakshmi Machine 1.75
+top five Bharat Rasayan 2.0
+top five Sanofi India 4.0
+top five Schaeffler India 4.59
+
+bottom five Bajaj Finserv 5.64
+bottom five Schaeffler India 4.59
+bottom five Sanofi India 4.0
+bottom five Bharat Rasayan 2.0
+bottom five Lakshmi Machine 1.75
+top five Merck Ltd -5.83
+top five 3M India -1.56
+top five MRF 1.48
+top five Oracle Fin 1.52
+top five HEG Ltd 2.61
+
+bottom five ICRA 4.0
+bottom five HEG Ltd 2.61
+bottom five Oracle Fin 1.52
+bottom five MRF 1.48
+bottom five 3M India -1.56
+top five Eicher Motors -1.6
+top five Honeywell Auto -1.08
+top five Abbott India 0.46
+top five Bosch 2.3
+top five Nestle India 4.57
+
+bottom five Tasty Bite Eat 5.23
+bottom five Nestle India 4.57
+bottom five Bosch 2.3
+bottom five Abbott India 0.46
+bottom five Honeywell Auto -1.08
+top five Bajaj Finserv -4.64
+top five WABCO India -1.33
+top five Sanofi India -1.21
+top five GSK Cons Health -0.84
+top five TTK Prestige 2.15
+
+bottom five Lakshmi Machine 3.7
+bottom five TTK Prestige 2.15
+bottom five GSK Cons Health -0.84
+bottom five Sanofi India -1.21
+bottom five WABCO India -1.33
+top five Schaeffler India -2.57
+top five Bharat Rasayan -2.0
+top five Merck Ltd -1.61
+top five Oracle Fin -1.61
+top five HEG Ltd -1.61
+
+bottom five ICRA 3.84
+bottom five HEG Ltd -1.61
+bottom five Oracle Fin -1.61
+bottom five Merck Ltd -1.61
+bottom five Bharat Rasayan -2.0
+top five Eicher Motors -1.6
+top five Nestle India -1.57
+top five Honeywell Auto -1.08
+top five Bosch -0.3
+top five 3M India 2.56
+
+bottom five MRF 3.48
+bottom five 3M India 2.56
+bottom five Bosch -0.3
+bottom five Honeywell Auto -1.08
+bottom five Nestle India -1.57
+top five TTK Prestige -2.15
+top five WABCO India -1.33
+top five Tasty Bite Eat -1.23
+top five Sanofi India -1.21
+top five GSK Cons Health -0.84
+
+bottom five Abbott India -0.46
+bottom five GSK Cons Health -0.84
+bottom five Sanofi India -1.21
+bottom five Tasty Bite Eat -1.23
+bottom five WABCO India -1.33
+top five Schaeffler India -2.57
+top five Bharat Rasayan -2.0
+top five HEG Ltd -1.61
+top five Lakshmi Machine -0.7
+top five Bajaj Finserv -0.64
+
+bottom five Oracle Fin -0.52
+bottom five Bajaj Finserv -0.64
+bottom five Lakshmi Machine -0.7
+bottom five HEG Ltd -1.61
+bottom five Bharat Rasayan -2.0
+top five ICRA -2.84
+top five MRF 0.48
+top five Honeywell Auto 1.08
+top five 3M India 1.56
+top five Eicher Motors 1.6
+
+bottom five Merck Ltd 4.83
+bottom five Eicher Motors 1.6
+bottom five 3M India 1.56
+bottom five Honeywell Auto 1.08
+bottom five MRF 0.48
+top five Bosch 0.3
+top five Abbott India 0.46
+top five GSK Cons Health 0.84
+top five Tasty Bite Eat 1.23
+top five WABCO India 1.33
+
+bottom five Nestle India 1.57
+bottom five WABCO India 1.33
+bottom five Tasty Bite Eat 1.23
+bottom five GSK Cons Health 0.84
+bottom five Abbott India 0.46
+top five Bajaj Finserv 0.64
+top five Lakshmi Machine 0.7
+top five Sanofi India 1.21
+top five Bharat Rasayan 2.0
+top five TTK Prestige 2.15
+
+bottom five Schaeffler India 2.57
+bottom five TTK Prestige 2.15
+bottom five Bharat Rasayan 2.0
+bottom five Sanofi India 1.21
+bottom five Lakshmi Machine 0.7
+top five Oracle Fin 0.52
+top five MRF 1.48
+top five 3M India 1.56
+top five HEG Ltd 1.61
+top five ICRA 2.84
+
+bottom five Merck Ltd 4.83
+bottom five ICRA 2.84
+bottom five HEG Ltd 1.61
+bottom five 3M India 1.56
+bottom five MRF 1.48
+top five Eicher Motors -1.6
+top five Honeywell Auto -1.08
+top five Tasty Bite Eat 0.23
+top five Bosch 0.34
+top five Abbott India 1.46
+
+bottom five Nestle India 1.57
+bottom five Abbott India 1.46
+bottom five Bosch 0.34
+bottom five Tasty Bite Eat 0.23
+bottom five Honeywell Auto -1.08
+top five Sanofi India 0.21
+top five WABCO India 0.33
+top five GSK Cons Health 1.84
+top five TTK Prestige 3.15
+top five Bajaj Finserv 3.64
+
+bottom five Lakshmi Machine 4.7
+bottom five Bajaj Finserv 3.64
+bottom five TTK Prestige 3.15
+bottom five GSK Cons Health 1.84
+bottom five WABCO India 0.33
+top five Oracle Fin 1.52
+top five Schaeffler India 1.57
+top five HEG Ltd 1.61
+top five Bharat Rasayan 2.0
+top five Merck Ltd 3.83
+
+bottom five ICRA 5.84
+bottom five Merck Ltd 3.83
+bottom five Bharat Rasayan 2.0
+bottom five HEG Ltd 1.61
+bottom five Schaeffler India 1.57
 ----------------------------------------
