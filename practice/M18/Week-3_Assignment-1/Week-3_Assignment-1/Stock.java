@@ -20,10 +20,10 @@ class Stock implements Comparable<Stock> {
 	}
 	
 	public int compareTo(Stock that) {
-        if(this.change > that.change) {
+        if(this.change < that.change) {
         	return -1;
         }
-        if( this.change < that.change) {
+        if( this.change > that.change) {
         	return 1;
         }
         return this.getName().compareTo(this.getName());
