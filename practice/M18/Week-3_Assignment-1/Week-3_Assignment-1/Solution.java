@@ -1,51 +1,48 @@
-/**.
- * { imports the Scanner packagae }
+/**
+ * @author Teja.
+ * { item_description }
  */
 import java.util.Scanner;
-/**.
- * { This is the class used to find the
- *  top five and bottom five stock exchanges of given N companies }
+/**
+ * Solution class contain main method.
  */
-public final class  Solution {
-    /**.
-     * Default constructor
-     * @author Teja
-     */
-    private Solution() {
+public final class Solution {
+	/**
+	 * Constructs the object for solution.
+	 */
+	private Solution() {
 
-    }
-    /**.
-     * to demonstrate the solution
-     *
-     * @param      args  command line arguments
-     */
-    public static void main(String[] args) {
+	}
+	/**
+	 * main method is used to handle the inputs.
+	 *
+	 * @param      args  The command line arguments
+	 */
+	public static void main(final String[] args) {
         Scanner scan = new Scanner(System.in);
         int n = Integer.parseInt(scan.nextLine());
-        // BinarySearchST<Stock, Double>  binarysearchst =
-        //     new BinarySearchST<Stock, Double>(n);
-        MinPQ<Double> minpq = new MinPQ<Double>(n);
-        MaxPQ<Double> maxpq = new MaxPQ<Double>(n);
-        for (int i = 0; i < n; i++ ) {
+        for (int i = 0; i < n; i++) {
+            MaxPQ<Stock> best = new MaxPQ<Stock>(n);
+            MinPQ<Stock> least = new MinPQ<Stock>(n);
+            for(int j = 0; j < 6; j++) {
             String[] tokens = scan.nextLine().split(",");
             Stock stock = new Stock(tokens[0], Double.parseDouble(tokens[1]));
-            minpq.insert(Double.parseDouble(tokens[1]));
-            maxpq.insert(Double.parseDouble(tokens[1]));
-        }
-        // binarysearchst.put(stock, maxpq.delMax());
-        // binarysearchst.put(stock, minpq.delMin());
-        //     System.out.println(binarysearchst.toString());
-        //Stock stock1 = new Stock();
-        for (int i = 0; i < 5; i++) {
-            System.out.println("top five" +maxpq.delMax());
+            best.insert(stock);
+            least.insert(stock);
+            }
+            for (int k = 0; k < 5; k++) {
+            System.out.println("top five" +best.delMax());
             //binarysearchst.put(stock1, maxpq.delMax());
         }
         System.out.println();
-        for (int i = 0; i < 5; i++) {
+        for (int l = 0; l < 5; l++) {
             //System.out.println("min val" + minpq.delMin());
             //binarysearchst.put(stock1,minpq.delMin());
-            System.out.println("bottom five" +minpq.delMin());
+            System.out.println("bottom five" +least.delMin());
+        }
+            
+
         }
 
-    }
+	}
 }
