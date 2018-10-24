@@ -19,24 +19,26 @@ public final class Solution {
 	 * @param      args  The command line arguments
 	 */
 	public static void main(final String[] args) {
-        Scanner scan = new Scanner(System.in);
-        int n = Integer.parseInt(scan.nextLine());
-        for (int i = 0; i < 6; i++) {
-            MaxPQ<Stock> best = new MaxPQ<Stock>(n);
-            MinPQ<Stock> least = new MinPQ<Stock>(n);
-            for(int j = 0; j < n; j++) {
-            String[] tokens = scan.nextLine().split(",");
-            Stock stock = new Stock(tokens[0], Double.parseDouble(tokens[1]));
-            best.insert(stock);
-            least.insert(stock);
-            }
-            for (int k = 0; k < 5; k++) {
-            	System.out.println(best.delMax());
-            System.out.println();}
-            //binarysearchst.put(stock1, maxpq.delMax());
-	        for (int l = 0; l < 5; l++) {
-    	        System.out.println(least.delMin());
-        	}
-        }
+		Scanner scan = new Scanner(System.in);
+		int n = Integer.parseInt(scan.nextLine());
+		for (int i = 0; i < 6; i++) {
+			MaxPQ<Stock> best = new MaxPQ<Stock>(n);
+			MinPQ<Stock> least = new MinPQ<Stock>(n);
+			for (int j = 0; j < n; j++) {
+				String[] tokens = scan.nextLine().split(",");
+				Stock stock = new Stock(tokens[0], Double.parseDouble(tokens[1]));
+				best.insert(stock);
+				least.insert(stock);
+			}
+			for (int k = 0; k < 5; k++) {
+				System.out.println(best.delMax());
+			}
+			System.out.println();
+			//binarysearchst.put(stock1, maxpq.delMax());
+			for (int l = 0; l < 5; l++) {
+				System.out.println(least.delMin());
+			}
+			System.out.println();
+		}
 	}
 }
