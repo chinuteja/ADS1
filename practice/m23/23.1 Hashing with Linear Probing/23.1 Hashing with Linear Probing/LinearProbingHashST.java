@@ -171,15 +171,20 @@ public class LinearProbingHashST<Key, Value> {
         // halves size of array if it's 12.5% full or less
         if (n > 0 && n <= m / 8) resize(m / 2);
     }
-    public void display() {
-        String str = "{";
-        int i;
-        for ( i = 0; i < m - 1; i++) {
-            str += keys[i] + ":" + vals[i] + "," + " ";
+     public void display() {
+        if(size() == 0) {
+            System.out.println("{}");
+            return;
         }
-        str = str + keys[i] + ":" + vals[i] + "}";
+        String str = "{";
+        for(int i=0; i<m;i++) {
+            if(keys[i] != null) {
+                str += keys[i] + ":" + vals[i] + ", ";
+            }
+        }
+        str = str.substring(0, str.length()-2);
+        str += "}";
         System.out.println(str);
-
     }
 
 }
