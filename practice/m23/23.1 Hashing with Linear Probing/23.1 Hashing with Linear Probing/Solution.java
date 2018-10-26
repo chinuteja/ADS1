@@ -6,7 +6,7 @@ public final class Solution {
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
 		int operations = scan.nextInt();
-		System.out.println(operations);
+		//System.out.println(operations);
 		scan.nextLine();
 		for (int i = 0; i < operations; i++) {
 			LinearProbingHashST<String, Integer> hashst = new LinearProbingHashST<String, Integer>();
