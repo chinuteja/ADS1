@@ -1,5 +1,4 @@
 Starting audit...
-[ERROR] H:\ADS1\practice\m23\23.1 Hashing with Linear Probing\23.1 Hashing with Linear Probing\Solution.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 [ERROR] H:\ADS1\practice\m23\23.1 Hashing with Linear Probing\23.1 Hashing with Linear Probing\Solution.java:2: Missing a Javadoc comment. [JavadocType]
 [ERROR] H:\ADS1\practice\m23\23.1 Hashing with Linear Probing\23.1 Hashing with Linear Probing\Solution.java:3:1: File contains tab characters (this is the first instance). [FileTabCharacter]
 [ERROR] H:\ADS1\practice\m23\23.1 Hashing with Linear Probing\23.1 Hashing with Linear Probing\Solution.java:3:9: Missing a Javadoc comment. [JavadocMethod]
@@ -9,4 +8,4 @@ Starting audit...
 [ERROR] H:\ADS1\practice\m23\23.1 Hashing with Linear Probing\23.1 Hashing with Linear Probing\Solution.java:14: switch without "default" clause. [MissingSwitchDefault]
 [ERROR] H:\ADS1\practice\m23\23.1 Hashing with Linear Probing\23.1 Hashing with Linear Probing\Solution.java:16: Line is longer than 80 characters (found 83). [LineLength]
 Audit done.
-Checkstyle ends with 9 errors.
+Checkstyle ends with 8 errors.

@@ -174,7 +174,7 @@ public class LinearProbingHashST<Key, Value> {
     public void display() {
         String str = "{";
         int i;
-        for ( i = 0; i < m; i++) {
+        for ( i = 0; i < m - 1; i++) {
             str += keys[i] + ":" + vals[i] + "," + " ";
         }
         str = str + keys[i] + ":" + vals[i] + "}";
