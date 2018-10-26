@@ -8,7 +8,7 @@ public class LinearProbingHashST<Key, Value> {
     /**.
      * capacity of int type
      */
-    private static final int INIT_CAPACITY = 1;
+    private static final int INIT_CAPACITY = 4;
     /**.
      * n of int type
      */
@@ -174,7 +174,7 @@ public class LinearProbingHashST<Key, Value> {
     public void display() {
         String str = "{";
         int i;
-        for ( i = 0; i < keys.length - 1; i++) {
+        for ( i = 0; i < m; i++) {
             str += keys[i] + ":" + vals[i] + "," + " ";
         }
         str = str + keys[i] + ":" + vals[i] + "}";
