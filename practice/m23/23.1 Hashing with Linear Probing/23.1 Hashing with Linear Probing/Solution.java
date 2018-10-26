@@ -9,7 +9,7 @@ public final class Solution {
 		//System.out.println(operations);
 		scan.nextLine();
 		LinearProbingHashST<String, Integer> hashst = new LinearProbingHashST<String, Integer>();
-		for (int i = 0; i < operations; i++) {
+		while(scan.hasNext()) {
 			
 			String[] tokens = scan.nextLine().split(" ");
 			switch (tokens[0]) {
