@@ -172,10 +172,10 @@ public class LinearProbingHashST<Key, Value> {
         if (n > 0 && n <= m / 8) resize(m / 2);
     }
      public void display() {
-        if(size() == 0) {
-            System.out.println("{}");
-            return;
-        }
+        // if(size() == 0) {
+        //     System.out.println("{}");
+        //     return;
+        // }
         String str = "{";
         for(int i=0; i<m;i++) {
             if(keys[i] != null) {
