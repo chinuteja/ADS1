@@ -62,7 +62,7 @@ public class LinearProbingHashST<Key, Value> {
      * @return     {hash number of int tuype }
      */
     private int hash(Key key) {
-        return (11 * key.hashCode()) % m;
+        return (key.hashCode() * 11) % m;
     }
     /**
      * check if the key contains or not
