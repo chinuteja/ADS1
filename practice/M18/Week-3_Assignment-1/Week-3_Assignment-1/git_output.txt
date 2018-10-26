@@ -1,0 +1,14 @@
+warning: LF will be replaced by CRLF in practice/M18/Week-3_Assignment-1/Week-3_Assignment-1/Solution.java.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in practice/M18/Week-3_Assignment-1/Week-3_Assignment-1/Stock.java.
+The file will have its original line endings in your working directory.
+[master 864b660] "ads1_week3_exam: 2/5 testcases passed. Cannot run hidden testcases as Server is unreachablecheck_style score: 0/1 "
+ 6 files changed, 25 insertions(+), 22 deletions(-)
+ rewrite practice/M18/Week-3_Assignment-1/Week-3_Assignment-1/BinarySearchST.class (97%)
+ rewrite practice/M18/Week-3_Assignment-1/Week-3_Assignment-1/Solution.class (100%)
+ rewrite practice/M18/Week-3_Assignment-1/Week-3_Assignment-1/result/score.json (74%)
+fatal: HttpRequestException encountered.
+   An error occurred while sending the request.
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+To https://github.com/chinuteja/ADS1.git
+   0b738ce..864b660  master -> master

@@ -1,12 +1,12 @@
 class Heap {
 	public static void sort(Comparable[] pq) {
-		int N = pq.length;
-		for (int i = N / 2; i > 0; i--) {
-			sink(pq, i, N);
+		int x = pq.length;
+		for (int i = x / 2; i > 0; i--) {
+			sink(pq, i, x);
 		}
-		while (N > 1) {
-           exchange(pq,1,N);
-           sink(pq,1,--N);
+		while (x > 1) {
+           exchange(pq,1,x);
+           sink(pq,1,--x);
 		}
 	}
 	private static void sink(Comparable[] pq, int k, int n) {

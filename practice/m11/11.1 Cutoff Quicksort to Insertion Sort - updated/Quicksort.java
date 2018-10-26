@@ -46,6 +46,7 @@ class Quicksort {
 	/**
 	 * it is overloaded sort method it takes parameters as COmparable array, low, high , cutoff values
 	 * this method also call Insertion sort method and it is a recursive method
+	 * Time complexity N because it is a recursive function.
 	 * @param      a       { comparable array }
 	 * @param      low     The low of int type
 	 * @param      high    The high of int type

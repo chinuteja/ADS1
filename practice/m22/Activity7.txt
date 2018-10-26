@@ -1,0 +1,11 @@
+E A S Y Q U T I O N
+size = 5;
+public int hashCode(Key k) {
+	return k*11%size;
+}
+hashCode(E)
+E will be inserted at E*11%5 i.e 5*11%5 it is inserted at 11th index
+hashCode(A)
+A will be inserted at 1*11%5 i.e at 1st index
+hashCOde(S)
+S will be inserted at 17*11 % 5 i.e at 

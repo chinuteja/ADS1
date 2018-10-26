@@ -1,0 +1,6 @@
+public int hashCode() {
+	return 17;
+}
+ 
+THe given code is legal we can implement it.
+But at every time the key is inserted at index of 17.

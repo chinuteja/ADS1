@@ -1,0 +1,8 @@
+[master 19a6eaa] "ads1_m13_a1: 4/5 testcases passed. Cannot run hidden testcases as Server is unreachablecheck_style score: 1/1 "
+ 6 files changed, 28 insertions(+), 32 deletions(-)
+ rewrite practice/m13/13.1 isMinHeap/13.1 isMinHeap/result/score.json (73%)
+fatal: HttpRequestException encountered.
+   An error occurred while sending the request.
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+To https://github.com/chinuteja/ADS1.git
+   96884d2..19a6eaa  master -> master

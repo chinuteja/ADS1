@@ -118,7 +118,7 @@ public class MinPQ<Key> implements Iterable<Key> {
 
     /**
      * Adds a new key to this priority queue.
-     *Time complexiry is N because of swim function is executed N times
+     *Time complexiry is logN because of swim function is executed logN times
      * @param  x the key to add to this priority queue
      */
     public void insert(Key x) {
@@ -133,7 +133,7 @@ public class MinPQ<Key> implements Iterable<Key> {
 
     /**
      * Removes and returns a smallest key on this priority queue.
-     *Time complexiry is N because of sink funciton is executed N times
+     *Time complexiry is logN because of sink funciton is executed logN times
      * @return a smallest key on this priority queue
      * @throws NoSuchElementException if this priority queue is empty
      */
