@@ -13,7 +13,7 @@ public final class Solution {
     private Solution() {
 
     }
-    /**
+    /**.
      * demonstraters the operations of Linear probing hash Symbol table
      *
      * @param      args  The arguments
@@ -40,7 +40,8 @@ public final class Solution {
             case "display":
                 hashst.display();
                 break;
-
+            default:
+                break;
             }
         }
     }

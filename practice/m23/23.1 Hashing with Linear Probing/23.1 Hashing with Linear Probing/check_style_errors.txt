@@ -1,5 +1,2 @@
 Starting audit...
-[ERROR] H:\ADS1\practice\m23\23.1 Hashing with Linear Probing\23.1 Hashing with Linear Probing\Solution.java:16: First sentence should end with a period. [JavadocStyle]
-[ERROR] H:\ADS1\practice\m23\23.1 Hashing with Linear Probing\23.1 Hashing with Linear Probing\Solution.java:30: switch without "default" clause. [MissingSwitchDefault]
 Audit done.
-Checkstyle ends with 2 errors.
