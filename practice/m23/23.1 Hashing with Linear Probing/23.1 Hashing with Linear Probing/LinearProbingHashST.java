@@ -8,7 +8,7 @@ public class LinearProbingHashST<Key, Value> {
     /**.
      * capacity of int type
      */
-    private static final int INIT_CAPACITY = 4;
+    private static final int INIT_CAPACITY = 1;
     /**.
      * n of int type
      */
