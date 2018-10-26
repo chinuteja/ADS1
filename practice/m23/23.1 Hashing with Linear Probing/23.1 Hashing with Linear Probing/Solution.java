@@ -8,8 +8,8 @@ public final class Solution {
 		int operations = scan.nextInt();
 		//System.out.println(operations);
 		scan.nextLine();
+		LinearProbingHashST<String, Integer> hashst = new LinearProbingHashST<String, Integer>();
 		for (int i = 0; i < operations; i++) {
-			LinearProbingHashST<String, Integer> hashst = new LinearProbingHashST<String, Integer>();
 			String[] tokens = scan.nextLine().split(" ");
 			switch (tokens[0]) {
 			case "put":
