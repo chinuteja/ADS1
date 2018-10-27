@@ -62,7 +62,7 @@ public class LinearProbingHashST<Key, Value> {
      * @return     {hash number of int tuype }
      */
     private int hash(Key key) {
-        return (key.hashCode() * 11) % m;
+        return (key.hashCode() & 0x7fffffff) % m;
     }
     /**
      * check if the key contains or not
@@ -171,24 +171,4 @@ public class LinearProbingHashST<Key, Value> {
         // halves size of array if it's 12.5% full or less
         if (n > 0 && n <= m / 8) resize(m / 2);
     }
-    /**
-     * displays the hash table in dictonary format
-     * TIme complexity is N because the for loop iterates till the size of hashtable.
-     */
-     public void display() {
-        if(size() == 0) {
-            System.out.println("{}");
-            return;
-        }
-        String str = "{";
-        for(int i=0; i<keys.length;i++) {
-            if(keys[i] != null) {
-                str += keys[i] + ":" + vals[i] + ", ";
-            }
-        }
-        str = str.substring(0, str.length()-2);
-        str += "}";
-        System.out.println(str);
-    }
-
 }
