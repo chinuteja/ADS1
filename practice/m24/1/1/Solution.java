@@ -31,7 +31,7 @@ public final class Solution {
 		}
 		int quires = Integer.parseInt(scan.nextLine());
         for (int j = 0; j < quires; j++) {
-            String[] inputs1 = scan.nextLine().split(" ");
+            String[] inputs1 = scan.nextLine().split("");
             String s = linearphst.get(Integer.parseInt(inputs1[1]));
             if (s != null) {
                 String[] inputs2 = s.split(",");
