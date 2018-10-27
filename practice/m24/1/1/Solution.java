@@ -26,10 +26,10 @@ public final class Solution {
 		for (int i = 0; i < noofstudents; i++) {
 			String[] inputs = scan.nextLine().split(",");
 			String str = inputs[1] + "," + inputs[2];
-			//Student student = new Student(inputs[0],inputs[1],Double.parseDouble(inputs[2]));
 			linearphst.put(Integer.parseInt(inputs[0]), str);
 		}
-		int quires = Integer.parseInt(scan.nextLine());
+		int quires = scan.nextInt();
+		scan.nextLine();
         for (int j = 0; j < quires; j++) {
             String[] inputs1 = scan.nextLine().split(" ");
             String s = linearphst.get(Integer.parseInt(inputs1[1]));

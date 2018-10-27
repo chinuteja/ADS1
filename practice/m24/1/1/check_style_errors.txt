@@ -1,6 +1,5 @@
 Starting audit...
 [ERROR] H:\ADS1\practice\m24\1\1\Solution.java:9:1: File contains tab characters (this is the first instance). [FileTabCharacter]
 [ERROR] H:\ADS1\practice\m24\1\1\Solution.java:25: Line is longer than 80 characters (found 94). [LineLength]
-[ERROR] H:\ADS1\practice\m24\1\1\Solution.java:29: Line is longer than 80 characters (found 107). [LineLength]
 Audit done.
-Checkstyle ends with 3 errors.
+Checkstyle ends with 2 errors.
