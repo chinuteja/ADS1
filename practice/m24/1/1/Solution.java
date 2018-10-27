@@ -6,30 +6,31 @@ import java.util.Scanner;
  * class for Solution
  */
 public final class Solution {
-	/**.
-	 * Constructs the object for Solution
-	 * @author Teja
-	 */
-	private Solution() {
+    /**.
+     * Constructs the object for Solution
+     * @author Teja
+     */
+    private Solution() {
 
-	}
-	/**.
-	 * main method which demostrates the operations
-	 *
-	 * @param      args  The arguments
-	 */
-	public static void main(final String[] args) {
-		Scanner scan = new Scanner(System.in);
-		int noofstudents = scan.nextInt();
-		scan.nextLine();
-		LinearProbingHashST<Integer, String> linearphst = new LinearProbingHashST<>();
-		for (int i = 0; i < noofstudents; i++) {
-			String[] inputs = scan.nextLine().split(",");
-			String str = inputs[1] + "," + inputs[2];
-			linearphst.put(Integer.parseInt(inputs[0]), str);
-		}
-		int quires = scan.nextInt();
-		scan.nextLine();
+    }
+    /**.
+     * main method which demostrates the operations
+     *
+     * @param      args  The arguments
+     */
+    public static void main(final String[] args) {
+        Scanner scan = new Scanner(System.in);
+        int noofstudents = scan.nextInt();
+        scan.nextLine();
+        LinearProbingHashST<Integer, String> linearphst =
+            new LinearProbingHashST<>();
+        for (int i = 0; i < noofstudents; i++) {
+            String[] inputs = scan.nextLine().split(",");
+            String str = inputs[1] + "," + inputs[2];
+            linearphst.put(Integer.parseInt(inputs[0]), str);
+        }
+        int quires = scan.nextInt();
+        scan.nextLine();
         for (int j = 0; j < quires; j++) {
             String[] inputs1 = scan.nextLine().split(" ");
             String s = linearphst.get(Integer.parseInt(inputs1[1]));
@@ -46,6 +47,6 @@ public final class Solution {
             }
         }
     }
- }
+}
 
 
