@@ -38,7 +38,8 @@ public final class Solution {
                 String[] inputs2 = s.split(",");
                 if (Integer.parseInt(inputs1[2]) == 1) {
                     System.out.println(inputs2[0]);
-                } else {
+                } 
+                else {
                     System.out.println(
                         Double.parseDouble(inputs2[1]));
                 }

@@ -1,0 +1,91 @@
+[master 2a8903d] "ads1_m15_a1: 5/5 testcases passed. Cannot run hidden testcases as Server is unreachablecheck_style score: 1/1 "
+ 108 files changed, 1187 insertions(+), 744 deletions(-)
+ rewrite practice/M17/TaxiCabNumbers/TaxiCabNumbers/result/score.json (73%)
+ rewrite practice/M18/Week-3_Assignment-1/Week-3_Assignment-1/result/score.json (73%)
+ delete mode 100644 practice/M20/20.1 BST/20.1 BST/~$.1. BinarySearchTree.docx
+ rename practice/{m14/14.2 student reservation system/14.2 student reservation system => }/MaxPQ.class (100%)
+ create mode 100644 practice/MaxPQ.java
+ rename practice/{m14/14.2 student reservation system/14.2 student reservation system => }/MinPQ.class (100%)
+ create mode 100644 practice/MinPQ.java
+ create mode 100644 practice/m11/Solution.java
+ delete mode 100644 practice/m12/Assignment-1 (1)/Assignment-1/Results.class
+ delete mode 100644 practice/m12/Assignment-1 (1)/Assignment-1/Results.java
+ delete mode 100644 practice/m12/Assignment-1 (1)/Assignment-1/Seatsallocation.class
+ delete mode 100644 practice/m12/Assignment-1 (1)/Assignment-1/Selection.java
+ delete mode 100644 practice/m12/Assignment-1 (1)/Assignment-1/Selectionsort.class
+ delete mode 100644 practice/m12/Assignment-1 (1)/Assignment-1/Solution.class
+ rewrite practice/m12/Assignment-1 (1)/Assignment-1/Solution.java (93%)
+ delete mode 100644 practice/m12/Assignment-1 (1)/Assignment-1/Student.class
+ rewrite practice/m12/Assignment-1 (1)/Assignment-1/Student.java (100%)
+ delete mode 100644 practice/m12/Assignment-1 (1)/Assignment-1/check_style_errors.txt
+ delete mode 100644 practice/m12/Assignment-1 (1)/Assignment-1/git_output.txt
+ delete mode 100644 practice/m12/Assignment-1 (1)/Assignment-1/readme.txt
+ delete mode 100644 practice/m12/Assignment-1 (1)/Assignment-1/testcases_output.txt
+ rewrite practice/m13/13.1 isMinHeap/13.1 isMinHeap/MinPQ.class (75%)
+ create mode 100644 practice/m13/13.1 isMinHeap/13.1 isMinHeap/new
+ create mode 100644 practice/m13/13.1 isMinHeap/13.1 isMinHeap/new.txt
+ rewrite practice/m13/13.1 isMinHeap/13.1 isMinHeap/result/score.json (73%)
+ rewrite practice/m14/14.1 Dynamic Median Finding/14.1 Dynamic Median Finding/Solution.class (100%)
+ create mode 100644 practice/m14/14.1 Dynamic Median Finding/14.1 Dynamic Median Finding/new.txt
+ rewrite practice/m14/14.1 Dynamic Median Finding/14.1 Dynamic Median Finding/result/score.json (69%)
+ create mode 100644 practice/m14/14.2 student reservation system/14.2 student reservation system/md5/score.txt
+ create mode 100644 practice/m14/14.2 student reservation system/14.2 student reservation system/result/score.json
+ rewrite practice/m15/15.1 BinarySearchSymbolTable/15.1 BinarySearchSymbolTable/result/score.json (73%)
+ create mode 100644 practice/m2/.DS_Store
+ rewrite practice/m2/LinkedList.class (89%)
+ rewrite practice/m2/Solution.class (99%)
+ create mode 100644 practice/m2/TestCases/input004.txt
+ create mode 100644 practice/m2/TestCases/input005.txt
+ create mode 100644 practice/m2/TestCases/output004.txt
+ create mode 100644 practice/m2/TestCases/output005.txt
+ create mode 100644 practice/m2/TestCases/problem_id.txt
+ create mode 100644 practice/m2/check_style_errors.txt
+ create mode 100644 practice/m2/md5/input001.txt
+ create mode 100644 practice/m2/md5/input002.txt
+ create mode 100644 practice/m2/md5/input003.txt
+ create mode 100644 practice/m2/md5/input004.txt
+ create mode 100644 practice/m2/md5/input005.txt
+ create mode 100644 practice/m2/md5/output001.txt
+ create mode 100644 practice/m2/md5/output002.txt
+ create mode 100644 practice/m2/md5/output003.txt
+ create mode 100644 practice/m2/md5/output004.txt
+ create mode 100644 practice/m2/md5/output005.txt
+ create mode 100644 practice/m2/md5/problem_id.txt
+ create mode 100644 practice/m2/testcases_output.txt
+ create mode 100644 practice/m22/22.1 Ransom Note/22.1 Ransom Note/LinearProbingHashST.java
+ create mode 100644 practice/m22/22.1 Ransom Note/22.1 Ransom Note/Solution.java
+ create mode 100644 practice/m22/22.1 Ransom Note/22.1 Ransom Note/md5/input000.txt
+ create mode 100644 practice/m22/22.1 Ransom Note/22.1 Ransom Note/md5/input001.txt
+ create mode 100644 practice/m22/22.1 Ransom Note/22.1 Ransom Note/md5/input002.txt
+ create mode 100644 practice/m22/22.1 Ransom Note/22.1 Ransom Note/md5/input003.txt
+ create mode 100644 practice/m22/22.1 Ransom Note/22.1 Ransom Note/md5/input004.txt
+ create mode 100644 practice/m22/22.1 Ransom Note/22.1 Ransom Note/md5/input005.txt
+ create mode 100644 practice/m22/22.1 Ransom Note/22.1 Ransom Note/md5/output000.txt
+ create mode 100644 practice/m22/22.1 Ransom Note/22.1 Ransom Note/md5/output001.txt
+ create mode 100644 practice/m22/22.1 Ransom Note/22.1 Ransom Note/md5/output002.txt
+ create mode 100644 practice/m22/22.1 Ransom Note/22.1 Ransom Note/md5/output003.txt
+ create mode 100644 practice/m22/22.1 Ransom Note/22.1 Ransom Note/md5/output004.txt
+ create mode 100644 practice/m22/22.1 Ransom Note/22.1 Ransom Note/md5/output005.txt
+ create mode 100644 practice/m22/22.1 Ransom Note/22.1 Ransom Note/md5/problem_id.txt
+ create mode 100644 practice/m22/22.1 Ransom Note/22.1 Ransom Note/readme.docx
+ create mode 100644 practice/m22/22.1 Ransom Note/22.1 Ransom Note/testcases/input000.txt
+ create mode 100644 practice/m22/22.1 Ransom Note/22.1 Ransom Note/testcases/input001.txt
+ create mode 100644 practice/m22/22.1 Ransom Note/22.1 Ransom Note/testcases/input002.txt
+ create mode 100644 practice/m22/22.1 Ransom Note/22.1 Ransom Note/testcases/input003.txt
+ create mode 100644 practice/m22/22.1 Ransom Note/22.1 Ransom Note/testcases/input004.txt
+ create mode 100644 practice/m22/22.1 Ransom Note/22.1 Ransom Note/testcases/input005.txt
+ create mode 100644 practice/m22/22.1 Ransom Note/22.1 Ransom Note/testcases/output000.txt
+ create mode 100644 practice/m22/22.1 Ransom Note/22.1 Ransom Note/testcases/output001.txt
+ create mode 100644 practice/m22/22.1 Ransom Note/22.1 Ransom Note/testcases/output002.txt
+ create mode 100644 practice/m22/22.1 Ransom Note/22.1 Ransom Note/testcases/output003.txt
+ create mode 100644 practice/m22/22.1 Ransom Note/22.1 Ransom Note/testcases/output004.txt
+ create mode 100644 practice/m22/22.1 Ransom Note/22.1 Ransom Note/testcases/output005.txt
+ create mode 100644 practice/m22/22.1 Ransom Note/22.1 Ransom Note/testcases/problem_id.txt
+ create mode 100644 practice/m22/Activity6
+ create mode 100644 practice/m22/Activity7.txt
+ rewrite practice/m23/23.1 Hashing with Linear Probing/23.1 Hashing with Linear Probing/Solution.class (99%)
+ create mode 100644 practice/m23/23.1 Hashing with Linear Probing/23.1 Hashing with Linear Probing/md5/score.txt
+ create mode 100644 practice/m23/23.1 Hashing with Linear Probing/23.1 Hashing with Linear Probing/result/score.json
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+To https://github.com/chinuteja/ADS1.git
+   d7983ff..2a8903d  master -> master
