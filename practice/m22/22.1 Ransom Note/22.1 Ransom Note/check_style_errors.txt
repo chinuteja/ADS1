@@ -1,4 +1,2 @@
 Starting audit...
-[ERROR] H:\ADS1\practice\m22\22.1 Ransom Note\22.1 Ransom Note\Solution.java:54:18: Expression can be simplified. [SimplifyBooleanExpression]
 Audit done.
-Checkstyle ends with 1 errors.

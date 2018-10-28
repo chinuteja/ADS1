@@ -51,7 +51,7 @@ public final class Solution {
                 break;
             }
         }
-        if (flag != false) {
+        if (flag) {
             System.out.println("Yes");
         } else {
             System.out.println("No");
