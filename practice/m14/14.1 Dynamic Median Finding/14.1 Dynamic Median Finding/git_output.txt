@@ -1,0 +1,6 @@
+[master 6d627be] "ads1_m14_a1: 4/4 testcases passed. Cannot run hidden testcases as Server is unreachablecheck_style score: 1/1 "
+ 4 files changed, 3 insertions(+), 4 deletions(-)
+ rewrite practice/m14/14.1 Dynamic Median Finding/14.1 Dynamic Median Finding/result/score.json (69%)
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+To https://github.com/chinuteja/ADS1.git
+   6f25fa6..6d627be  master -> master

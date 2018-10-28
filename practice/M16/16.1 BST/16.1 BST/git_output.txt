@@ -1,0 +1,7 @@
+[master f214da2] "ads1_m16_a1: 3/3 testcases passed. Cannot run hidden testcases as Server is unreachablecheck_style score: 1/1 "
+ 7 files changed, 18 insertions(+), 87 deletions(-)
+ rewrite practice/M16/16.1 BST/16.1 BST/git_output.txt (100%)
+ rewrite practice/m24/1/1/result/score.json (69%)
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+To https://github.com/chinuteja/ADS1.git
+   c2d6285..f214da2  master -> master
