@@ -51,10 +51,10 @@ public final class Solution {
                 break;
             }
         }
-        if (flag == false) {
-            System.out.println("No");
-        } else {
+        if (flag != false) {
             System.out.println("Yes");
+        } else {
+            System.out.println("No");
         }
     }
 }
