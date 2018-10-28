@@ -49,8 +49,8 @@ class BinarySearchT<Key extends Comparable<Key>, Values> {
     }
     /**.
      * This method is to add a key and value to BST.
-     * Time Complexity is O(1).
-     * because it calls another put method to add elements.
+     * Time complexity is h where h is height of tree.
+     * It is because it need to travel till the depth of tree
      *
      * @param      key    The key
      * @param      value  The value
@@ -62,9 +62,9 @@ class BinarySearchT<Key extends Comparable<Key>, Values> {
         root = put(root, key, value);
     }
     /**.
-     * This method is to add element to BST
-     * Time Complexity is O(N) for worst case.
-     * element is added until it reaches to the
+     * This over loaded method which  adds element to BST
+     Time complexity is h where h is height of tree.
+     * It is because it need to travel till the depth of tree
      * position it should added at.
      *
      * @param      node   The node
@@ -91,7 +91,8 @@ class BinarySearchT<Key extends Comparable<Key>, Values> {
     }
     /**.
      * This method is to return the value of that key
-     * Time Complexity is O(N)
+     * Time complexity is h where h is height of tree.
+     * It is because it need to travel till the depth of tree
      *
      * @param      key   The key
      *
@@ -101,8 +102,9 @@ class BinarySearchT<Key extends Comparable<Key>, Values> {
         return get(root, key);
     }
     /**.
-     * This method is to return the value of that key
-     * Time Complexity is O(N)
+     * This is overloaded method which returns the value of that key
+     * Time complexity is h where h is height of tree.
+     * It is because it need to travel till the depth of tree
      *
      * @param      node  the node where the book details and
      *                   values.
@@ -125,7 +127,8 @@ class BinarySearchT<Key extends Comparable<Key>, Values> {
     }
     /**.
      * this method returns minimum element in the tree
-     * Time complexity is O(logN)
+     * Time complexity is h where h is height of tree.
+     * It is because it need to travel till the depth of tree
      *
      * @return     returns minimum book details in the tree
      */
@@ -134,7 +137,8 @@ class BinarySearchT<Key extends Comparable<Key>, Values> {
     }
     /**.
      * this method returns minimum element in the tree
-     * Time complexity is O(logN)
+     * Time complexity is h where h is height of tree.
+     * It is because it need to travel till the depth of tree
      * it checks only left side of tree to find minimum
      * element.
      *
@@ -151,7 +155,8 @@ class BinarySearchT<Key extends Comparable<Key>, Values> {
     }
     /**.
      * this method returns maximum element in the tree
-     * Time complexity is O(logN)
+     *Time complexity is h where h is height of tree.
+     * It is because it need to travel till the depth of tree
      *
      * @return     returns maximum element in the tree
      */
@@ -160,8 +165,9 @@ class BinarySearchT<Key extends Comparable<Key>, Values> {
     }
     /**.
      * this method returns maximum element in the tree
-     * Time complexity is O(logN)
      * it checks only right side of tree to find max element
+     * Time complexity is h where h is height of tree.
+     * It is because it need to travel till the depth of tree
      *
      * @param      node  The node
      *
@@ -175,10 +181,10 @@ class BinarySearchT<Key extends Comparable<Key>, Values> {
         }
     }
     /**.
-     * this method returns the value of the given
+     * * this method returns the value which is next least of the given 
      * book data else returns null.
-     * Time complexity is O(logN)
-     *
+     * * Time complexity is h where h is height of tree.
+     * It is because it need to travel till the depth of tr
      * @param      key   The key
      *
      * @return     this method returns the value of the given
@@ -193,11 +199,10 @@ class BinarySearchT<Key extends Comparable<Key>, Values> {
         }
     }
     /**
-     * this method returns the value of the given
+     ** this method returns the value which is next least of the given 
      * book data else returns null.
-     * Time complexity is O(logN)
-     * it checks the element from root node to desired node
-     *
+     * * Time complexity is h where h is height of tree.
+     * It is because it need to travel till the depth of tr
      * @param      node     node with bookdetails
      * @param      key   The key
      *
@@ -224,8 +229,10 @@ class BinarySearchT<Key extends Comparable<Key>, Values> {
     }
     /**.
      * this method returns the value of the given
+     ** this method returns the value which is next highest of the given
      * book data else returns null.
-     * Time complexity is O(logN)
+     * Time complexity is h where h is height of tree.
+     * It is because it need to travel till the depth of tree.
      *
      * @param      key   The key
      *
@@ -241,10 +248,10 @@ class BinarySearchT<Key extends Comparable<Key>, Values> {
         }
     }
     /**.
-     * this method returns the value of the given
+     * * this method returns the value which is next highest of the given
      * book data else returns null.
-     * Time complexity is O(logN)
-     * it checks the element from root node to desired node
+     * Time complexity is h where h is height of tree.
+     * It is because it need to travel till the depth of tree.
      *
      * @param      node  The node
      * @param      key   The key
@@ -272,7 +279,8 @@ class BinarySearchT<Key extends Comparable<Key>, Values> {
     }
     /**.
      * this method returns the element in that position
-     * Time complexity is O(logN)
+     * * Time complexity is h where h is height of tree.
+     * It is because it need to travel till the depth of tree.
      *
      * @param      k     position given as input
      *
@@ -284,7 +292,7 @@ class BinarySearchT<Key extends Comparable<Key>, Values> {
     }
     /**.
      * size of tree
-     *
+     * Time complexity is constant as each statement is executed only once
      * @return     returns size of tree
      */
     public int size() {
@@ -307,9 +315,10 @@ class BinarySearchT<Key extends Comparable<Key>, Values> {
         }
     }
     /**.
-     * this method returns the element in that position
-     * Time complexity is O(logN)
-     * it checks from root node to desired position
+     * this method gives key of symbol table whose rank is k.
+     * Time complexity is h because it need to search for 
+     * the element and travel till the height of tree
+     * h is the height of the tree
      *
      * @param      node  The node
      * @param      k     position of node

@@ -1,7 +1,0 @@
-[master 71928a7] "ads1_m19_a1: 3/3 testcases passed. Cannot run hidden testcases as Server is unreachablecheck_style score: 1/1 "
- 4 files changed, 5 insertions(+), 6 deletions(-)
-fatal: HttpRequestException encountered.
-   An error occurred while sending the request.
-Branch 'master' set up to track remote branch 'master' from 'origin'.
-To https://github.com/chinuteja/ADS1.git
-   3bdb070..71928a7  master -> master
