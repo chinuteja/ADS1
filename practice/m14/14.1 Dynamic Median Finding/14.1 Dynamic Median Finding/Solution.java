@@ -14,7 +14,8 @@ public final class Solution {
     }
     /**.
      * main function to calculate running median
-     *  TIme complexity is N as it takes n number of inputs and for loop itarates till n times.
+     *  TIme complexity is N as it takes n number of inputs
+     *   and for loop itarates till n times.
      *@author Teja
      * @param      args  The arguments
      */
