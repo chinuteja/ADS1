@@ -5,7 +5,7 @@ import java.util.Scanner;
 /**.
  * Class for solution.
  */
-public class Solution {
+public final class Solution {
 
     /**.
      * Constructs the object
@@ -24,7 +24,8 @@ public class Solution {
         Scanner scan = new Scanner(System.in);
         int magzinewords = scan.nextInt();
         int notewords = scan.nextInt();
-        SeparateChainingHashST<String, Integer> st = new SeparateChainingHashST();
+        SeparateChainingHashST<String, Integer> st =
+            new SeparateChainingHashST();
         scan.nextLine();
         String[]magzine = scan.nextLine().split(" ");
         String[] note = scan.nextLine().split(" ");
@@ -50,9 +51,10 @@ public class Solution {
                 break;
             }
         }
-        if (flag == false)
+        if (flag == false) {
             System.out.println("No");
-        else
+        } else {
             System.out.println("Yes");
+        }
     }
 }
