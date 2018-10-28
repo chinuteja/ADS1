@@ -140,7 +140,7 @@ public class MinPQ<Key> implements Iterable<Key> {
 
     /**
      * Removes and returns a smallest key on this priority queue.
-     * Time complexity is logN as it utilises swim funciton.
+     * Time complexity is logN as it utilises sink funciton.
      * @return a smallest key on this priority queue
      * @throws NoSuchElementException if this priority queue is empty
      */
@@ -160,8 +160,8 @@ public class MinPQ<Key> implements Iterable<Key> {
     * Helper functions to restore the heap invariant.
     ***************************************************************************/
     /**
-     * 
-     *
+     * This functoin navigates from bottom to top of the heap
+     * Time complexity is logN as it travels from k/2 element
      * @param      k     { parameter_description }
      */
     private void swim(int k) {
@@ -170,7 +170,11 @@ public class MinPQ<Key> implements Iterable<Key> {
             k = k/2;
         }
     }
-
+    /**
+     * This function navigates from top to bottom of the heap
+     * Time complexity is logN
+     * @param      k     { element of int type }
+     */
     private void sink(int k) {
         while (2*k <= n) {
             int j = 2*k;
@@ -184,6 +188,14 @@ public class MinPQ<Key> implements Iterable<Key> {
    /***************************************************************************
     * Helper functions for compares and swaps.
     ***************************************************************************/
+   /**
+    * this function checks if the i element is greater than j or not
+    *
+    * @param      i     {element of int type}
+    * @param      j     { element of int type }
+    *
+    * @return     { returns true if the condition is staisfied else return false }
+    */
     private boolean greater(int i, int j) {
         if (comparator == null) {
             return ((Comparable<Key>) pq[i]).compareTo(pq[j]) > 0;
@@ -192,19 +204,34 @@ public class MinPQ<Key> implements Iterable<Key> {
             return comparator.compare(pq[i], pq[j]) > 0;
         }
     }
-
+    /**
+     * exchanges two elements in the heap
+     * TIme complexity is constant as each statement is executed only once.
+     * @param      i     { parameter_description }
+     * @param      j     { parameter_description }
+     */
     private void exch(int i, int j) {
         Key swap = pq[i];
         pq[i] = pq[j];
         pq[j] = swap;
     }
 
-    // is pq[1..N] a min heap?
+    /**
+     * Determines if minimum heap.
+     * Time complexity is constanst as each statement is executed only once
+     * @return     True if minimum heap, False otherwise.
+     */
     private boolean isMinHeap() {
         return isMinHeap(1);
     }
 
-    // is subtree of pq[1..n] rooted at k a min heap?
+    /**
+     * Determines if minimum heap.
+     * is subtree of pq[1..n] rooted at k a min heap?
+     * @param      k     { parameter is of integer type}
+     * Time complexity is N as it is a recursive function
+     * @return     True if minimum heap, False otherwise.
+     */
     private boolean isMinHeap(int k) {
         if (k > n) return true;
         int left = 2*k;
