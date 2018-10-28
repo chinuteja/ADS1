@@ -1,0 +1,9 @@
+[master 2c92bc9] "ads1_m22_a1: 6/6 testcases passed. Cannot run hidden testcases as Server is unreachablecheck_style score: 0/1 "
+ 9 files changed, 32 insertions(+), 5 deletions(-)
+ rewrite practice/M17/TaxiCabNumbers/TaxiCabNumbers/result/score.json (73%)
+ rewrite practice/m13/13.1 isMinHeap/13.1 isMinHeap/result/score.json (73%)
+ rewrite practice/m14/14.1 Dynamic Median Finding/14.1 Dynamic Median Finding/result/score.json (69%)
+ rewrite practice/m22/22.1 Ransom Note/22.1 Ransom Note/result/score.json (76%)
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+To https://github.com/chinuteja/ADS1.git
+   77970c0..2c92bc9  master -> master
