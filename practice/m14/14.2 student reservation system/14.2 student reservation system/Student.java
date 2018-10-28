@@ -125,7 +125,8 @@ class Student {
      *
      * @param      that  The that
      *
-     * @return     { retuns 1 if condition is staisfied returns -1 elseif condition is satisfied returns 0 else condition is statisfied }
+     * @return     { retuns 1 if condition is staisfied returns -1 
+     elseif condition is satisfied returns 0 else condition is statisfied }
      */
     public int compareTo(final Student that) {
         if (this.getTotal() > that.getTotal()) {
@@ -154,7 +155,6 @@ class Student {
      *
      * @param      d1    The d 1
      * @param      d2    The d 2
-     *
      * @return     { returns - 1 if condition statisfies else returns 1} 
      */
     public int compareDate(final String d1, final String d2) {
