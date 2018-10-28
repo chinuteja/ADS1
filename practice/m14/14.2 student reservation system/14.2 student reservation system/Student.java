@@ -1,287 +1,168 @@
 /**
- * Class for Student.
+ * Class for student.
  */
-class Student implements Comparable<Student> {
-    /**
-     * String name.
+class Student {
+    /**.
+     * { name of string type }
      */
     private String name;
-    /**
-     * String date.
+    /**.
+     * { date of string tupe }
      */
     private String date;
-    /**
-     * String month.
+    /**.
+     * { marks1 of int type }
      */
-    private String month;
-    /**
-     * String year.
+    private int marks1;
+    /**.
+     * { marks2 of int type  }
      */
-    private String year;
-    /**
-     * String subject1.
+    private int marks2;
+    /**.
+     * { marks3 of int type }
      */
-    private int subject1;
-    /**
-     * String subject2.
+    private int marks3;
+    /**.
+     * { total of int type }
      */
-    private int subject2;
-    /**
-     * String subject3.
+    private int total;
+    /**.
+     * { category of string type }
      */
-    private int subject3;
-    /**
-     * String totalmarks.
-     */
-    private int totalmarks;
-    /**
-     * String reservation.
-     */
-    private String reservation;
-    /**
-     * boolean alloted.
-     */
-    private boolean alloted;
-    /**
+    private String category;
+    /**.
      * Constructs the object.
      *
-     * @param      name1         The name
-     * @param      date1         The date
-     * @param      month1        The month
-     * @param      year1         The year
-     * @param      sub1          The subject 1
-     * @param      sub2          The subject 2
-     * @param      sub3          The subject 3
-     * @param      totalmarks1   The totalmarks
-     * @param      reservation1  The reservation
+     * @param      nme      The nme
+     * @param      dte      The dte
+     * @param      m1       The m 1
+     * @param      m2       The m 2
+     * @param      m3       The m 3
+     * @param      tot      The total
+     * @param      categry  The categry
      */
-    Student(final String name1, final String date1, final String month1,
-        final String year1,
-        final int sub1, final int sub2, final int sub3,
-        final int totalmarks1, final String reservation1) {
-        this.name = name1;
-        this.date = date1;
-        this.month = month1;
-        this.year = year1;
-        this.subject1 = sub1;
-        this.subject2 = sub2;
-        this.subject3 = sub3;
-        this.totalmarks = totalmarks1;
-        this.reservation = reservation1;
+    Student(final String nme, final String dte, final int m1,
+        final int m2, final int m3, final int tot, final String categry) {
+        this.name = nme;
+        this.date = dte;
+        this.marks1 = m1;
+        this.marks2 = m2;
+        this.marks3 = m3;
+        this.total = tot;
+        this.category = categry;
     }
-    /**
-     * Gets the alloted.
+    /**.
+     * Gets the name.
      *
-     * @return     The alloted.
+     * @return     The name.
      */
-    public boolean getAlloted() {
-        return alloted;
+    public String getName() {
+        return this.name;
     }
-    /**
-     * Sets the alloted.
+    /**.
+     * Gets the date.
      *
-     * @param      alloted1  The alloted 1
+     * @return     The date.
      */
-    public void setAlloted(final boolean alloted1) {
-        this.alloted = alloted1;
+    public String getDate() {
+        String revdate = "";
+        revdate = date.substring(2 + 2 + 2) + "-"
+        + date.substring(2 + 1, 2 + 2 + 1) + "-" + date.substring(0, 2);
+        return revdate;
     }
-    /**
-     * Gets name.
+    /**.
+     * Gets the marks 1.
      *
-     * @return     name.
+     * @return     The marks 1.
      */
-    public String getname() {
-        return name;
+    public int getMarks1() {
+        return this.marks1;
     }
-    /**
-     * Sets name1.
+    /**.
+     * Gets the marks 2.
      *
-     * @param      name1  The name.
+     * @return     The marks 2.
      */
-    public void setname(final String name1) {
-        this.name = name1;
+    public int getMarks2() {
+        return this.marks2;
     }
-    /**
-     * Get date.
+    /**.
+     * Gets the marks 3.
      *
-     * @return     date.
+     * @return     The marks 3.
      */
-    public String getdate() {
-        return date;
+    public int getMarks3() {
+        return this.marks3;
     }
-    /**
-     * Set date1.
+    /**.
+     * Gets the total.
      *
-     * @param      date1  The date.
+     * @return     The total.
      */
-    public void setdate(final String date1) {
-        this.date = date1;
+    public int getTotal() {
+        return this.total;
     }
-    /**
-     * Get month.
+    /**.
+     * Gets the category.
+     *
+     * @return     The category.
+     */
+    public String getCategory() {
+        return this.category;
+    }
+    /**.
+     * { function_description }
      *
      * @return     { description_of_the_return_value }
      */
-     public String getmonth() {
-      return month;
-     }
-     /**
-      * set month.
-      *
-      * @param      month1  The month 1
-      */
-     public void setmonth(final String month1) {
-      this.month = month1;
-     }
-     /**
-      * Get year.
-      *
-      * @return     { description_of_the_return_value }
-      */
-      public String getyear() {
-       return year;
-      }
-      /**
-       * Sets year1.
-       *
-       * @param      year1  The year 1
-       */
-      public void setyear(final String year1) {
-       this.year = year1;
-      }
-    /**
-     * Get subject1.
-     *
-     * @return     subject1.
-     */
-    public int getsubject1() {
-        return subject1;
+    public String print() {
+        return this.getName() + "," + this.getTotal() + ","
+        + this.getCategory();
     }
-    /**
-     * Set sub1.
-     *
-     * @param      sub1  The subject1.
-     */
-    public void setsubject1(final int sub1) {
-        this.subject1 = sub1;
-    }
-    /**
-     * Get subject2.
-     *
-     * @return     subject2.
-     */
-    public int getsubject2() {
-        return subject2;
-    }
-    /**
-     * Set sub2.
-     *
-     * @param      sub2  The subject2.
-     */
-    public void setsubject2(final int sub2) {
-        this.subject2 = sub2;
-    }
-    /**
-     * Get subject3.
-     *
-     * @return     subject3.
-     */
-    public int getsubject3() {
-        return subject3;
-    }
-    /**
-     * Set sub3.
-     *
-     * @param      sub3  The subject2.
-     */
-    public void setsubject3(final int sub3) {
-        this.subject3 = sub3;
-    }
-    /**
-     * Get totalmarks.
-     *
-     * @return     totalmarks.
-     */
-    public int gettotalmarks() {
-        return totalmarks;
-    }
-    /**
-     * Set totalmarks1.
-     *
-     * @param      totalmarks1  The totalmarks.
-     */
-    public void settotalmarks(final int totalmarks1) {
-        this.totalmarks = totalmarks1;
-    }
-    /**
-     * Get resrvation.
-     *
-     * @return reservation.
-     */
-    public String getreservation() {
-        return reservation;
-    }
-    /**
-     * Set reservation1.
-     *
-     * @param      reservation1 The reservation.
-     */
-    public void setreservation(final String reservation1) {
-        this.reservation = reservation1;
-    }
-    /**
-     * Returns a string representation of the object.
-     *
-     * @return     String representation of the object.
-     */
-    public String toString() {
-        return this.name + "," + this.totalmarks + "," + this.reservation;
-    }
-    /**
-     * compareTo function compares the inputs a and b.
+    // time complexity of this method is O(1) as it checks one time.
+    /**.
+     * { compares two objects }
      *
      * @param      that  The that
      *
-     * @return     integer.
+     * @return     { retuns 1 if condition is staisfied returns -1 elseif condition is satisfied returns 0 else condition is statisfied }
      */
     public int compareTo(final Student that) {
-        Student a = this;
-        if (a.totalmarks > that.totalmarks) {
+        if (this.getTotal() > that.getTotal()) {
+            return 1;
+        } else if (this.getTotal() < that.getTotal()) {
+            return -1;
+        } else {
+            if (this.getMarks3() > that.getMarks3()) {
+                return 1;
+            } else if (this.getMarks3() < that.getMarks3()) {
+                return -1;
+            } else {
+                if (this.getMarks2() > that.getMarks2()) {
+                    return 1;
+                } else if (this.getMarks2() < that.getMarks2()) {
+                    return -1;
+                } else {
+                    return compareDate(this.getDate(), that.getDate());
+                }
+                // return 0;
+            }
+        }
+    }
+    /**.
+     * { compares two strings }
+     *
+     * @param      d1    The d 1
+     * @param      d2    The d 2
+     *
+     * @return     { returns - 1 if condition statisfies else returns 1} 
+     */
+    public int compareDate(final String d1, final String d2) {
+        int res = d1.compareTo(d2);
+        if (res < 0) {
+            return -1;
+        } else {
             return 1;
         }
-        if (a.totalmarks < that.totalmarks) {
-            return -1;
-        }
-        if (a.subject3 > that.subject3) {
-            return 1;
-        }
-        if (a.subject3 < that.subject3) {
-            return -1;
-        }
-        if (a.subject2 > that.subject2) {
-            return 1;
-        }
-        if (a.subject2 < that.subject2) {
-            return -1;
-        }
-        if (Integer.parseInt(a.year) < Integer.parseInt(that.year)) {
-            return -1;
-        }
-        if (Integer.parseInt(a.year) > Integer.parseInt(that.year)) {
-            return 1;
-        }
-        if (Integer.parseInt(a.month) < Integer.parseInt(that.month)) {
-            return -1;
-        }
-        if (Integer.parseInt(a.month) > Integer.parseInt(that.month)) {
-            return 1;
-        }
-        if (Integer.parseInt(a.date) < Integer.parseInt(that.date)) {
-            return -1;
-        }
-        if (Integer.parseInt(a.date) > Integer.parseInt(that.date)) {
-            return 1;
-        }
-        return 0;
     }
 }
