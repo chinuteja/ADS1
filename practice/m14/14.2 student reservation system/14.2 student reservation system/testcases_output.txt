@@ -35,7 +35,7 @@ Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 23
 	at Heap.less(Heap.java:22)
 	at Heap.sink(Heap.java:15)
 	at Heap.sort(Heap.java:5)
-	at Solution.main(Solution.java:17)
+	at Solution.main(Solution.java:44)
 ----------------------------------------
 ########## Testcase 1: Failed ##########
 Expected Output: 
@@ -83,7 +83,7 @@ Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 30
 	at Heap.less(Heap.java:22)
 	at Heap.sink(Heap.java:16)
 	at Heap.sort(Heap.java:5)
-	at Solution.main(Solution.java:17)
+	at Solution.main(Solution.java:44)
 ----------------------------------------
 ########## Testcase 2: Failed ##########
 Expected Output: 
@@ -106,7 +106,7 @@ Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 10
 	at Heap.less(Heap.java:22)
 	at Heap.sink(Heap.java:16)
 	at Heap.sort(Heap.java:5)
-	at Solution.main(Solution.java:17)
+	at Solution.main(Solution.java:44)
 ----------------------------------------
 ########## Testcase 3: Failed ##########
 Expected Output: 
@@ -132,7 +132,7 @@ Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 10
 	at Heap.less(Heap.java:22)
 	at Heap.sink(Heap.java:16)
 	at Heap.sort(Heap.java:5)
-	at Solution.main(Solution.java:17)
+	at Solution.main(Solution.java:44)
 ----------------------------------------
 ########## Testcase 4: Failed ##########
 Expected Output: 
@@ -185,7 +185,7 @@ Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 30
 	at Heap.less(Heap.java:22)
 	at Heap.sink(Heap.java:16)
 	at Heap.sort(Heap.java:5)
-	at Solution.main(Solution.java:17)
+	at Solution.main(Solution.java:44)
 ----------------------------------------
 ########## Testcase 5: Failed ##########
 Expected Output: 
@@ -240,5 +240,5 @@ Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 30
 	at Heap.less(Heap.java:22)
 	at Heap.sink(Heap.java:16)
 	at Heap.sort(Heap.java:5)
-	at Solution.main(Solution.java:17)
+	at Solution.main(Solution.java:44)
 ----------------------------------------

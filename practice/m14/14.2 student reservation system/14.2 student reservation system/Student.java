@@ -1,142 +1,233 @@
 /**
- * Class for student.
+ * Class for Student.
  */
 class Student implements Comparable<Student> {
-    String studentname;
-    String dob;
-    int total, subject1, subject2, subject3;
-    String reservation;
     /**
-     * Constructs the object for student class.
-     *
-     * @param      studentname  The studentname
-     * @param      dob          The dob
-     * @param      subject1     The subject 1
-     * @param      subject2     The subject 2
-     * @param      subject3     The subject 3
-     * @param      total        The total
-     * @param      reservation  The reservation
+     * String name.
      */
-    Student(String studentname, String dob, int subject1, int subject2, int subject3, int total, String reservation) {
-        this.studentname = studentname;
-        this.dob = dob;
-        this.subject1 = subject1;
-        this.subject2 = subject2;
-        this.subject3 = subject3;
-        this.total = total;
-        this.reservation = reservation;
-    }
-    /**.
-     * {gets student name}
-     *
-     * @return     { return of String type }
+    private String name;
+    /**
+     * String date.
      */
-    public String getstudentname() {
-        return this.studentname;
+    private String date;
+    /**
+     * String month.
+     */
+    private String month;
+    /**
+     * String year.
+     */
+    private String year;
+    /**
+     * String subject1.
+     */
+    private int subject1;
+    /**
+     * String subject2.
+     */
+    private int subject2;
+    /**
+     * String subject3.
+     */
+    private int subject3;
+    /**
+     * String totalmarks.
+     */
+    private int totalmarks;
+    /**
+     * String reservation.
+     */
+    private String reservation;
+    /**
+     * boolean alloted.
+     */
+    private boolean alloted;
+    /**
+     * Constructs the object.
+     *
+     * @param      name1         The name
+     * @param      date1         The date
+     * @param      month1        The month
+     * @param      year1         The year
+     * @param      sub1          The subject 1
+     * @param      sub2          The subject 2
+     * @param      sub3          The subject 3
+     * @param      totalmarks1   The totalmarks
+     * @param      reservation1  The reservation
+     */
+    Student(final String name1, final String date1, final String month1,
+        final String year1,
+        final int sub1, final int sub2, final int sub3,
+        final int totalmarks1, final String reservation1) {
+        this.name = name1;
+        this.date = date1;
+        this.month = month1;
+        this.year = year1;
+        this.subject1 = sub1;
+        this.subject2 = sub2;
+        this.subject3 = sub3;
+        this.totalmarks = totalmarks1;
+        this.reservation = reservation1;
     }
     /**
-     * { gets the date of birth of student}
+     * Gets the alloted.
      *
-     * @return     { return of String type }
+     * @return     The alloted.
      */
-    public String getdob() {
-        return this.dob;
+    public boolean getAlloted() {
+        return alloted;
     }
     /**
-     * { gets the total score}
+     * Sets the alloted.
      *
-     * @return     { return is of int type }
+     * @param      alloted1  The alloted 1
      */
-    public int gettotal() {
-        return this.total;
+    public void setAlloted(final boolean alloted1) {
+        this.alloted = alloted1;
     }
     /**
-     * { gets the total marks in subject 1 }
+     * Gets name.
      *
-     * @return     { return is of int type }
+     * @return     name.
+     */
+    public String getname() {
+        return name;
+    }
+    /**
+     * Sets name1.
+     *
+     * @param      name1  The name.
+     */
+    public void setname(final String name1) {
+        this.name = name1;
+    }
+    /**
+     * Get date.
+     *
+     * @return     date.
+     */
+    public String getdate() {
+        return date;
+    }
+    /**
+     * Set date1.
+     *
+     * @param      date1  The date.
+     */
+    public void setdate(final String date1) {
+        this.date = date1;
+    }
+    /**
+     * Get month.
+     *
+     * @return     { description_of_the_return_value }
+     */
+     public String getmonth() {
+      return month;
+     }
+     /**
+      * set month.
+      *
+      * @param      month1  The month 1
+      */
+     public void setmonth(final String month1) {
+      this.month = month1;
+     }
+     /**
+      * Get year.
+      *
+      * @return     { description_of_the_return_value }
+      */
+      public String getyear() {
+       return year;
+      }
+      /**
+       * Sets year1.
+       *
+       * @param      year1  The year 1
+       */
+      public void setyear(final String year1) {
+       this.year = year1;
+      }
+    /**
+     * Get subject1.
+     *
+     * @return     subject1.
      */
     public int getsubject1() {
-        return this.subject1;
+        return subject1;
     }
-    /**.
-     * { gets the total marks of subject 2 }
+    /**
+     * Set sub1.
      *
-     * @return     { return is of int type }
+     * @param      sub1  The subject1.
+     */
+    public void setsubject1(final int sub1) {
+        this.subject1 = sub1;
+    }
+    /**
+     * Get subject2.
+     *
+     * @return     subject2.
      */
     public int getsubject2() {
-        return  this.subject2;
+        return subject2;
     }
     /**
-     * { gets the total marks of subject 3}
+     * Set sub2.
      *
-     * @return     { return is of int type }
+     * @param      sub2  The subject2.
+     */
+    public void setsubject2(final int sub2) {
+        this.subject2 = sub2;
+    }
+    /**
+     * Get subject3.
+     *
+     * @return     subject3.
      */
     public int getsubject3() {
-        return this.subject3;
+        return subject3;
     }
     /**
-     * { gets the reservation of studnet }
+     * Set sub3.
      *
-     * @return     { return is of String type}
+     * @param      sub3  The subject2.
+     */
+    public void setsubject3(final int sub3) {
+        this.subject3 = sub3;
+    }
+    /**
+     * Get totalmarks.
+     *
+     * @return     totalmarks.
+     */
+    public int gettotalmarks() {
+        return totalmarks;
+    }
+    /**
+     * Set totalmarks1.
+     *
+     * @param      totalmarks1  The totalmarks.
+     */
+    public void settotalmarks(final int totalmarks1) {
+        this.totalmarks = totalmarks1;
+    }
+    /**
+     * Get resrvation.
+     *
+     * @return reservation.
      */
     public String getreservation() {
-        return this.reservation;
+        return reservation;
     }
     /**
-     * sets student name
+     * Set reservation1.
      *
-     * @param      studentname  The studentname
+     * @param      reservation1 The reservation.
      */
-    public void setstudentname(String studentname) {
-        this.studentname = studentname;
-    }
-    /**
-     * sets dob of student
-     *
-     * @param      dob   The dob
-     */
-    public void setdob(String dob) {
-        this.dob = dob;
-    }
-    /**
-     * sets total marks of student
-     *
-     * @param      total  The total
-     */
-    public void settotal(int total) {
-        this.total = total;
-    }
-    /**
-     * sets the markss of subject1
-     *
-     * @param      subject1  The subject 1
-     */
-    public void setsubject1(int subject1) {
-        this.subject1 = subject1;
-    }
-    /**
-     * set total marks of subject 2
-     *
-     * @param      subject2  The subject 2
-     */
-    public void setsubject2(int subject2) {
-        this.subject2 = subject2;
-    }
-    /**
-     * sets total marks of subject3
-     *
-     * @param      subject3  The subject 3
-     */
-    public void setsubject3(int subject3) {
-        this.subject3 = subject3;
-    }
-    /**
-     * sets the resevation of student
-     *
-     * @param      reservation  The reservation
-     */
-    public void setreservation(String reservation) {
-        this.reservation = reservation;
+    public void setreservation(final String reservation1) {
+        this.reservation = reservation1;
     }
     /**
      * Returns a string representation of the object.
@@ -144,32 +235,53 @@ class Student implements Comparable<Student> {
      * @return     String representation of the object.
      */
     public String toString() {
-        String str = "";
-        str = str + this.studentname + "," + this.total + "," + this.reservation;
-        //System.out.println();
-        return str;
-
+        return this.name + "," + this.totalmarks + "," + this.reservation;
     }
     /**
-     * { compares two objects}
+     * compareTo function compares the inputs a and b.
      *
      * @param      that  The that
      *
-     * @return     { returns true or flase depending on the condition }
+     * @return     integer.
      */
-    public int compareTo(Student that) {
-        if (this.total > that.total)            return -1;
-        if (this.total < that.total)            return  1;
-        if (this.subject3 > that.subject3)      return -1;
-        if (this.subject3 < that.subject3)      return 1;
-        if (this.subject2 > that.subject2)      return -1;
-        if (this.subject2 < that.subject2)      return  1;
-        if (this.subject1 > that.subject1)      return -1;
-        if (this.dob.equals(that.dob))          return -1;
-        if (this.dob.equals(that.dob))          return 1;
-        // if (this.reservation.equals(that.reservation)) return -1;
-        // if (this.reservation.equals(that.reservation)) return  1;
+    public int compareTo(final Student that) {
+        Student a = this;
+        if (a.totalmarks > that.totalmarks) {
+            return 1;
+        }
+        if (a.totalmarks < that.totalmarks) {
+            return -1;
+        }
+        if (a.subject3 > that.subject3) {
+            return 1;
+        }
+        if (a.subject3 < that.subject3) {
+            return -1;
+        }
+        if (a.subject2 > that.subject2) {
+            return 1;
+        }
+        if (a.subject2 < that.subject2) {
+            return -1;
+        }
+        if (Integer.parseInt(a.year) < Integer.parseInt(that.year)) {
+            return -1;
+        }
+        if (Integer.parseInt(a.year) > Integer.parseInt(that.year)) {
+            return 1;
+        }
+        if (Integer.parseInt(a.month) < Integer.parseInt(that.month)) {
+            return -1;
+        }
+        if (Integer.parseInt(a.month) > Integer.parseInt(that.month)) {
+            return 1;
+        }
+        if (Integer.parseInt(a.date) < Integer.parseInt(that.date)) {
+            return -1;
+        }
+        if (Integer.parseInt(a.date) > Integer.parseInt(that.date)) {
+            return 1;
+        }
         return 0;
     }
-    
 }
