@@ -1,8 +1,0 @@
-[master 3b6cb47] "ads1_m14_a1: 4/4 testcases passed. Cannot run hidden testcases as Server is unreachablecheck_style score: 1/1 "
- 1 file changed, 1 insertion(+), 1 deletion(-)
- rewrite practice/m14/14.1 Dynamic Median Finding/14.1 Dynamic Median Finding/result/score.json (69%)
-fatal: HttpRequestException encountered.
-   An error occurred while sending the request.
-Branch 'master' set up to track remote branch 'master' from 'origin'.
-To https://github.com/chinuteja/ADS1.git
-   11e0b25..3b6cb47  master -> master

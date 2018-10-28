@@ -16,9 +16,18 @@ import java.util.NoSuchElementException;
  * @param      <Key>  The key
  */
 public class MaxPQ<Key> implements Iterable<Key> {
-    private Key[] pq;                    // store items at indices 1 to n
-    private int n;                       // number of items on priority queue
-    private Comparator<Key> comparator;  // optional comparator
+    /**
+     * store items at indices 1 to n
+     */
+    private Key[] pq;
+    /**
+     * number of items on priority queue
+     */
+    private int n;
+    /**
+     * optional comparator
+     */
+    private Comparator<Key> comparator;  
 
     /**
      * Initializes an empty priority queue with the given initial capacity.
@@ -95,20 +104,22 @@ public class MaxPQ<Key> implements Iterable<Key> {
     public int size() {
         return n;
     }
-
     /**
-     * Returns a largest key on this priority queue.
+     * * Returns a largest key on this priority queue.
      *Time complexiry is 1 because only one statement is executed at once
-     * @return a largest key on this priority queue
-     * @throws NoSuchElementException if this priority queue is empty
+     *
+     * @return     { returns maximum value of maxPQ}
      */
     public Key max() {
         if (isEmpty()) throw new NoSuchElementException("Priority queue underflow");
         return pq[1];
     }
-
-    // helper function to double the size of the heap array
-    //Time complexiry is N because of for loop
+    /**.
+     *Returns a largest key on this priority queue.
+     *Time complexiry is 1 because only one statement is executed at once
+     *
+     * @param      capacity  The capacity
+     */
     private void resize(int capacity) {
         assert capacity > n;
         Key[] temp = (Key[]) new Object[capacity];
@@ -213,12 +224,22 @@ public class MaxPQ<Key> implements Iterable<Key> {
         pq[j] = swap;
     }
 
-    // is pq[1..N] a max heap?
+    /**
+     * Determines if maximum heap.
+     * Time complexity is constant as each statement is executed only once
+     * @return     True if maximum heap, False otherwise.
+     */
     private boolean isMaxHeap() {
         return isMaxHeap(1);
     }
-
-    // is subtree of pq[1..n] rooted at k a max heap?
+    /**
+     * Determines if maximum heap.
+     * is subtree of pq[1..n] rooted at k a max heap?
+     * Time complexity is N as it is recursive function
+     * @param      k     { k of int type}
+     *
+     * @return     True if maximum heap, False otherwise.
+     */
     private boolean isMaxHeap(int k) {
         if (k > n) return true;
         int left = 2*k;

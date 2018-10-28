@@ -16,9 +16,18 @@ import java.util.NoSuchElementException;
  * @param      <Key>  The key
  */
 public class MinPQ<Key> implements Iterable<Key> {
-    private Key[] pq;                    // store items at indices 1 to n
-    private int n;                       // number of items on priority queue
-    private Comparator<Key> comparator;  // optional comparator
+    /**
+     * store items at indices 1 to n
+     */
+    private Key[] pq;
+    /**
+     *  number of items on priority queue
+     */
+    private int n;   
+    /**
+     * // optional comparator
+     */
+    private Comparator<Key> comparator;  
 
     /**
      * Initializes an empty priority queue with the given initial capacity.
@@ -61,7 +70,6 @@ public class MinPQ<Key> implements Iterable<Key> {
 
     /**
      * Initializes a priority queue from the array of keys.
-     * <p>
      * Takes time proportional to the number of keys, using sink-based heap construction.
      * Time complexity is N because two for loop loops iterate for N times
      * @param  keys the array of keys
@@ -75,21 +83,20 @@ public class MinPQ<Key> implements Iterable<Key> {
             sink(k);
         assert isMinHeap();
     }
-
     /**
+     * Determines if empty.
      * Returns true if this priority queue is empty.
      * TIme complexity 1 because only one statement is executed at one time
-     * @return {@code true} if this priority queue is empty;
-     *         {@code false} otherwise
+     * @return     True if empty, False otherwise.
      */
     public boolean isEmpty() {
         return n == 0;
     }
-
     /**
      * Returns the number of keys on this priority queue.
      * Time complexiry is 1 because only one statement is executed at once
-     * @return the number of keys on this priority queue
+     *
+     * @return     { retruns size of int type}
      */
     public int size() {
         return n;
@@ -106,7 +113,11 @@ public class MinPQ<Key> implements Iterable<Key> {
         return pq[1];
     }
     
-    // helper function to double the size of the heap array
+    /**
+     * // helper function to double the size of the heap array
+     * Time complexity is N as the loop iterates for N times
+     * @param      capacity  The capacity
+     */
     private void resize(int capacity) {
         assert capacity > n;
         Key[] temp = (Key[]) new Object[capacity];
