@@ -125,7 +125,7 @@ class Student {
      *
      * @param      that  The that
      *
-     * @return     { retuns 1 if condition is staisfied returns -1 
+     * @return     { retuns 1 if condition is staisfied returns -1
      elseif condition is satisfied returns 0 else condition is statisfied }
      */
     public int compareTo(final Student that) {
@@ -155,7 +155,7 @@ class Student {
      *
      * @param      d1    The d 1
      * @param      d2    The d 2
-     * @return     { returns - 1 if condition statisfies else returns 1} 
+     * @return     { returns - 1 if condition statisfies else returns 1}
      */
     public int compareDate(final String d1, final String d2) {
         int res = d1.compareTo(d2);
