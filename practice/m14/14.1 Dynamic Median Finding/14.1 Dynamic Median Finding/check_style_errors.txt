@@ -1,9 +1,4 @@
 Starting audit...
 [ERROR] H:\ADS1\practice\m14\14.1 Dynamic Median Finding\14.1 Dynamic Median Finding\Solution.java:17: Line is longer than 80 characters (found 95). [LineLength]
-[ERROR] H:\ADS1\practice\m14\14.1 Dynamic Median Finding\14.1 Dynamic Median Finding\Solution.java:31:43: ')' is preceded with whitespace. [ParenPad]
-[ERROR] H:\ADS1\practice\m14\14.1 Dynamic Median Finding\14.1 Dynamic Median Finding\Solution.java:34:43: ')' is preceded with whitespace. [ParenPad]
-[ERROR] H:\ADS1\practice\m14\14.1 Dynamic Median Finding\14.1 Dynamic Median Finding\Solution.java:38:44: '+' is not followed by whitespace. [WhitespaceAround]
-[ERROR] H:\ADS1\practice\m14\14.1 Dynamic Median Finding\14.1 Dynamic Median Finding\Solution.java:40:46: ')' is preceded with whitespace. [ParenPad]
-[ERROR] H:\ADS1\practice\m14\14.1 Dynamic Median Finding\14.1 Dynamic Median Finding\Solution.java:44:44: '+' is not followed by whitespace. [WhitespaceAround]
 Audit done.
-Checkstyle ends with 6 errors.
+Checkstyle ends with 1 errors.
