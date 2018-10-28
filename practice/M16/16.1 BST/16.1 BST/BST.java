@@ -57,6 +57,7 @@ public class BST <Key extends Comparable <Key>, Value> {
 	 * @param      key    The key
 	 * @param      value  The value
 	 * Time complexity is N as it is a recursive function
+	 * A recursive function is called N times until break condition is staisfied.
 	 * @return     { returns the value if the given conditions are not satisfied else return the node }
 	 */
 	public Node put(Node x, Book key, String value ) {
@@ -74,9 +75,9 @@ public class BST <Key extends Comparable <Key>, Value> {
 	}
 	/**
 	 * get the value of the given 
-	 *
+	 * if there no key it returns null
 	 * @param      key   The key
-	 * Time complexity is N as the while iterates till it reaches null
+	 * Time complexity is N as the while iterates till null value of key is found
 	 * @return     { returns the value of String type }
 	 */
 	public String get(Book key) {
