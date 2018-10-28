@@ -1,6 +1,0 @@
-[master c2c4400] "ads1_m22_a1: 0/6 testcases passed. Cannot run hidden testcases as Server is unreachablecheck_style score: 0/1 "
- 4 files changed, 45 insertions(+)
- create mode 100644 practice/m22/22.1 Ransom Note/22.1 Ransom Note/Solution.class
- create mode 100644 practice/m22/22.1 Ransom Note/22.1 Ransom Note/check_style_errors.txt
- create mode 100644 practice/m22/22.1 Ransom Note/22.1 Ransom Note/git_output.txt
- create mode 100644 practice/m22/22.1 Ransom Note/22.1 Ransom Note/testcases_output.txt

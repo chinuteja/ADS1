@@ -1,30 +1,58 @@
 /**.
- * 
- * { imports Scanner package }
+ * imports scanner package
  */
 import java.util.Scanner;
 /**.
- * class for solution
+ * Class for solution.
  */
-public final class Solution {
+public class Solution {
+
 	/**.
-	 *@author Teja
-	 * Constructs the object for solution class
+	 * Constructs the object
+	 * @author Teja
 	 */
 	private Solution() {
 
 	}
-	public static void main(final String[] args) {
+	/**.
+	 * { main function to check if the magzine words and 
+	 * notes words are same or not }
+	 *
+	 * @param      args  The arguments
+	 */
+	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
-		String[] tokens = scan.nextLine().split(" ");
-		int magzinesize = Integer.parseInt(tokens[0]);
-		int notesize = Integer.parseInt(tokens[1]);
-		String[] magzine = scan.nextLine().split(" ");
-		// for(int i=0;i<magzine.length;i++)
-		// 	System.out.println(magzine[i]);
+		int magzinewords = scan.nextInt();
+		int notewords = scan.nextInt();
+		SeparateChainingHashST<String, Integer> st = new SeparateChainingHashST();
+		scan.nextLine();
+		String[]magzine = scan.nextLine().split(" ");
 		String[] note = scan.nextLine().split(" ");
-		// for(int j=0;j<note.length;j++)
-		// 	System.out.println(note[j]);
-		
-	}
-} 
+		for(int i = 0; i < magzinewords; i++) {
+			if (st.contains(magzine[i])) {
+				int count = st.get(magzine[i]);
+				st.put(magzine[i], count+1);
+			} else {
+				st.put(magzine[i], 1);
+			}
+		}
+		boolean flag = true;
+		for (int i = 0;i < notewords;i++) {
+			if (st.contains(note[i])) {
+				int count = st.get(note[i]);
+				if (count == 0) {
+					flag = false;
+					break;
+				}
+				st.put(note[i], count-1);
+			} else {
+				flag = false;
+				break;
+			}
+		}
+		if (flag == false)
+			System.out.println("No");
+		else
+			System.out.println("Yes");
+	}		
+}
