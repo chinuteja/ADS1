@@ -1,0 +1,8 @@
+[master a096adb] "m24_a2_1: 0/4 testcases passed. Cannot run hidden testcases as Server is unreachablecheck_style score: 1/1 "
+ 4 files changed, 42 insertions(+), 42 deletions(-)
+ rewrite practice/m24/2/Solution.java (87%)
+ create mode 100644 practice/m24/2/md5/score.txt
+ create mode 100644 practice/m24/2/result/score.json
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+To https://github.com/chinuteja/ADS1.git
+   f1f78a8..a096adb  master -> master
