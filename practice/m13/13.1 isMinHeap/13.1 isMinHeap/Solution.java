@@ -15,7 +15,8 @@ public final class Solution  {
 
     }
     /**.
-     * main function
+     * main function which is used to see if 
+     * the heap is Minheap or not
      *
      * @param      args  The arguments
      */
