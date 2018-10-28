@@ -8,6 +8,9 @@ public class MinPQ <Key extends Comparable <Key>> {
 	 * pq array of key type
 	 */
 	private Key[] pq;
+	/**
+	 * size of array
+	 */
 	private int n;
 	/**
 	 * Constructs the object for class MinPQ
@@ -28,24 +31,24 @@ public class MinPQ <Key extends Comparable <Key>> {
 		if (k > n) {
 			return true;
 		}
-		System.out.println("value of k is " +k);
+		//System.out.println("value of k is " +k);
 		int left = 2 * k;
-		System.out.println("left is ..." +left);
+		//System.out.println("left is ..." +left);
 		int rigth = 2 * k + 1;
-		System.out.println("rigth is ..."+rigth);
+		//System.out.println("rigth is ..."+rigth);
 		if (left <= n && !less(k, left)) {
-			System.out.println("value of left is ..." + left);
+			//System.out.println("value of left is ..." + left);
 			return false;
 		}
 		if (rigth <= n && !less(k, rigth)) {
-			System.out.println("value of rigth is ...." + rigth);
+			//System.out.println("value of rigth is ...." + rigth);
 			return false;
 		}
 		return isMinPQ(left) && isMinPQ(rigth);
 	}
 	/**
 	 * Determines if minimum pq.
-	 *
+	 * TIme complexity is constant as each statement is exucted only once
 	 * @return     True if minimum pq, False otherwise.
 	 */
 	public boolean isMinPQ() {
