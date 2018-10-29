@@ -24,6 +24,7 @@ insertionSort called
 insertionSort called
 insertionSort called
 [A, E, E, I, N, O, Q, S, S, T, U, Y]
+
 Your Output: 
 [P, O, R, E, E, L, A, M, S, X, T]
 [A, O, M, E, E, L, P, R, S, X, T]
@@ -50,6 +51,7 @@ insertionSort called
 insertionSort called
 [A, E, E, I, N, O, Q, S, S, T, U, Y]
 ----------------------------------------
+
 ########## Testcase 1: Passed ##########
 Expected Output: 
 [1, 2, 3, 4, 5, 6, 7]
@@ -90,6 +92,7 @@ insertionSort called
 [fee, tap, tar, wad, was]
 insertionSort called
 [all, bad, dug, jam, yet]
+
 Your Output: 
 [1, 2, 3, 4, 5, 6, 7]
 insertionSort called
@@ -130,6 +133,7 @@ insertionSort called
 insertionSort called
 [all, bad, dug, jam, yet]
 ----------------------------------------
+
 ########## Testcase 2: Passed ##########
 Expected Output: 
 [bed, bug, dad, yes, zoo]
@@ -154,6 +158,7 @@ insertionSort called
 insertionSort called
 insertionSort called
 [112, 121, 122, 123, 131, 132, 133]
+
 Your Output: 
 [bed, bug, dad, yes, zoo]
 insertionSort called
@@ -178,6 +183,7 @@ insertionSort called
 insertionSort called
 [112, 121, 122, 123, 131, 132, 133]
 ----------------------------------------
+
 ########## Testcase 3: Passed ##########
 Expected Output: 
 insertionSort called
@@ -197,6 +203,7 @@ insertionSort called
 insertionSort called
 insertionSort called
 [-1, -2, -3, -4, -5, -6, -7, 1, 2, 3, 4, 5, 6, 7]
+
 Your Output: 
 insertionSort called
 [1234567890]
@@ -216,3 +223,4 @@ insertionSort called
 insertionSort called
 [-1, -2, -3, -4, -5, -6, -7, 1, 2, 3, 4, 5, 6, 7]
 ----------------------------------------
+
