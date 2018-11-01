@@ -68,6 +68,7 @@ class Student {
         String revdate = "";
         revdate = date.substring(2 + 2 + 2) + "-"
         + date.substring(2 + 1, 2 + 2 + 1) + "-" + date.substring(0, 2);
+        //System.out.println("date"+revdate);
         return revdate;
     }
     /**.

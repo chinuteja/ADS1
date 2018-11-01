@@ -1,0 +1,6 @@
+[master 06b1d2b] "ads1_m11_a1_v2: 4/4 testcases passed. Cannot run hidden testcases as Server is unreachablecheck_style score: 0/1 "
+ 4 files changed, 113 insertions(+), 6 deletions(-)
+ rewrite practice/m11/11.1 Cutoff Quicksort to Insertion Sort - updated/git_output.txt (100%)
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+To https://github.com/chinuteja/ADS1.git
+   a8c4f68..06b1d2b  master -> master

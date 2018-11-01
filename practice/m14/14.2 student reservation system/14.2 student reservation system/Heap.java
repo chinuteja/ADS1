@@ -54,10 +54,10 @@ class HeapSort {
     }
     /**
      * Sink Function.
-     *
+     * Moves deep into array.
      * @param      students1  The students
-     * @param      k1         { parameter_description }.
-     * @param      n         { parameter_description }.
+     * @param      k1         { integer  }.
+     * @param      n         { integer  }.
      *
      * time complexity of this method is O(log N).
      * It access the array elements twice
@@ -150,18 +150,18 @@ class HeapSort {
 
     /**
      * vacancy2 function.
-     *
-     * @param      a     { parameter_description }
-     * @param      b     { parameter_description }
-     * @param      c     { parameter_description }
-     * @param      d     { parameter_description }
+     * Time complexity is O(N) as for loop iterates till size of array 
+     * @param      a     { unreserved category }
+     * @param      b     { bc }
+     * @param      c     { sc }
+     * @param      d     { st }
      */
     public void vacancy2(final int a, final int b, final int c, final int d) {
-        int n = a;
-        int n1 = b;
-        int n2 = c;
-        int n3 = d;
-        int[] array = new int[n1 + n2 + n3];
+        int n = a;//unreserved category
+        int n1 = b;// bc
+        int n2 = c;//sc
+        int n3 = d;//st
+        int[] array = new int[n1 + n2 + n3];//bc + sc + st
         int i = 0;
         for (int k = n; k < size; k++) {
             if (students[k].getCategory().equals("BC") && n1 > 0) {
