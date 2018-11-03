@@ -121,7 +121,7 @@ class HeapSort {
      * contains function.
      *
      * @param      arr   The arr
-     * @param      s     { parameter_description }.
+     * @param      s     { int parameter }.
      *
      * @return     { description_of_the_return_value }.
      * // time complexity of this method is O(N).
@@ -137,7 +137,7 @@ class HeapSort {
     /**
      * function to find vacancy.
      *
-     * @param      n     { parameter_description }
+     * @param      n     { number of vacacys }
      */
     // time complexity of this method is O(N). It iterates through the array size
     public void vacancy1(final int n) {
