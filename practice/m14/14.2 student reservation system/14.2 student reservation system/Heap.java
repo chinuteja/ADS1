@@ -80,10 +80,10 @@ class HeapSort {
      * Less Function.
      *
      * @param      students1  The students
-     * @param      i         { parameter_description }
-     * @param      j         { parameter_description }
+     * @param      i         { index value }
+     * @param      j         { index value }
      *
-     * @return     { description_of_the_return_value }
+     * @return     { returns true if condition is satisfied }
      *
      * // time complexity of this method is O(1).
      */
@@ -95,8 +95,8 @@ class HeapSort {
      * Swap function.
      *
      * @param      students1  The students
-     * @param      j     { parameter_description }
-     * @param      min   The minimum
+     * @param      j     { index of array }
+     * @param      min   The minimum index of array
      */
     public void swap(final Student[] students1, final int j, final int min) {
         Student temp = students1[j - 1];
@@ -139,7 +139,7 @@ class HeapSort {
      *
      * @param      n     { parameter_description }
      */
-    // time complexity of this method is O(N). It iterates through the array to
+    // time complexity of this method is O(N). It iterates through the array size
     public void vacancy1(final int n) {
         for (int i = 0; i < n; i++) {
             System.out.println(students[i].getName() + ","
