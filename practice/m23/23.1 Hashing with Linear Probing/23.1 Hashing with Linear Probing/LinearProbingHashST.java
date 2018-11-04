@@ -83,7 +83,7 @@ public class LinearProbingHashST<Key, Value> {
      */
     private void resize(int capacity) {
         LinearProbingHashST<Key, Value> temp = new LinearProbingHashST<Key, Value>(capacity);
-        for (int i = 0; i < m; i++) {
+         for (int i = 0; i < m; i++) {
             if (keys[i] != null) {
                 temp.put(keys[i], vals[i]);
             }

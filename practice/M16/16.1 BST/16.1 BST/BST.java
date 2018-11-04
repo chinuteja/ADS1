@@ -74,7 +74,7 @@ public class BST <Key extends Comparable <Key>, Value> {
 		return x;
 	}
 	/**
-	 * get the value of the given 
+	 * get the value of the given key 
 	 * if there no key it returns null
 	 * @param      key   The key
 	 * Time complexity is N as the while iterates till null value of key is found
