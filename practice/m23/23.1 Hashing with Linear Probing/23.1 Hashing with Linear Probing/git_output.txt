@@ -1,0 +1,5 @@
+[master 81ffdbc] "ads1_m23_a1: 5/5 testcases passed. Cannot run hidden testcases as Server is unreachablecheck_style score: 1/1 "
+ 1 file changed, 3 deletions(-)
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+To https://github.com/chinuteja/ADS1.git
+   b59a9df..81ffdbc  master -> master

@@ -1,6 +1,0 @@
-[master e06f50c] "ads1_m19_a1: 3/3 testcases passed. Cannot run hidden testcases as Server is unreachablecheck_style score: 1/1 "
- 5 files changed, 44 insertions(+), 36 deletions(-)
- rewrite practice/m19/19.1 BST/19.1 BST/git_output.txt (100%)
-Branch 'master' set up to track remote branch 'master' from 'origin'.
-To https://github.com/chinuteja/ADS1.git
-   6c3ea4b..e06f50c  master -> master
