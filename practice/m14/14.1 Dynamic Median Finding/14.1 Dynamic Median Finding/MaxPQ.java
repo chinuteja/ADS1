@@ -169,7 +169,7 @@ public class MaxPQ<Key> implements Iterable<Key> {
     ***************************************************************************/
     /**
      * swim function it generally moves the element to upwards.
-     * Time complixity is N because of while loop
+     * Time complixity is logN because of while loop
      * @param      k     { key type}
      */
     private void swim(int k) {
@@ -180,7 +180,7 @@ public class MaxPQ<Key> implements Iterable<Key> {
     }
     /**
      * sink function it generally moves the elements to downwards
-     * Time complexity is N because of while loop 
+     * Time complexity is logN because of while loop 
      * @param      k     {key type }
      */
     private void sink(int k) {
