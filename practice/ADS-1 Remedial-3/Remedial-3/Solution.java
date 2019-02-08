@@ -9,12 +9,14 @@ public class Solution {
 		int n = Integer.parseInt(n1);
 		// scan.nextLine();
 		Student student1 = new Student();
-		Student[] stud = new Student[10];
+		// Student[] stud = new Student[10];
+		ArrayList<Student> stud = new ArrayList<>();
 		for (int i = 0; i < n ; i++) {
 			String line = scan.nextLine();
 			String[] tokens = line.split(",");
 			Student student = new Student(Integer.parseInt(tokens[0]), tokens[1], Double.parseDouble(tokens[2]));
-			stud[i] = student;
+			// stud[i] = student;
+			stud.add(student);
 			results.add(student);
 		}
 		results.sort();
@@ -27,9 +29,9 @@ public class Solution {
 			double marks = Double.parseDouble(marks1);
 			// System.out.println("hello");
 			boolean flag = true;
-			for (int j = 0; j < n; j++) {
-				if (marks == stud[j].getMarks()) {
-					System.out.println(stud[j].toString());
+			for (int j = 0; j < stud.size(); j++) {
+				if (marks == stud.get(j).getMarks()) {
+					System.out.println(stud.get(j).toString());
 					flag = false;
 
 				}
