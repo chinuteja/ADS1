@@ -1,50 +1,23 @@
 import java.util.*;
-public class Solution {
-
+class Solution{
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
-		// BinarySearchST bsst = new BinarySearchST();
-		Results results  = new Results();
-		String n1 = scan.nextLine();
-		int n = Integer.parseInt(n1);
-		// scan.nextLine();
-		Student student1 = new Student();
-		// Student[] stud = new Student[10];
-		ArrayList<Student> stud = new ArrayList<>();
-		for (int i = 0; i < n ; i++) {
-			String line = scan.nextLine();
-			String[] tokens = line.split(",");
-			Student student = new Student(Integer.parseInt(tokens[0]), tokens[1], Double.parseDouble(tokens[2]));
-			// stud[i] = student;
-			stud.add(student);
-			student.add(student);
+		int n = Integer.parseInt(scan.nextLine());
+		Student student = new Student(n);
+		for (int i = 0;i < n;i++) {
+			String[]tokens = scan.nextLine().split(",");
+			// System.out.println(Arrays.toString(tokens));
+			Student student1 = new Student(Integer.parseInt(tokens[0]),tokens[1],(Double.parseDouble(tokens[2])));
+			student.addStudent(student1);
 		}
-		student1.sort();
-		// scan.nextLine();
-		String quires1 = scan.nextLine();
-		int quires = Integer.parseInt(quires1);
-		for (int i = 0; i < quires; i++) {
-			// System.out.println("hello wo");
-			String marks1 = scan.nextLine();
-			double marks = Double.parseDouble(marks1);
-			// System.out.println("hello");
-
-			// if (marks == stud.get(j).getMarks()) {
-			// 	System.out.println(stud.get(j).toString());
-			// 	flag = false;
-
-			// }
-			student1.result(marks);
-
-
-
+		int quires = Integer.parseInt(scan.nextLine());
+		// double marks = 0;
+		for (int j = 0;j < quires;j++) {
+			 String marks = scan.nextLine();
+			 double marks1 = Double.parseDouble(marks);
+			 student.getResult(marks1);
 		}
-
-		// int quires = scan.nextInt();
-		// for (int i = 0; i< quires ; i++) {
-		// 	Double mark = scan.nextDouble();
-		// 	bsst.get(mark);
-		// 	System.out.println(bsst.toString());
-		// }
+		
 	}
+
 }

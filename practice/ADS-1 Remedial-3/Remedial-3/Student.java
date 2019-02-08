@@ -1,108 +1,100 @@
 import java.util.*;
-public class Student {
-	int rollno;
-	String name;
-	Double marks;
-	Student[] student;
-	int size;
-	Student() {
-		student = new Student[10];
-		size = 0;
-
-	}
-	Student(int rollno, String name, Double marks) {
+class Student implements Comparable<Student>{
+	private int rollno;
+	private String name;
+	private double marks;
+	// private int nstuds;
+	private int size;
+	Student[] student_array;
+	public Student(int rollno,String name,double marks){
 		this.rollno = rollno;
 		this.name = name;
 		this.marks = marks;
 	}
-	public int getRollno(){
-		return this.rollno;
+	public Student(int n){
+		student_array = new Student[n];
+	}
+	 public double getMarks(){
+	  return marks;
+	 }
+	 
+	 public void setMarks(double marks){
+	  this.marks = marks;
+	 }
+	  public String getName(){
+	   return name;
+	  }
+	  
+	  public void setName(String name){
+	   this.name = name;
+	  }
+	   public int getRollno(){
+	    return rollno;
+	   }
+	   
+	   public void setRollno(int rollno){
+	    this.rollno = rollno;
+	   }
+	public void addStudent(Student student){
+		student_array[size++] = student;
+	}
 
-	}
-	public String getName() {
-		return this.name;
-	}
-	public Double getMarks() {
-		return this.marks;
-	}
-	public void setRollno(int rollno) {
-		this.rollno = rollno;
-	}
-	public void setName(String name) {
-		this.name = name;
-	}
-	public void setMarks(Double marks) {
-		this.marks = marks;
-	}
-	public int compareTo(Student that) {
-		// System.out.println("compareTo");
-		// System.out.println("this,marks" +this.marks);
-		// System.out.println(this.marks);
-		// System.out.println("that.marks" +that.marks);
-		// System.out.println(that.marks);
-		if (this.marks > that.marks) {
-			// System.out.println("name " +this.name);
-			// System.out.println("marks "+this.marks);
-			// System.out.println("name that " +that.name);
-			// System.out.println("marks that"+that.marks);
-			// System.out.println("hello 1");
-			return 1;
+	// public int indexOf(double query){
+	// 	for (int i = 0;i < size;i++) {
+	// 		if (sarray[i].getMarks()==query) {
+	// 			return 1;
+	// 		}
+	// 	}
+	// 	return 0;
+
+	// }
+
+	public void getResult(double marks){
+		Insertionsort.sort(student_array,size);
+		boolean flag = false;
+		for (int i = 0; i<size ; i++) {
+			if (marks == student_array[i].getMarks()) {
+				System.out.println(student_array[i].toString());
+				flag = true;
+			}
 		}
-		if (this.marks < that.marks) {
-			// /System.out.println("hello2");
+		if (flag) {
+			System.out.println("This marks are not awarded to any student");
+		}
+
+	}
+
+	public int compareTo(Student that) {
+		
+		if (this.marks > that.marks) {
 			return -1;
 		}
+		if (this.marks < that.marks) {
+			return 1;
+		}
 		if (this.marks == that.marks) {
-			int x = this.getName().compareTo(that.name);
-			// System.out.println("Value of x");
-			// System.out.println(x);
-			if (x > 0) {
-				return 1;
-			}
-			if (x < 0) {
+			if (this.name.compareTo(that.name) > 0) {
 				return -1;
 			}
-			if (x == 0) {
-				return 0;
+			if (this.name.compareTo(that.name) < 0) {
+				return 1;
 			}
-			
+	    }
+		if (this.marks == that.marks && this.name.equals(that.name)) {
+			if (this.rollno > that.rollno) {
+				return -1;
+			}
+			if (this.rollno < that.rollno) {
+				return 1;
+			}
 		}
 		return 0;
 	}
-	public void add(Student stud) {
-		// if (student.length == size) {
-		// 	resize();
-		// }
-		// student[size++ ] = stud;
-		for (int i = 0; i< student.length ; i++) {
-			if (student[i] == null) {
-				student[i] = stud;
-				size++;
-				break;
-			}
-		}
+	public String toString(){
+		return this.rollno+","+this.name+","+ this.marks;
 	}
-	public void sort() {
-		Insertionsort insertionsort = new Insertionsort();
-		insertionsort.sort(student,size);
-	}
-	public void resize() {
-		student = Arrays.copyOf(student,student.length * 2);
-	}
-	public void result(double query) {
-		for (int i=0; i<size ; i++) {
-			if (student[i].getMarks() == query) {
-				System.out.println(student[i].toString());
-				
-			}
-			else {
-				System.out.println("This marks are not awarded to any student");
-			}
-		}
-	}
-	public String toString() {
-		String str = "";
-		str += this.rollno + "," + this.name + "," + Double.toString(this.marks);
-		return str;
-	}
+
+
+
+
 }

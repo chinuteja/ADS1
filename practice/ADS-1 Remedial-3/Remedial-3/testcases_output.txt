@@ -6,9 +6,14 @@ Expected Output:
 1004,Shreya,94.0
 
 Your Output: 
-Exception in thread "main" java.lang.NullPointerException
-	at Student.add(Student.java:77)
-	at Solution.main(Solution.java:20)
+1001,Mark,91.0
+This marks are not awarded to any student
+1002,Bob,92.0
+This marks are not awarded to any student
+1003,Raju,93.0
+This marks are not awarded to any student
+1004,Shreya,94.0
+This marks are not awarded to any student
 ----------------------------------------
 
 ########## Testcase 1: Failed ##########
@@ -21,9 +26,15 @@ Expected Output:
 1009,Syed,91.0
 
 Your Output: 
-Exception in thread "main" java.lang.NullPointerException
-	at Student.add(Student.java:77)
-	at Solution.main(Solution.java:20)
+1002,Bob,92.0
+This marks are not awarded to any student
+1007,Olive,97.0
+1010,Bob,97.0
+This marks are not awarded to any student
+1009,Syed,91.0
+1008,Raju,91.0
+1001,Mark,91.0
+This marks are not awarded to any student
 ----------------------------------------
 
 ########## Testcase 2: Failed ##########
@@ -31,9 +42,7 @@ Expected Output:
 This marks are not awarded to any student
 
 Your Output: 
-Exception in thread "main" java.lang.NullPointerException
-	at Student.add(Student.java:77)
-	at Solution.main(Solution.java:20)
+
 ----------------------------------------
 
 ########## Testcase 3: Failed ##########
@@ -48,9 +57,16 @@ Expected Output:
 8,Rajesh,99.9
 
 Your Output: 
-Exception in thread "main" java.lang.NullPointerException
-	at Student.add(Student.java:77)
-	at Solution.main(Solution.java:20)
+7,Manasa,99.0
+3,Manasa,99.0
+5,Deepak,99.0
+1,Deepak,99.0
+This marks are not awarded to any student
+8,Rajesh,99.9
+4,Rajesh,99.9
+6,Murthy,99.9
+2,Murthy,99.9
+This marks are not awarded to any student
 ----------------------------------------
 
 ########## Testcase 4: Failed ##########
@@ -65,9 +81,15 @@ Expected Output:
 8,Deepak,99.0
 
 Your Output: 
-Exception in thread "main" java.lang.NullPointerException
-	at Student.add(Student.java:77)
-	at Solution.main(Solution.java:20)
+8,Deepak,99.0
+7,Deepak,99.0
+6,Deepak,99.0
+5,Deepak,99.0
+4,Deepak,99.0
+3,Deepak,99.0
+2,Deepak,99.0
+1,Deepak,99.0
+This marks are not awarded to any student
 ----------------------------------------
 
 ########## Testcase 5: Failed ##########
@@ -76,9 +98,8 @@ This marks are not awarded to any student
 1010,Bob,90.0
 
 Your Output: 
-Exception in thread "main" java.lang.NullPointerException
-	at Student.add(Student.java:77)
-	at Solution.main(Solution.java:20)
+1010,Bob,90.0
+This marks are not awarded to any student
 ----------------------------------------
 
 ########## Testcase 6: Failed ##########
@@ -105,8 +126,30 @@ Expected Output:
 11009,Syed,95.0
 
 Your Output: 
-Exception in thread "main" java.lang.NullPointerException
-	at Student.add(Student.java:77)
-	at Solution.main(Solution.java:20)
+11001,Mark,91.0
+1001,Mark,91.0
+11002,Bob,91.0
+1002,Bob,91.0
+This marks are not awarded to any student
+11004,Shreya,92.0
+1004,Shreya,92.0
+11003,Raju,92.0
+1003,Raju,92.0
+This marks are not awarded to any student
+11005,Syed,93.0
+1005,Syed,93.0
+11006,Alice,93.0
+1006,Alice,93.0
+This marks are not awarded to any student
+11008,Raju,94.0
+1008,Raju,94.0
+11007,Olive,94.0
+1007,Olive,94.0
+This marks are not awarded to any student
+11009,Syed,95.0
+1009,Syed,95.0
+11010,Bob,95.0
+1010,Bob,95.0
+This marks are not awarded to any student
 ----------------------------------------
 
