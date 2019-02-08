@@ -51,11 +51,11 @@ class Student implements Comparable<Student>{
 
 	public void getResult(double marks){
 		Insertionsort.sort(student_array,size);
-		boolean flag = false;
+		boolean flag = true;
 		for (int i = 0; i<size ; i++) {
 			if (marks == student_array[i].getMarks()) {
 				System.out.println(student_array[i].toString());
-				flag = true;
+				flag = false;
 			}
 		}
 		if (flag) {
