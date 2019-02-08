@@ -70,9 +70,9 @@ public class Student {
 		return 0;
 	}
 	public void add(Student stud) {
-		if (student.length == size) {
-			resize();
-		}
+		// if (student.length == size) {
+		// 	resize();
+		// }
 		student[size++ ] = stud;
 	}
 	public void sort() {
