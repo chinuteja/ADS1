@@ -43,6 +43,9 @@ public class Student {
 			return 1;
 		}
 		if (this.marks == that.marks) {
+			// if (this.name > that.name) {
+			// 	return -1;
+			// }
 			// int x = this.getName().compareTo(that.name);
 			// System.out.println("Value of x");
 			// System.out.println(x);
