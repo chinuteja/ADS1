@@ -17,9 +17,9 @@ public class Solution {
 			Student student = new Student(Integer.parseInt(tokens[0]), tokens[1], Double.parseDouble(tokens[2]));
 			// stud[i] = student;
 			stud.add(student);
-			results.add(student);
+			student.add(student);
 		}
-		results.sort();
+		student1.sort();
 		// scan.nextLine();
 		String quires1 = scan.nextLine();
 		int quires = Integer.parseInt(quires1);
@@ -28,18 +28,14 @@ public class Solution {
 			String marks1 = scan.nextLine();
 			double marks = Double.parseDouble(marks1);
 			// System.out.println("hello");
-			boolean flag = true;
-			for (int j = 0; j < stud.size(); j++) {
-				if (marks == stud.get(j).getMarks()) {
-					System.out.println(stud.get(j).toString());
-					flag = false;
 
-				}
+			// if (marks == stud.get(j).getMarks()) {
+			// 	System.out.println(stud.get(j).toString());
+			// 	flag = false;
 
-			}
-			if (flag) {
-				System.out.println("This marks are not awarded to any student");
-			}
+			// }
+			student1.result(marks);
+
 
 
 		}
