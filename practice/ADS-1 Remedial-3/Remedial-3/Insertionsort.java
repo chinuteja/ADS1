@@ -1,3 +1,4 @@
+import java.util.*;
 /**.
  * Class for insertionsort.
  */
@@ -23,6 +24,7 @@ class Insertionsort {
 			}
 			
 		}
+		// System.out.println(Arrays.toString(a));
 	}
 	/**
 	 * { checks if the j th index element is less than or not with jth element }
@@ -33,7 +35,7 @@ class Insertionsort {
 	 * @return     { returns true if condition statisfies}
 	 */
 	private static boolean less(final Student i, final Student j) {
-        return i.compareTo1(j) < 0;
+        return i.compareTo(j) < 0;
     }
     /**
      * { exchanges the elements in ith index with jth indexd}
