@@ -29,7 +29,7 @@ public class Student {
 	public void setMarks(Double marks) {
 		this.marks = marks;
 	}
-	public int compareTo(Student that) {
+	public int compareTo1(Student that) {
 		// System.out.println("this,marks" +this.marks);
 		// System.out.println(this.marks);
 		// System.out.println("that.marks" +that.marks);
@@ -43,12 +43,11 @@ public class Student {
 			return 1;
 		}
 		if (this.marks == that.marks) {
-			// if (this.name > that.name) {
-			// 	return -1;
-			// }
 			// int x = this.getName().compareTo(that.name);
 			// System.out.println("Value of x");
 			// System.out.println(x);
+			int x = this.name.compareTo(that.name);
+			System.out.println("valjue" +x);
 			
 		}
 		return 0;

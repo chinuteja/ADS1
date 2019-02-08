@@ -33,7 +33,7 @@ class Insertionsort {
 	 * @return     { returns true if condition statisfies}
 	 */
 	private static boolean less(final Student i, final Student j) {
-        return i.compareTo(j) < 0;
+        return i.compareTo1(j) < 0;
     }
     /**
      * { exchanges the elements in ith index with jth indexd}
