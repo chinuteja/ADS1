@@ -73,7 +73,14 @@ public class Student {
 		// if (student.length == size) {
 		// 	resize();
 		// }
-		student[size++ ] = stud;
+		// student[size++ ] = stud;
+		for (int i = 0; i< student.length ; i++) {
+			if (student[i] == null) {
+				student[i] = stud;
+				size++;
+				break;
+			}
+		}
 	}
 	public void sort() {
 		Insertionsort insertionsort = new Insertionsort();
