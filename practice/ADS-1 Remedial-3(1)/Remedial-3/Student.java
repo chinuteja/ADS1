@@ -1,9 +1,9 @@
 import java.util.*;
 public class Student {
-	String rollno;
+	int rollno;
 	String name;
 	double marks;
-	Student(String rollno, String name, double marks) {
+	Student(int rollno, String name, double marks) {
 		this.rollno = rollno;
 		this.name = name;
 		this.marks = marks;
@@ -14,7 +14,7 @@ public class Student {
 		stud = new Student[n];
 		size = 0;
 	}
-	public String getRollNo() {
+	public int getRollNo() {
 		return this.rollno;
 	}
 	public String getName() {
@@ -26,7 +26,7 @@ public class Student {
 	public void setName(String name) {
 		this.name = name;
 	}
-	public void setRollNo(String rollno) {
+	public void setRollNo(int rollno) {
 		this.rollno = rollno;
 	}
 	public void addObj(Student student) {
