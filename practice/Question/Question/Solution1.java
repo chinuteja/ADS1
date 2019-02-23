@@ -34,6 +34,7 @@ public class Solution1 {
 
 			}
 			double total = (double) count/noofstudents;
+			System.out.println("before rounding off" +total);
 			total = total * 100;
 			total = Math.round(total);
 			System.out.println(total);
