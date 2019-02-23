@@ -1,7 +1,6 @@
 import java.util.*;
 
 public class Solution {
-
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
 		int noofstudents = Integer.parseInt(scan.nextLine());
@@ -23,12 +22,14 @@ public class Solution {
 			// double total = 0;
 			// total = (100*lesserstudents) / noofstudents;
 			// System.out.println(total);
-			int count = binarysearchST.lesser(rollno);
+			int count = (binarysearchST.lesser(rollno) * 100);
+
 			double total = 0;
-			double count1 = (double) count / noofstudents;
-			count1 = Math.round(count1 * 100.0) / 100.0;
+			double count1 =  (double)count / noofstudents;
+			count1 = count1 * 100;
+			count1 = Math.round(count1);
 			// System.out.format("%.2f",total);
-			System.out.println(count1 * 100);
+			System.out.println((double)(count1/100) );
 
 		}
 	}

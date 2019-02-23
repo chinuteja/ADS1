@@ -61,7 +61,7 @@ public class LinearProbingHashST<Key, Value> {
 
     // hash function for keys - returns value between 0 and M-1
     private int hash(Key key) {
-        return (key.hashCode() & 0x7fffffff) % m;
+        return (key.hashCode()) % m;
     }
 
     // resizes the hash table to the given capacity by re-hashing all of the keys
@@ -78,7 +78,7 @@ public class LinearProbingHashST<Key, Value> {
     }
 
     /**
-     * Inserts the specified key-value pair into the symbol table, overwriting the old
+     * Inserts the specified key-value pair into the symbol table, overwriting the old 
      * value with the new value if the symbol table already contains the specified key.
      * Deletes the specified key (and its associated value) from this symbol table
      * if the specified value is {@code null}.
@@ -96,7 +96,7 @@ public class LinearProbingHashST<Key, Value> {
         }
 
         // double table size if 50% full
-        if (n >= m / 2) resize(2 * m);
+        if (n >= m/2) resize(2*m);
 
         int i;
         for (i = hash(key); keys[i] != null; i = (i + 1) % m) {
@@ -107,7 +107,33 @@ public class LinearProbingHashST<Key, Value> {
         }
         keys[i] = key;
         vals[i] = val;
+        // System.out.println("value ios " +vals[i]);
         n++;
+    }
+    public  void show() {
+        String str = "";
+        System.out.println("size is "+size());
+        for (int i = 0; i<size() ; i++) {
+            str += keys[i] + " " + vals[i] + "\n " ;
+        }
+        System.out.println(str);
+    }
+    public int lesser(Key key) {
+        int count = 0;
+        double mark = (Double) get(key);
+        for (int i = 0; i < size() ;  i++) {
+            double y = (Double) vals[i];
+            int x = Double.compare(mark,y);
+            if (x >= 0) {
+                count++;
+            }
+            
+            // if (mark.equals(vals[i])) {
+            //     count ++;
+            // }
+
+        }
+        return count;
     }
 
     /**
@@ -126,8 +152,8 @@ public class LinearProbingHashST<Key, Value> {
     }
 
     /**
-     * Removes the specified key and its associated value from this symbol table
-     * (if the key is in this symbol table).
+     * Removes the specified key and its associated value from this symbol table     
+     * (if the key is in this symbol table).    
      *
      * @param  key the key
      * @throws IllegalArgumentException if {@code key} is {@code null}
@@ -162,26 +188,9 @@ public class LinearProbingHashST<Key, Value> {
         n--;
 
         // halves size of array if it's 12.5% full or less
-        if (n > 0 && n <= m / 8) resize(m / 2);
+        if (n > 0 && n <= m/8) resize(m/2);
 
         assert check();
-    }
-    public int lesser(Key key) {
-        int count = 0;
-        double mark = (Double) get(key);
-        for (int i = 0; i < size() ;  i++) {
-            double y = (Double) vals[i];
-            int x = Double.compare(mark, y);
-            if (x >= 0) {
-                count++;
-            }
-
-            // if (mark.equals(vals[i])) {
-            //     count ++;
-            // }
-
-        }
-        return count;
     }
 
     /**
@@ -203,7 +212,7 @@ public class LinearProbingHashST<Key, Value> {
     private boolean check() {
 
         // check that hash table is at most 50% full
-        if (m < 2 * n) {
+        if (m < 2*n) {
             System.err.println("Hash table size m = " + m + "; array size n = " + n);
             return false;
         }
@@ -218,4 +227,9 @@ public class LinearProbingHashST<Key, Value> {
         }
         return true;
     }
+
+
+    
 }
+
+
