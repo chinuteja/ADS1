@@ -26,9 +26,9 @@ public class Solution {
 			int count = binarysearchST.lesser(rollno);
 			double total = 0;
 			double count1 = (double) count / noofstudents;
-			total = (100 * count1);
-			System.out.format("%.2f",total);
-			System.out.println();
+			count1 = Math.round(count1 * 100.0) / 100.0;
+			// System.out.format("%.2f",total);
+			System.out.println(count1 * 100);
 
 		}
 	}

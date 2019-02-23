@@ -150,7 +150,8 @@ Starting audit...
 [ERROR] H:\ADS1\practice\Question\Question\Solution.java:12: Line is longer than 80 characters (found 103). [LineLength]
 [ERROR] H:\ADS1\practice\Question\Question\Solution.java:15:43: ';' is preceded with whitespace. [NoWhitespaceBefore]
 [ERROR] H:\ADS1\practice\Question\Question\Solution.java:20: Line is longer than 80 characters (found 90). [LineLength]
-[ERROR] H:\ADS1\practice\Question\Question\Solution.java:29:34: '100' is a magic number. [MagicNumber]
-[ERROR] H:\ADS1\practice\Question\Question\Solution.java:30:50: ',' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] H:\ADS1\practice\Question\Question\Solution.java:29:54: '100.0' is a magic number. [MagicNumber]
+[ERROR] H:\ADS1\practice\Question\Question\Solution.java:29:63: '100.0' is a magic number. [MagicNumber]
+[ERROR] H:\ADS1\practice\Question\Question\Solution.java:31:53: '100' is a magic number. [MagicNumber]
 Audit done.
-Checkstyle ends with 15 errors.
+Checkstyle ends with 16 errors.
