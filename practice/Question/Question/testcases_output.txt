@@ -6,12 +6,13 @@ Expected Output:
 100.0
 
 Your Output: 
-Exception in thread "main" java.lang.NullPointerException
-	at LinearProbingHashST.lesser(LinearProbingHashST.java:173)
-	at Solution1.main(Solution1.java:26)
+17.0
+33.0
+67.0
+100.0
 ----------------------------------------
 
-########## Testcase 1: Failed ##########
+########## Testcase 1: Passed ##########
 Expected Output: 
 50.0
 30.0
@@ -20,12 +21,14 @@ Expected Output:
 70.0
 
 Your Output: 
-Exception in thread "main" java.lang.NullPointerException
-	at LinearProbingHashST.lesser(LinearProbingHashST.java:173)
-	at Solution1.main(Solution1.java:26)
+50.0
+30.0
+30.0
+100.0
+70.0
 ----------------------------------------
 
-########## Testcase 2: Failed ##########
+########## Testcase 2: Passed ##########
 Expected Output: 
 100.0
 100.0
@@ -37,12 +40,17 @@ Expected Output:
 100.0
 
 Your Output: 
-Exception in thread "main" java.lang.NullPointerException
-	at LinearProbingHashST.lesser(LinearProbingHashST.java:173)
-	at Solution1.main(Solution1.java:26)
+100.0
+100.0
+100.0
+100.0
+100.0
+100.0
+100.0
+100.0
 ----------------------------------------
 
-########## Testcase 3: Failed ##########
+########## Testcase 3: Passed ##########
 Expected Output: 
 50.0
 50.0
@@ -50,12 +58,13 @@ Expected Output:
 100.0
 
 Your Output: 
-Exception in thread "main" java.lang.NullPointerException
-	at LinearProbingHashST.lesser(LinearProbingHashST.java:173)
-	at Solution1.main(Solution1.java:26)
+50.0
+50.0
+100.0
+100.0
 ----------------------------------------
 
-########## Testcase 4: Failed ##########
+########## Testcase 4: Passed ##########
 Expected Output: 
 100.0
 100.0
@@ -63,12 +72,13 @@ Expected Output:
 100.0
 
 Your Output: 
-Exception in thread "main" java.lang.NullPointerException
-	at LinearProbingHashST.lesser(LinearProbingHashST.java:173)
-	at Solution1.main(Solution1.java:26)
+100.0
+100.0
+100.0
+100.0
 ----------------------------------------
 
-########## Testcase 5: Failed ##########
+########## Testcase 5: Passed ##########
 Expected Output: 
 90.0
 40.0
@@ -77,12 +87,14 @@ Expected Output:
 20.0
 
 Your Output: 
-Exception in thread "main" java.lang.NullPointerException
-	at LinearProbingHashST.lesser(LinearProbingHashST.java:173)
-	at Solution1.main(Solution1.java:26)
+90.0
+40.0
+20.0
+70.0
+20.0
 ----------------------------------------
 
-########## Testcase 6: Failed ##########
+########## Testcase 6: Passed ##########
 Expected Output: 
 20.0
 20.0
@@ -106,8 +118,25 @@ Expected Output:
 100.0
 
 Your Output: 
-Exception in thread "main" java.lang.NullPointerException
-	at LinearProbingHashST.lesser(LinearProbingHashST.java:173)
-	at Solution1.main(Solution1.java:26)
+20.0
+20.0
+40.0
+40.0
+60.0
+60.0
+80.0
+80.0
+100.0
+100.0
+20.0
+20.0
+40.0
+40.0
+60.0
+60.0
+80.0
+80.0
+100.0
+100.0
 ----------------------------------------
 
