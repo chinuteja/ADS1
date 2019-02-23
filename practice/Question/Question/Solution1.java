@@ -38,9 +38,6 @@ public class Solution1 {
 			total = Math.round(total);
 			System.out.println((double)total/100);
 
-
-
-
 		}
 
 	}
