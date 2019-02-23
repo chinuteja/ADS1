@@ -1,0 +1,118 @@
+########## Testcase 0: Passed ##########
+Expected Output: 
+16.67
+33.33
+66.67
+100.0
+
+Your Output: 
+16.67
+33.33
+66.67
+100.0
+----------------------------------------
+
+########## Testcase 1: Failed ##########
+Expected Output: 
+50.0
+30.0
+30.0
+100.0
+70.0
+
+Your Output: 
+50.0
+30.0
+10.0
+100.0
+70.0
+----------------------------------------
+
+########## Testcase 2: Failed ##########
+Expected Output: 
+100.0
+100.0
+100.0
+100.0
+100.0
+100.0
+100.0
+100.0
+
+Your Output: 
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 8
+	at Student.result(Student.java:74)
+	at Solution.main(Solution.java:15)
+----------------------------------------
+
+########## Testcase 3: Failed ##########
+Expected Output: 
+50.0
+50.0
+100.0
+100.0
+
+Your Output: 
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 8
+	at Student.result(Student.java:74)
+	at Solution.main(Solution.java:15)
+----------------------------------------
+
+########## Testcase 4: Failed ##########
+Expected Output: 
+100.0
+100.0
+100.0
+100.0
+
+Your Output: 
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 8
+	at Student.result(Student.java:74)
+	at Solution.main(Solution.java:15)
+----------------------------------------
+
+########## Testcase 5: Passed ##########
+Expected Output: 
+90.0
+40.0
+20.0
+70.0
+20.0
+
+Your Output: 
+90.0
+40.0
+20.0
+70.0
+20.0
+----------------------------------------
+
+########## Testcase 6: Failed ##########
+Expected Output: 
+20.0
+20.0
+40.0
+40.0
+60.0
+60.0
+80.0
+80.0
+100.0
+100.0
+20.0
+20.0
+40.0
+40.0
+60.0
+60.0
+80.0
+80.0
+100.0
+100.0
+
+Your Output: 
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 20
+	at Student.result(Student.java:74)
+	at Solution.main(Solution.java:15)
+----------------------------------------
+
