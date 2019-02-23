@@ -61,7 +61,9 @@ public class LinearProbingHashST<Key, Value> {
 
     // hash function for keys - returns value between 0 and M-1
     private int hash(Key key) {
-        return (key.hashCode()) % m;
+        int y = (key.hashCode()) % m;
+        System.out.println("value of y " +y);
+        return y;
     }
 
     // resizes the hash table to the given capacity by re-hashing all of the keys
