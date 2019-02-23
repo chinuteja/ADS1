@@ -5,7 +5,7 @@ public class Solution1 {
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
 		int noofstudents = Integer.parseInt(scan.nextLine());
-		LinearProbingHashST<Integer, Double> binarysearchST = new LinearProbingHashST<Integer,Double>();
+		LinearProbingHashST<Integer, Double> binarysearchST = new LinearProbingHashST<Integer,Double>(noofstudents);
 		for (int i = 0; i < noofstudents ; i++) {
 			String line = scan.nextLine();
 			String[] tokens = line.split(",");
