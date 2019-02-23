@@ -41,7 +41,7 @@ Expected Output:
 
 Your Output: 
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 8
-	at Student.result(Student.java:74)
+	at Student.result(Student.java:100)
 	at Solution.main(Solution.java:15)
 ----------------------------------------
 
@@ -54,7 +54,7 @@ Expected Output:
 
 Your Output: 
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 8
-	at Student.result(Student.java:74)
+	at Student.result(Student.java:100)
 	at Solution.main(Solution.java:15)
 ----------------------------------------
 
@@ -67,7 +67,7 @@ Expected Output:
 
 Your Output: 
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 8
-	at Student.result(Student.java:74)
+	at Student.result(Student.java:100)
 	at Solution.main(Solution.java:15)
 ----------------------------------------
 
@@ -112,7 +112,7 @@ Expected Output:
 
 Your Output: 
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 20
-	at Student.result(Student.java:74)
+	at Student.result(Student.java:100)
 	at Solution.main(Solution.java:15)
 ----------------------------------------
 
