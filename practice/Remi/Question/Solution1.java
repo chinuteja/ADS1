@@ -45,7 +45,7 @@ class Solution1{
 			v = Double.parseDouble(str[1]);
 			hm.put(k,v);
 		}
-		System.out.println(hm);
+		// System.out.println(hm);
 		
 		for (Map.Entry<Integer, Double> en : hm.entrySet()) {
 			Double ke = en.getValue();
