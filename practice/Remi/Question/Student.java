@@ -75,18 +75,30 @@ public class Student implements Comparable<Student> {
 		// // System.out.println("HashTable" + ht);
 		for (i = 0; i < size() - 1 ; i++ ) {
 			double percentage = 0;
-			boolean flag = true;
-			percentage = (double) (size() - i) / size();
-			percentage = percentage * 10000;
-			percentage = Math.round(percentage);
-			ht.put(student[i].getRollno(), percentage / 100);
+			System.out.println("roll no" +student[i].getRollno());
+			// boolean flag = true;
+			// percentage = (double) (size() - i) / size();
+			// percentage = percentage * 10000;
+			// percentage = Math.round(percentage);
+			// ht.put(student[i].getRollno(), percentage / 100);
 			// System.out.println("if block  " + ht  );
 
-			if (student[i + 1].getMarks() == student[i].getMarks() && flag == true) {
-				ht.put(student[i+1].getRollno(),percentage/100);
-				i = i + 1;
+			if (student[i + 1].getMarks() == student[i].getMarks()) {
+				percentage = (double) (size() - i) / size();
+				percentage = percentage * 10000;
+				percentage = Math.round(percentage);
+				ht.put(student[i].getRollno(), percentage / 100);
+				// ht.put(student[i + 1].getRollno(), percentage / 100);
+				// i = i + 1;
+				System.out.println("if bock  " +ht);
 
 
+			} else {
+				percentage = (double) (size() - i) / size();
+				percentage = percentage * 10000;
+				percentage = Math.round(percentage);
+				ht.put(student[i].getRollno(), percentage / 100);
+				System.out.println(ht);
 			}
 
 			// System.out.println("HashTable" + ht);
@@ -98,7 +110,7 @@ public class Student implements Comparable<Student> {
 		// System.out.println("percentage " +percentage);
 		percentage1 = Math.round(percentage1);
 		ht.put(student[i].getRollno(), percentage1 / 100);
-		// System.out.println("Hashtable "+ht);
+		System.out.println("Hashtable "+ht);
 
 	}
 	public void func(int roll) {

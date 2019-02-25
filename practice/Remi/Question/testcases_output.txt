@@ -1,4 +1,4 @@
-########## Testcase 0: Passed ##########
+########## Testcase 0: Failed ##########
 Expected Output: 
 16.67
 33.33
@@ -6,10 +6,8 @@ Expected Output:
 100.0
 
 Your Output: 
-16.67
-33.33
-66.67
-100.0
+Exception in thread "main" java.lang.NullPointerException
+	at Solution1.main(Solution1.java:83)
 ----------------------------------------
 
 ########## Testcase 1: Failed ##########
@@ -21,11 +19,8 @@ Expected Output:
 70.0
 
 Your Output: 
-50.0
-30.0
-10.0
-100.0
-70.0
+Exception in thread "main" java.lang.NullPointerException
+	at Solution1.main(Solution1.java:83)
 ----------------------------------------
 
 ########## Testcase 2: Failed ##########
@@ -40,9 +35,8 @@ Expected Output:
 100.0
 
 Your Output: 
-Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 8
-	at Student.result(Student.java:100)
-	at Solution.main(Solution.java:15)
+Exception in thread "main" java.lang.NullPointerException
+	at Solution1.main(Solution1.java:83)
 ----------------------------------------
 
 ########## Testcase 3: Failed ##########
@@ -53,9 +47,8 @@ Expected Output:
 100.0
 
 Your Output: 
-Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 8
-	at Student.result(Student.java:100)
-	at Solution.main(Solution.java:15)
+Exception in thread "main" java.lang.NullPointerException
+	at Solution1.main(Solution1.java:83)
 ----------------------------------------
 
 ########## Testcase 4: Failed ##########
@@ -66,12 +59,11 @@ Expected Output:
 100.0
 
 Your Output: 
-Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 8
-	at Student.result(Student.java:100)
-	at Solution.main(Solution.java:15)
+Exception in thread "main" java.lang.NullPointerException
+	at Solution1.main(Solution1.java:83)
 ----------------------------------------
 
-########## Testcase 5: Passed ##########
+########## Testcase 5: Failed ##########
 Expected Output: 
 90.0
 40.0
@@ -80,11 +72,8 @@ Expected Output:
 20.0
 
 Your Output: 
-90.0
-40.0
-20.0
-70.0
-20.0
+Exception in thread "main" java.lang.NullPointerException
+	at Solution1.main(Solution1.java:83)
 ----------------------------------------
 
 ########## Testcase 6: Failed ##########
@@ -111,8 +100,7 @@ Expected Output:
 100.0
 
 Your Output: 
-Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 20
-	at Student.result(Student.java:100)
-	at Solution.main(Solution.java:15)
+Exception in thread "main" java.lang.NullPointerException
+	at Solution1.main(Solution1.java:83)
 ----------------------------------------
 
