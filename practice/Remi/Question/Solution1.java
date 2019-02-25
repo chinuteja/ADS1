@@ -31,9 +31,8 @@ class Solution1{
 		
 
 		HashMap<Double, Integer> freq = new HashMap<Double, Integer>();
-
 		HashMap<Integer, Double> hm = new HashMap<Integer, Double>();
-		Map<Integer, Double> hm1 = Solution1.sortByValue(hm);
+
 		
 
 		Scanner ip = new Scanner(System.in);
@@ -46,6 +45,7 @@ class Solution1{
 			v = Double.parseDouble(str[1]);
 			hm.put(k,v);
 		}
+		System.out.println(hm);
 		
 		for (Map.Entry<Integer, Double> en : hm.entrySet()) {
 			Double ke = en.getValue();
@@ -58,13 +58,19 @@ class Solution1{
 				freq.put(ke,1);
 			}
 		}
+		// System.out.println("freq = "+freq);
 		sfreq.putAll(freq);
+		// System.out.println("sfreq = "+sfreq);
+
 		int sum = 0;
 		for (Map.Entry<Double, Integer> en : sfreq.entrySet()) {
 
 			sum+=en.getValue();
 			sfreq.put(en.getKey(),sum);
 		}
+		// System.out.println("Usfreq = "+sfreq);
+		Map<Integer, Double> hm1 = Solution1.sortByValue(hm);
+		
 		for (Map.Entry<Integer, Double> en : hm1.entrySet()) { 
 			double i = en.getValue();
 			// System.out.println(i);
@@ -75,8 +81,10 @@ class Solution1{
 			id = id/100;
 			id++;
 			result.put(en.getKey(),per);
-        }
+			// System.out.println(" - - - "+result);
 
+        }
+        // System.out.println("res = "+result);
         int res = Integer.parseInt(ip.nextLine());
         for (int i = 0;i< res ;i++) {
         	int data = Integer.parseInt(ip.nextLine());
