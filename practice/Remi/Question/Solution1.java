@@ -30,7 +30,7 @@ class Solution1{
 
 		
 
-		HashMap<Double, Integer> freq = new HashMap<Double, Integer>();
+		// HashMap<Double, Integer> freq = new HashMap<Double, Integer>();
 		HashMap<Integer, Double> hm = new HashMap<Integer, Double>();
 
 		
@@ -49,17 +49,17 @@ class Solution1{
 		
 		for (Map.Entry<Integer, Double> en : hm.entrySet()) {
 			Double ke = en.getValue();
-			if(freq.containsKey(ke))
+			if(sfreq.containsKey(ke))
 			{
-				freq.put(ke,freq.get(ke)+1);
+				sfreq.put(ke,sfreq.get(ke)+1);
 			}
 			else
 			{
-				freq.put(ke,1);
+				sfreq.put(ke,1);
 			}
 		}
 		// System.out.println("freq = "+freq);
-		sfreq.putAll(freq);
+		// sfreq.putAll(freq);
 		// System.out.println("sfreq = "+sfreq);
 
 		int sum = 0;
@@ -70,7 +70,7 @@ class Solution1{
 		}
 		// System.out.println("Usfreq = "+sfreq);
 		Map<Integer, Double> hm1 = Solution1.sortByValue(hm);
-		
+
 		for (Map.Entry<Integer, Double> en : hm1.entrySet()) { 
 			double i = en.getValue();
 			// System.out.println(i);
