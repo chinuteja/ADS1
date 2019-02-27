@@ -1,4 +1,4 @@
-import java.util.Scanner;
+import java.util.*;
 
  class AddLargeNumbers {
     public static LinkedList numberToDigits( String number) {
@@ -16,8 +16,16 @@ import java.util.Scanner;
     public static LinkedList addLargeNumbers(
          LinkedList list1,  LinkedList list2) {
         LinkedList listObj = new LinkedList();
+        Stack<Integer> stack1 = new Stack<>();
+        Stack<Integer> stack2 = new Stack<>();
         int size1 = list1.getSize();
+        for (int i = 0; i < size1 ; i++ ) {
+            stack1.push(list1.removeEnd());
+        }
         int size2 = list2.getSize();
+         for (int i = 0; i < size2 ; i++ ) {
+            stack2.push(list2.removeEnd());
+        }
         int size = 0;
         if (size1 < size2) {
             size = size2;
@@ -26,7 +34,7 @@ import java.util.Scanner;
         }
         int carry = 0, value = 0;
         for (int i = size; i > 0; i--) {
-            value = list1.removeEnd() + list2.removeEnd();
+            value = stack1.pop() + stack2.pop();
             value = value + carry;
             carry = value / 10;
             value = value % 10;
