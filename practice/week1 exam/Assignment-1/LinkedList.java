@@ -1,5 +1,13 @@
 
 class LinkedList {
+    private int size;
+    private Node head;
+    private Node tail;
+    LinkedList() {
+        head = null;
+        tail = null;
+        size = 0;
+    }
     class Node {
         private int data;
         Node next;
@@ -7,9 +15,7 @@ class LinkedList {
             this.data = data;
         }
     }
-    private int size = 0;
-    private Node head;
-    private Node tail;
+    
     
     public void addEnd( int data) {
         if (head == null) {
