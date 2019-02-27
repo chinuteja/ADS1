@@ -62,12 +62,12 @@ public class Solution {
             System.out.println(AddLargeNumbers.digitsToNumber(qDigits));
             break;
 
-            // case "addLargeNumbers":
-            //     LinkedList pDigits = AddLargeNumbers.numberToDigits(p);
-            //     LinkedList qDigits = AddLargeNumbers.numberToDigits(q);
-            //     LinkedList result = AddLargeNumbers.addLargeNumbers(pDigits, qDigits);
-            //     System.out.println(AddLargeNumbers.digitsToNumber(result));
-            //     break;
+            case "addLargeNumbers":
+                LinkedList pDigit = AddLargeNumbers.numberToDigits(p);
+                LinkedList qDigit = AddLargeNumbers.numberToDigits(q);
+                LinkedList result = AddLargeNumbers.addLargeNumbers(pDigit, qDigit);
+                System.out.println(AddLargeNumbers.digitsToNumber(result));
+                break;
         }
     }
 
