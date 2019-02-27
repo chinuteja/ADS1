@@ -1,7 +1,6 @@
 import java.util.Scanner;
 
 final class AddLargeNumbers {
-    static final int TEN = 10;
     public static LinkedList numberToDigits(final String number) {
         LinkedList listObj = new LinkedList();
         String[] digits = number.split("");
@@ -27,8 +26,8 @@ final class AddLargeNumbers {
         for (int i = size; i > 0; i--) {
             value = list1.removeEnd() + list2.removeEnd();
             value = value + carry;
-            carry = value / TEN;
-            value = value % TEN;
+            carry = value / 10;
+            value = value % 10;
             listObj.addStart(value);
         }
         if (carry > 0) {
@@ -38,21 +37,7 @@ final class AddLargeNumbers {
 
     }
 }
-/**.
- * Class for solution.
- */
 public final class Solution {
-    /**.
-     * Constructs the object.
-     */
-    private Solution() {
-
-    }
-    /**.
-     * main method to do operations on the other classess.
-     *
-     * @param      args  The arguments
-     */
     public static void main(final String[] args) {
         Scanner sc = new Scanner(System.in);
         String input = sc.nextLine();

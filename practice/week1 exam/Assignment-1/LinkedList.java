@@ -31,7 +31,7 @@ class LinkedList {
     public int removeEnd() {
        Node temp = head;
         if (temp == null) {
-            System.out.println("Linked list is empty");
+            // System.out.println("Linked list is empty");
             return 0;
         } else if (size < 2) {
             // System.out.println("size elif" +size);
@@ -55,11 +55,6 @@ class LinkedList {
             return x;
         }
     }
-    /**.
-     * Returns a string representation of the object.
-     *
-     * @return     String representation of the object.
-     */
     public String toString() {
         Node temp = head;
         String str = "";
@@ -70,20 +65,9 @@ class LinkedList {
         str += temp.data;
         return str;
     }
-    /**.
-     * Gets the size.
-     *
-     * @return     The size.
-     */
     public int getSize() {
         return this.size;
     }
-    /**.
-     * Adds the item at the start position of
-     * linkedlist.
-     *
-     * @param      item  The item
-     */
     public void addStart(final int data) {
         if (head == null) {
             Node newnode = new Node(data);

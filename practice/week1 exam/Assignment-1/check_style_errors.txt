@@ -15,17 +15,22 @@ Starting audit...
 [ERROR] H:\ADS1\practice\week1 exam\Assignment-1\LinkedList.java:14:24: '(' is followed by whitespace. [ParenPad]
 [ERROR] H:\ADS1\practice\week1 exam\Assignment-1\LinkedList.java:14:25: Parameter data should be final. [FinalParameters]
 [ERROR] H:\ADS1\practice\week1 exam\Assignment-1\LinkedList.java:31:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] H:\ADS1\practice\week1 exam\Assignment-1\LinkedList.java:85:8: Unused @param tag for 'item'. [JavadocMethod]
-[ERROR] H:\ADS1\practice\week1 exam\Assignment-1\LinkedList.java:87:36: Expected @param tag for 'data'. [JavadocMethod]
+[ERROR] H:\ADS1\practice\week1 exam\Assignment-1\LinkedList.java:58:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] H:\ADS1\practice\week1 exam\Assignment-1\LinkedList.java:68:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] H:\ADS1\practice\week1 exam\Assignment-1\LinkedList.java:71:5: Missing a Javadoc comment. [JavadocMethod]
 Audit done.
-Checkstyle ends with 18 errors.
+Checkstyle ends with 19 errors.
 Starting audit...
 [ERROR] H:\ADS1\practice\week1 exam\Assignment-1\Solution.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 [ERROR] H:\ADS1\practice\week1 exam\Assignment-1\Solution.java:3: Missing a Javadoc comment. [JavadocType]
 [ERROR] H:\ADS1\practice\week1 exam\Assignment-1\Solution.java:3:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
-[ERROR] H:\ADS1\practice\week1 exam\Assignment-1\Solution.java:4:5: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] H:\ADS1\practice\week1 exam\Assignment-1\Solution.java:5:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] H:\ADS1\practice\week1 exam\Assignment-1\Solution.java:14:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] H:\ADS1\practice\week1 exam\Assignment-1\Solution.java:17:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] H:\ADS1\practice\week1 exam\Assignment-1\Solution.java:4:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] H:\ADS1\practice\week1 exam\Assignment-1\Solution.java:13:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] H:\ADS1\practice\week1 exam\Assignment-1\Solution.java:16:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] H:\ADS1\practice\week1 exam\Assignment-1\Solution.java:29:29: '10' is a magic number. [MagicNumber]
+[ERROR] H:\ADS1\practice\week1 exam\Assignment-1\Solution.java:30:29: '10' is a magic number. [MagicNumber]
+[ERROR] H:\ADS1\practice\week1 exam\Assignment-1\Solution.java:40: Missing a Javadoc comment. [JavadocType]
+[ERROR] H:\ADS1\practice\week1 exam\Assignment-1\Solution.java:40:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
+[ERROR] H:\ADS1\practice\week1 exam\Assignment-1\Solution.java:41:5: Missing a Javadoc comment. [JavadocMethod]
 Audit done.
-Checkstyle ends with 7 errors.
+Checkstyle ends with 11 errors.
