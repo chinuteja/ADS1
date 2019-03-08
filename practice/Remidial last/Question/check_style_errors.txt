@@ -377,9 +377,11 @@ Starting audit...
 [ERROR] H:\ADS1\practice\Remidial last\Question\Solution.java:19: Line is longer than 80 characters (found 140). [LineLength]
 [ERROR] H:\ADS1\practice\Remidial last\Question\Solution.java:19:136: '3' is a magic number. [MagicNumber]
 [ERROR] H:\ADS1\practice\Remidial last\Question\Solution.java:28:57: ';' is preceded with whitespace. [NoWhitespaceBefore]
-[ERROR] H:\ADS1\practice\Remidial last\Question\Solution.java:29: Line is longer than 80 characters (found 86). [LineLength]
+[ERROR] H:\ADS1\practice\Remidial last\Question\Solution.java:29: Line is longer than 80 characters (found 88). [LineLength]
+[ERROR] H:\ADS1\practice\Remidial last\Question\Solution.java:29:61: '+' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] H:\ADS1\practice\Remidial last\Question\Solution.java:29:62: '+' is not followed by whitespace. [WhitespaceAround]
 Audit done.
-Checkstyle ends with 12 errors.
+Checkstyle ends with 14 errors.
 Starting audit...
 [ERROR] H:\ADS1\practice\Remidial last\Question\Student.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 [ERROR] H:\ADS1\practice\Remidial last\Question\Student.java:2: Missing a Javadoc comment. [JavadocType]
